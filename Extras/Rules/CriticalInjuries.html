@@ -6,17 +6,21 @@
         <meta name="author" content="Nicholas Beaty">
         <title>Nick's Homebrew Wiki - Critical Injuries</title>
 
-        <link rel = "stylesheet" href = "../Atributes.css" />
+        <link rel = "stylesheet" href = "../../Atributes.css" />
     </head>
     <bodY>
-        <h1>Critical Injuies</h1>
-        <h2>Physical Critical Injuries</h2>
-        <p>A character or creature can receive a critical injury when it receives a critical hit or rolls a 1 (or less) against a spell saving throw, and it meets the following criteria:</p>
+        <h1>Critical Injuries</h1>
+        <p>All creatures have a Critical Injury Threshold equal to their Constitution Score plus their Level.</p>
+        <p>A creature recieves a critical injury when:</p>
         <ul>
-            <li>The damage is Physical (Bludgeoning, Piercing, or Slashing)</li>
-            <li>The damage dealt (after resistances) is more than their Constitution Score + Level</li>
+            <li>It takes damage equal to or greater than its Critical Injury Threshold (after resistances).</li>
+            <li>It rolls a 1 or lower on a Saving Throw against an effect that deals damage.</li>
+            <li>It takes fall damage equal to or greater than its Critical Injury Threshold (after resistances).</li>
+            <li>It takes double its Critical Injury Threshold in damage from a single source (after resistances).</li>
         </ul>
-        <p>When those conditions are met, roll 1d8 to determine which injury they receive, corresponding to the table below.</p>
+        <h2>Physical Critical Injuries</h2>
+        <p>When a creature recieves a Critical Injury from physical damage (Bludgeoning, Piercing, or Slashing), roll on the table to determine the injury they receive.</p>
+        <p>Fall damage typically prioritizes breaking legs first, but the critical injury recieved from falling can vary depending on how the creature lands.</p>
         <table class="content-table">
             <tr>
                 <th>Roll (1d8)</th>
@@ -94,13 +98,6 @@
 
         <h2>Magical Critical Injuries</h2>
         <p>Magic damage can also cause critical injuries; however, their injuries are mostly set.</p>
-        <p>A creature critically hit by magic damage receives a critical injury when it meets the following criteria:</p>
-        <ul>
-            <li>It is critically hit or rolls a 1 (or less) on a saving throw against the spell.</li>
-            <li>The damage dealt (after resistances) is more than their Constitution Score + Level.</li>
-        </ul>
-        <p><b>Physical damage from spells can still cause the injuries listed above.</b></p>
-        <p>The following damage types inflict the following critical injuries:</p>
 
         <table class="content-table">
             <tr>
@@ -136,10 +133,13 @@
             <tr>
                 <td>Acid</td>
                 <td>Melted</td>
-                <td>AC is reduced by 2</td>
+                <td>
+                    <p>AC is reduced by 2</p>
+                    <p>This effect does not cause a penalty to Death Saving Throws.</p>
+                </td>
                 <td>
                     <p>Permanent on non-magical armor (DC 15 Smith's Tools check over 1 minute to clear or Mending Cantrip)</p>
-                    <p>This effect otherwise clears after 2 of the affected creature's turns</p>
+                    <p>This effect otherwise clears after 2 of the affected creature's turns.</p>
                 </td>
             </tr>
             <tr>
@@ -178,6 +178,7 @@
         <ul>
             <li>Penalties to Death Saving Throws subtract from what you roll. This does not count Nat 20s, which restore you to 1 hp.</li>
             <li>A creature suffering from a critical injury has a -1 to Death Saving Throws for each critical injury they are suffering (added to any penalties from Collapsed Lung or Spinal Injury).</li>
+            <li>If a creature rolls a natural 1 or rolls less than 1 on a Death Saving Throw, they recieve 2 failed Death Saving Throws.</li>
             <li>Critical injuries that stack (Foriegn Object, Necrosis, Tinnitus) only provide 1 penalty to death saves, regardless of how many stacks you have.</li>
             <li><b>Death Saves are now considered Constitution Saving Throws.</b></li>
         </ul>
@@ -201,7 +202,17 @@
                 </ul>
                 <li>Spells that cause multiple types of damage (ex: Meteor Swarm) roll to determine which injury is inflicted between the appropriate damage types.</li>
             </ul>
-            <li>Fall damage will cause a critical injury (prioritizing legs or whatever they land on) if a creature takes fall damage equal to their Critical Injury Threshold. A creature can gain multiple injuries this way for every increment of their threshold they take in fall damage.</li>
+            <li> The following Critical Injuries can stack infinitely.
+                <ul>
+                    <li>Foriegn Object</li>
+                    <li>Torn Muscle</li>
+                    <li>Necrosis</li>
+                    <li>Tinnitus</li>
+                    <li>Melted</li>
+                    <li>Frostbite</li>
+                    <li>Singed</li>
+                </ul>
+            </li>
         </ul>
 
         <h2>Healing Critical Injuries</h2>
