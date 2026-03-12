@@ -1,35 +1,106 @@
-.content-table{
-            margin-bottom: 20px;
-            width: 100%;
-            max-width: 100%;
-            background-color: rgba(0, 0, 0, 0);
-            border-collapse: collapse;
-            border-spacing: 0;
+.content-table {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-table, td, th{
-        border:1px solid black;
-        background-color: white;
+table,
+td,
+th {
+    border: 1px solid #222;
+    background-color: white;
 }
 
-body{
-        font-family: 'Times New Roman', Times, serif;
-        background-color: bisque;
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: #f3efe6;
+    color: #222;
+    line-height: 1.5;
 }
 
-h2{
-        font-size: larger;
+h1, h2, h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #6b1f1f;
+    margin-top: 0;
 }
 
-footer{
-        font-size: x-small;
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.2rem;
 }
 
-img{
+h2 {
+    font-size: 1.35rem;
+}
+
+footer {
+    font-size: x-small;
+}
+
+img {
     width: 500px;
     height: auto;
 }
 
-hr{
-        color: black;
+hr {
+    border: 0;
+    border-top: 1px solid #b8aa92;
+    margin: 1rem 0;
+}
+
+/* Spell page styling */
+.spell-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem 3rem;
+}
+
+.spell-entry {
+    background: #fffdf9;
+    border: 1px solid #c8baa4;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.spell-subtitle {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #555;
+    font-size: 1rem;
+}
+
+.spell-meta {
+    background: #f7f1e7;
+    border: 1px solid #d8cbb6;
+    padding: 0.85rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.spell-meta p {
+    margin: 0.25rem 0;
+}
+
+.spell-body p {
+    margin: 0 0 1rem 0;
+}
+
+.spell-footer {
+    margin-top: 1.25rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid #d8cbb6;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+a {
+    color: #7a0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
