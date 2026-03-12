@@ -1,7 +1,7 @@
 [
     {
         "name": "Catch Flame",
-        "level": "0",
+        "level": "Cantrip",
         "school": "Giant's Flame Incantation",
         "castingTime": "Bonus Action",
         "range": "Self",
@@ -13,7 +13,7 @@
     },
     {
         "name": "Crystal Barrage",
-        "level": "0",
+        "level": "Cantrip",
         "school": "Glintstone Sorcery Cantrip",
         "castingTime": "1 Action",
         "range": "Self (15ft Line)",
@@ -25,7 +25,7 @@
     },
     {
         "name": "Glintstone Pebble",
-        "level": "0",
+        "level": "Cantrip",
         "school": "Glintstone Sorcery Cantrip",
         "castingTime": "1 Action",
         "range": "90 ft",
@@ -37,7 +37,7 @@
     },
     {
         "name": "Honed Bolt",
-        "level": "0",
+        "level": "Cantrip",
         "school": "Dragon Cult Incantation Cantrip",
         "castingTime": "1 Action",
         "range": "120ft",
@@ -49,7 +49,7 @@
     },
     {
         "name": "Swift Glintstone Shard",
-        "level": "0",
+        "level": "Cantrip",
         "school": "Glintstone Sorcery Cantrip",
         "castingTime": "Bonus Action",
         "range": "60ft",
