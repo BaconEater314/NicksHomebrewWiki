@@ -60,28 +60,28 @@
         "url": "Individual Spells/Cantrips/SwiftGlintstoneShard.html"
     },
     {
-        "name": "Bestial Constitution",
+        "name": "Beastial Constitution",
         "level": "1",
-        "school": "Bestial Incantation",
+        "school": "Beastial Incantation",
         "castingTime": "1 Action",
         "range": "Touch",
         "duration": "Instantaneous",
         "ritual": false,
         "concentration": false,
         "classes": ["Cleric", "Druid", "Paladin", "Ranger"],
-        "url": "Individual Spells/First Level/BestialConstitution.html"
+        "url": "Individual Spells/First Level/BeastialConstitution.html"
     },
     {
-        "name": "Bestial Sling",
+        "name": "Beastial Sling",
         "level": "1",
-        "school": "Bestial Incantation",
+        "school": "Beastial Incantation",
         "castingTime": "1 Action",
         "range": "Self (15ft Cone)",
         "duration": "Instantaneous",
         "ritual": false,
         "concentration": false,
         "classes": ["Cleric", "Druid", "Ranger"],
-        "url": "Individual Spells/First Level/BestialSling.html"
+        "url": "Individual Spells/First Level/BeastialSling.html"
     },
     {
         "name": "Black Flame",
@@ -324,16 +324,16 @@
         "url": "Individual Spells/Second Level/AssassinsApproach.html"
     }    
     ,{
-        "name": "Bestial Claw",
+        "name": "Beastial Claw",
         "level": "2",
-        "school": "Bestial Incantation",
+        "school": "Beastial Incantation",
         "castingTime": "1 Action",
         "range": "Self (15ft Cone)",
         "duration": "Instantaneous",
         "ritual": false,
         "concentration": false,
         "classes": ["Cleric", "Druid"],
-        "url": "Individual Spells/Second Level/BestialClaw.html"
+        "url": "Individual Spells/Second Level/BeastialClaw.html"
     }    
     ,{
         "name": "Black Flame Blade",
@@ -602,7 +602,7 @@
     ,{
         "name": "Stone of Gurranq",
         "level": "2",
-        "school": "Bestial Incantation",
+        "school": "Beastial Incantation",
         "castingTime": "1 Action",
         "range": "60ft",
         "duration": "Instantaneous",
@@ -752,7 +752,7 @@
         "duration": "Instantaneous",
         "ritual": false,
         "concentration": false,
-        "classes": ["Artiificer", "Sorcerer", "Warlock", "Wizard"],
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
         "url": "Individual Spells/Third Level/GavelOfHamia.html"
     }    
     ,{
@@ -782,7 +782,7 @@
     ,{
         "name": "Gurranq's Beast Claw",
         "level": "3",
-        "school": "Bestial Incantation",
+        "school": "Beastial Incantation",
         "castingTime": "1 Action",
         "range": "Self (20ft Radius)",
         "duration": "Instantaneous",
