@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Catch Flame (REPLACE ME)",
+        "level": "0",
+        "school": "Evocation",
+        "castingTime": "Bonus Action",
+        "range": "Self",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Cleric", "Druid"],
+        "url": "Individual Spells/Cantrips/CatchFlame.html"
+    }
+]
