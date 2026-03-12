@@ -107,25 +107,20 @@ function getFilteredSpells() {
   });
 }
 
+function levelRank(level) {
+  if (level === "Cantrip") return 0;
+  return parseInt(level, 10);
+}
+
 function sortSpells(spellList) {
   return [...spellList].sort((a, b) => {
-    let aValue = a[currentSort.key];
-    let bValue = b[currentSort.key];
 
-    if (currentSort.key === "classes") {
-      aValue = a.classes.join(", ");
-      bValue = b.classes.join(", ");
-    }
+    // Primary sort: level
+    const levelDiff = levelRank(a.level) - levelRank(b.level);
+    if (levelDiff !== 0) return levelDiff;
 
-    if (typeof aValue === "boolean") aValue = aValue ? 1 : 0;
-    if (typeof bValue === "boolean") bValue = bValue ? 1 : 0;
-
-    aValue = String(aValue).toLowerCase();
-    bValue = String(bValue).toLowerCase();
-
-    if (aValue < bValue) return currentSort.asc ? -1 : 1;
-    if (aValue > bValue) return currentSort.asc ? 1 : -1;
-    return 0;
+    // Secondary sort: alphabetical by name
+    return a.name.localeCompare(b.name);
   });
 }
 
