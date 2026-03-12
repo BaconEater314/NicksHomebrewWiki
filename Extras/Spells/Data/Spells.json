@@ -298,5 +298,365 @@
         "concentration": true,
         "classes": ["Bard"],
         "url": "Individual Spells/First Level/SorrowfulSong.html"
+    }    
+    ,{
+        "name": "Ambush Shard",
+        "level": "2",
+        "school": "Sellian Sorcery",
+        "castingTime": "1 Action",
+        "range": "60ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Second Level/AmbushShard.html"
+    }    
+    ,{
+        "name": "Assassin's Approach",
+        "level": "2",
+        "school": "Two Fingers Incantation",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "1 hour",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Bard", "Cleric", "Druid", "Ranger"],
+        "url": "Individual Spells/Second Level/AssassinsApproach.html"
+    }    
+    ,{
+        "name": "Bestial Claw",
+        "level": "2",
+        "school": "Bestial Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (15ft Cone)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid"],
+        "url": "Individual Spells/Second Level/BestialClaw.html"
+    }    
+    ,{
+        "name": "Black Flame Blade",
+        "level": "2",
+        "school": "Black Flame Incantation",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Cleric", "Druid", "Paladin", "Ranger"],
+        "url": "Individual Spells/Second Level/BlackFlameBlade.html"
+    }    
+    ,{
+        "name": "Bloodboon",
+        "level": "2",
+        "school": "Blood Oath Incantation",
+        "castingTime": "1 Action",
+        "range": "30ft",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Cleric", "Druid"],
+        "url": "Individual Spells/Second Level/Bloodboon.html"
+    }    
+    ,{
+        "name": "Blood Flame Blade",
+        "level": "2",
+        "school": "Blood Oath Incantation",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Cleric", "Druid", "Paladin", "Ranger"],
+        "url": "Individual Spells/Second Level/BloodFlameBlade.html"
+    }    
+    ,{
+        "name": "Blood Flame Talons",
+        "level": "2",
+        "school": "Blood Flame Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (15ft Cube)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Second Level/BloodFlameTalons.html"
+    }    
+    ,{
+        "name": "Carian Greatsword",
+        "level": "2",
+        "school": "Carian Sorcery",
+        "castingTime": "1 Action",
+        "range": "Self",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Second Level/CarianGreatsword.html"
+    }    
+    ,{
+        "name": "Discus of Light",
+        "level": "2",
+        "school": "Golden Order Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (30ft Line)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Paladin"],
+        "url": "Individual Spells/Second Level/DiscusofLight.html"
+    }    
+    ,{
+        "name": "Divine Fortification",
+        "level": "2",
+        "school": "Two Fingers Incantation",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "1 minute",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Ranger"],
+        "url": "Individual Spells/Second Level/DivineFortification.html"
+    }    
+    ,{
+        "name": "Earthen Spike",
+        "level": "2",
+        "school": "Transmutation",
+        "castingTime": "1 Action",
+        "range": "30ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Druid", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Second Level/EarthenSpike.html"
+    }    
+    ,{
+        "name": "Fire's Deadly Sin",
+        "level": "2",
+        "school": "Giant's Flame Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (10ft Radius)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid"],
+        "url": "Individual Spells/Second Level/FiresDeadlySin.html"
+    }    
+    ,{
+        "name": "Flame Fortification",
+        "level": "2",
+        "school": "Two Fingers Incantation",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "1 minute",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Ranger"],
+        "url": "Individual Spells/Second Level/FlameFortification.html"
+    }    
+    ,{
+        "name": "Freezing Mist",
+        "level": "2",
+        "school": "Cold Sorcery",
+        "castingTime": "1 Action",
+        "range": "60ft",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Second Level/FreezingMist.html"
+    }    
+    ,{
+        "name": "Frenzied Burst",
+        "level": "2",
+        "school": "Frenzied Flame Incantation",
+        "castingTime": "1 Action",
+        "range": "120ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Paladin"],
+        "url": "Individual Spells/Second Level/FrenziedBurst.html"
+    }    
+    ,{
+        "name": "Howl of Shibriri",
+        "level": "2",
+        "school": "Frenzied Flame Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (20ft Sphere)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Paladin"],
+        "url": "Individual Spells/Second Level/HowlofShibriri.html"
+    }    
+    ,{
+        "name": "Lightning Fortification",
+        "level": "2",
+        "school": "Two Fingers Incantation",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "1 minute",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Paladin", "Ranger"],
+        "url": "Individual Spells/Second Level/LightningFortification.html"
+    }    
+    ,{
+        "name": "Lucidity",
+        "level": "2",
+        "school": "Carian Sorcery",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Second Level/Lucidity.html"
+    }    
+    ,{
+        "name": "Magic Fortification",
+        "level": "2",
+        "school": "Two Fingers Incantation",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "1 minute",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Cleric", "Druid", "Paladin", "Ranger"],
+        "url": "Individual Spells/Second Level/MagicFortification.html"
+    }    
+    ,{
+        "name": "Magma Shot",
+        "level": "2",
+        "school": "Magma Sorcery",
+        "castingTime": "1 Action",
+        "range": "60ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Second Level/MagmaShot.html"
+    }    
+    ,{
+        "name": "Night Maiden's Mist",
+        "level": "2",
+        "school": "Sellian Sorcery",
+        "castingTime": "1 Action",
+        "range": "60ft",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Second Level/NightMaiden'sMist.html"
+    }    
+    ,{
+        "name": "Poison Mist",
+        "level": "2",
+        "school": "Servants of Rot Incantation",
+        "castingTime": "1 Action",
+        "range": "60ft",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Cleric", "Druid", "Ranger"],
+        "url": "Individual Spells/Second Level/PoisonMist.html"
+    }    
+    ,{
+        "name": "Rock Blaster",
+        "level": "2",
+        "school": "Glintstone Sorcery",
+        "castingTime": "1 Action",
+        "range": "Self (10ft Radius)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Second Level/RockBlaster.html"
+    }    
+    ,{
+        "name": "Rock Sling",
+        "level": "2",
+        "school": "Gravity Sorcery",
+        "castingTime": "1 Action",
+        "range": "45ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Second Level/RockSling.html"
+    }    
+    ,{
+        "name": "Shard Spiral",
+        "level": "2",
+        "school": "Glintstone Sorcery",
+        "castingTime": "1 Action",
+        "range": "60ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Second Level/ShardSpiral.html"
+    }    
+    ,{
+        "name": "Stone of Gurranq",
+        "level": "2",
+        "school": "Bestial Incantation",
+        "castingTime": "1 Action",
+        "range": "60ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Ranger"],
+        "url": "Individual Spells/Second Level/StoneOfGurranq.html"
+    }    
+    ,{
+        "name": "Swarm of Flies",
+        "level": "2",
+        "school": "Blood Oath Incantation",
+        "castingTime": "1 Action",
+        "range": "60ft",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Cleric", "Druid", "Ranger"],
+        "url": "Individual Spells/Second Level/SwarmOfFlies.html"
+    }    
+    ,{
+        "name": "Thop's Barrier",
+        "level": "2",
+        "school": "Glintstone Sorcery",
+        "castingTime": "Reaction",
+        "range": "Self",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Second Level/ThopsBarrier.html"
+    }    
+    ,{
+        "name": "Unseen Blade",
+        "level": "2",
+        "school": "Sellian Sorcery",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "1 hour (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Second Level/UnseenBlade.html"
+    }    
+    ,{
+        "name": "Vyke's Dragonbolt",
+        "level": "2",
+        "school": "Dragon Cult Incantation",
+        "castingTime": "1 Action",
+        "range": "120ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Cleric", "Druid", "Sorcerer", "Wizard"],
+        "url": "Individual Spells/Second Level/VykesDragonbolt.html"
     }
 ]
