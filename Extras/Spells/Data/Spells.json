@@ -932,7 +932,295 @@
         "duration": "Instantaneous",
         "ritual": false,
         "concentration": false,
-        "classes": ["Sorcerer", "", "Paladin"],
-        "url": "Individual Spells/Third Level/TheFlameOfFrenzy.html"
+        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Fourth Level/AdulasMoonblade.html"
+    }    
+    ,{
+        "name": "Ancient Dragon's Lightning Spear",
+        "level": "4",
+        "school": "Dragon Cult Incantation",
+        "castingTime": "1 Action",
+        "range": "Self",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid"],
+        "url": "Individual Spells/Fourth Level/AncientDragonsLightningSpear.html"
+    }    
+    ,{
+        "name": "Black Blade",
+        "level": "4",
+        "school": "Erdtree Incantation",
+        "castingTime": "1 Action",
+        "range": "Self",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Paladin"],
+        "url": "Individual Spells/Fourth Level/BlackBlade.html"
+    }    
+    ,{
+        "name": "Cannon of Hamia",
+        "level": "4",
+        "school": "Glintstone Sorcery",
+        "castingTime": "1 Action",
+        "range": "90ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Fourth Level/CannonOfHamia.html"
+    }    
+    ,{
+        "name": "Collapsing Stars",
+        "level": "4",
+        "school": "Gravity Sorcery",
+        "castingTime": "1 Action",
+        "range": "90ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Fourth Level/CollapsingStars.html"
+    }    
+    ,{
+        "name": "Flame Grant Me Strength",
+        "level": "4",
+        "school": "Giant's Flame Incantation",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Bard", "Cleric", "Druid", "Sorcerer"],
+        "url": "Individual Spells/Fourth Level/FlameGrantMeStrength.html"
+    }    
+    ,{
+        "name": "Gravitational Missile",
+        "level": "4",
+        "school": "Gravity Sorcery",
+        "castingTime": "1 Action",
+        "range": "30ft",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Fourth Level/GravitationalMissile.html"
+    }    
+    ,{
+        "name": "Inescapable Frenzy",
+        "level": "4",
+        "school": "Frenzied Flame Incantation",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Paladin"],
+        "url": "Individual Spells/Fourth Level/InescapableFrenzy.html"
+    }    
+    ,{
+        "name": "Litany of Proper Death",
+        "level": "4",
+        "school": "Golden Order Incantation",
+        "castingTime": "1 Action",
+        "range": "60ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Paladin"],
+        "url": "Individual Spells/Fourth Level/LitanyOfProperDeath.html"
+    }    
+    ,{
+        "name": "Terra Magica",
+        "level": "4",
+        "school": "Glintstone Sorcery",
+        "castingTime": "1 Action",
+        "range": "Self (10ft Radius)",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Artificer", "Wizard"],
+        "url": "Individual Spells/Fourth Level/TerraMagica.html"
+    }    
+    ,{
+        "name": "Comet",
+        "level": "5",
+        "school": "Glintstone Sorcery",
+        "castingTime": "1 Action",
+        "range": "90ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Fifth Level/Comet.html"
+    }    
+    ,{
+        "name": "Moonstone's Fists",
+        "level": "5",
+        "school": "Conjuration",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Artificer", "Cleric", "Paladin", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Fifth Level/MoonstonesFists.html"
+    }    
+    ,{
+        "name": "Radagon's Rings of Light",
+        "level": "5",
+        "school": "Golden Order Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (20ft Radius)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Paladin"],
+        "url": "Individual Spells/Fifth Level/RadagonsRingsOfLight.html"
+    }    
+    ,{
+        "name": "Unendurable Frenzy",
+        "level": "5",
+        "school": "Frenzied Flame Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (15ft Cone, 20ft Radius)",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Cleric", "Druid", "Paladin"],
+        "url": "Individual Spells/Fifth Level/UnendurableFrenzy.html"
+    }    
+    ,{
+        "name": "Blades of Stone",
+        "level": "6",
+        "school": "Gravity Sorcery",
+        "castingTime": "1 Action",
+        "range": "90ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Druid", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Sixth Level/BladesOfStone.html"
+    }    
+    ,{
+        "name": "Founding Rain of Stars",
+        "level": "6",
+        "school": "Glintstone Sorcery",
+        "castingTime": "1 Action",
+        "range": "60ft",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Sixth Level/FoundingRainOfStars.html"
+    }    
+    ,{
+        "name": "Lansseax's Glaive",
+        "level": "6",
+        "school": "Dragon Cult Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (60ft Cone)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid"],
+        "url": "Individual Spells/Sixth Level/LansseaxsGlaive.html"
+    }    
+    ,{
+        "name": "Rykard's Rancor",
+        "level": "6",
+        "school": "Magma Sorcery",
+        "castingTime": "1 Action",
+        "range": "60ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Sixth Level/RykardsRancor.html"
+    }    
+    ,{
+        "name": "Stars of Ruin",
+        "level": "6",
+        "school": "Glintstone Sorcery",
+        "castingTime": "1 Action",
+        "range": "90ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Druid", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Sixth Level/StarsOfRuin.html"
+    }    
+    ,{
+        "name": "Triple Rings of Light",
+        "level": "6",
+        "school": "Golden Order Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (30ft Cone)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid"],
+        "url": "Individual Spells/Sixth Level/TripleRingsOfLight.html"
+    }    
+    ,{
+        "name": "Ranni's Dark Moon/Rennalla's Full Moon",
+        "level": "7",
+        "school": "Moon Sorcery",
+        "castingTime": "1 Action",
+        "range": "90ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Seventh Level/DarkMoonMoon.html"
+    }    
+    ,{
+        "name": "Scarlet Aeonia",
+        "level": "7",
+        "school": "Servants of Rot Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (30ft Radius)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid"],
+        "url": "Individual Spells/Seventh Level/ScarletAeonia.html"
+    }    
+    ,{
+        "name": "Comet Azur",
+        "level": "8",
+        "school": "Glintstone Sorcery",
+        "castingTime": "1 Action",
+        "range": "Self (120ft Line)",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Eighth Level/CometAzur.html"
+    }    
+    ,{
+        "name": "Fortissax's Lightning Spear",
+        "level": "8",
+        "school": "Dragon Cult Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (25ft Radius)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid"],
+        "url": "Individual Spells/Eighth Level/FortissaxsLightningSpear.html"
+    }    
+    ,{
+        "name": "Rellana's Twin Moons",
+        "level": "8",
+        "school": "Moon Sorcery",
+        "castingTime": "1 Action",
+        "range": "Self (20ft Radius)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Eighth Level/RellanasTwinMoons.html"
     }
 ]
