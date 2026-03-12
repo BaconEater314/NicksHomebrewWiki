@@ -32,19 +32,6 @@ The site can typically be accessed at:
 
 https://baconeater314.github.io/NicksHomebrewWiki/
 
-### Project Structure
-
-Example structure (may vary depending on updates):
-
-NicksHomebrewWiki/
-│
-├── index.html          # Main homepage
-├── pages/              # Individual wiki pages
-├── assets/             # Images, icons, and media
-├── css/                # Styling files
-├── js/                 # Scripts and interactive elements
-└── README.md           # Project documentation
-
 ### Usage
 
 You can explore the site by:
@@ -92,3 +79,32 @@ Supported by Cody Owens and GodIsDead
 
 ### GitHub:
 https://github.com/BaconEater314
+
+## Project Structure
+```
+NicksHomebrewWiki/
+├── index.html                  # Redirect to homePage.html
+├── homePage.html               # Main navigation hub
+├── Global.css                  # Primary stylesheet
+├── Atributes.css               # Legacy table styles
+├── Settings/                   # Campaign lore documents
+│   ├── Sapiria.html
+│   ├── Moonstone.html
+│   ├── Empire.html
+│   └── Grimm.html
+├── Races/                      # Custom playable races
+├── Subraces/                   # Custom subraces
+├── Backgrounds/                # Custom backgrounds
+├── Subclasses/                 # Custom subclasses (all 13 D&D classes covered)
+├── Extras/
+│   ├── Spells/                 # 103 spells with interactive JSON-driven filter
+│   ├── Magic Items/            # Organized by rarity (Uncommon → Artifact)
+│   ├── Rules/                  # Custom rules (Vehicles, Critical Injuries, Facedowns)
+│   ├── Feats.html
+│   ├── Armor.html
+│   └── StatRoller.html         # Interactive stat roller tool
+├── Anora's Refuge/             # Campaign setting
+├── Ardonia/                    # Campaign setting
+├── The Upside/                 # Campaign setting
+└── Images/                     # Character artwork and HeroForge links
+```
