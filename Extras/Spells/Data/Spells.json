@@ -658,5 +658,269 @@
         "concentration": false,
         "classes": ["Artificer", "Cleric", "Druid", "Sorcerer", "Wizard"],
         "url": "Individual Spells/Second Level/VykesDragonbolt.html"
+    }    
+    ,{
+        "name": "Ancient Dragon's Lightning Strike",
+        "level": "3",
+        "school": "Dragon Cult Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (20ft Radius)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid"],
+        "url": "Individual Spells/Third Level/AncientDragonsLightningStrike.html"
+    }    
+    ,{
+        "name": "Atium Shadows",
+        "level": "3",
+        "school": "Chronomancy",
+        "castingTime": "Bonus Action",
+        "range": "Self",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Wizard", "Cleric", "Time Domain Cleric"],
+        "url": "Individual Spells/Third Level/AtiumShadows.html"
+    }    
+    ,{
+        "name": "Black Flame Ritual",
+        "level": "3",
+        "school": "Black Flame Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (10ft Radius)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Wizard", "Cleric"],
+        "url": "Individual Spells/Third Level/BlackFlameRitual.html"
+    }    
+    ,{
+        "name": "Cacophony of Concentration",
+        "level": "3",
+        "school": "Enchantment",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Bard"],
+        "url": "Individual Spells/Third Level/CacophonyOfConcentration.html"
+    }    
+    ,{
+        "name": "Eternal Darkness",
+        "level": "3",
+        "school": "Sellian Sorcery",
+        "castingTime": "1 Action",
+        "range": "30ft",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Third Level/EternalDarkness.html"
+    }    
+    ,{
+        "name": "Flame Whip",
+        "level": "3",
+        "school": "Evocation",
+        "castingTime": "1 Action",
+        "range": "30ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Druid", "Sorcerer", "Wizard"],
+        "url": "Individual Spells/Third Level/FlameWhip.html"
+    }    
+    ,{
+        "name": "Frozen Lightning Spear",
+        "level": "3",
+        "school": "Dragon Cult Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (60ft Line)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid"],
+        "url": "Individual Spells/Third Level/FrozenLightningSpear.html"
+    }    
+    ,{
+        "name": "Gavel of Hamia",
+        "level": "3",
+        "school": "Glintstone Sorcery",
+        "castingTime": "1 Action",
+        "range": "Self (10ft Radius)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artiificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Third Level/GavelOfHamia.html"
+    }    
+    ,{
+        "name": "Gelmir's Fury",
+        "level": "3",
+        "school": "Magma Sorcery",
+        "castingTime": "1 Action",
+        "range": "Self (15ft Radius)",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Cleric", "Druid", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Third Level/GelmirsFury.html"
+    }    
+    ,{
+        "name": "Greatblade Phalanx",
+        "level": "3",
+        "school": "Carian Sorcery",
+        "castingTime": "1 Action",
+        "range": "Self",
+        "duration": "1 minute",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Third Level/GreatbladePhalanx.html"
+    }    
+    ,{
+        "name": "Gurranq's Beast Claw",
+        "level": "3",
+        "school": "Bestial Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (20ft Radius)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Ranger"],
+        "url": "Individual Spells/Third Level/GurranqsBeastClaw.html"
+    }    
+    ,{
+        "name": "Law of Causality",
+        "level": "3",
+        "school": "Golden Order Incantation",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Cleric", "Druid", "Paladin"],
+        "url": "Individual Spells/Third Level/LawOfCausality.html"
+    }    
+    ,{
+        "name": "Lord's Aid",
+        "level": "3",
+        "school": "Two Fingers Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (20ft Radius)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Paladin"],
+        "url": "Individual Spells/Third Level/LordsAid.html"
+    }    
+    ,{
+        "name": "Loretta's Greatbow",
+        "level": "3",
+        "school": "Carian Sorcery",
+        "castingTime": "1 Action",
+        "range": "150ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Third Level/LorettasGreatbow.html"
+    }    
+    ,{
+        "name": "Noble's Presence",
+        "level": "3",
+        "school": "Black Flame Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (20ft Radius)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Bard", "Cleric", "Druid", "Warlock"],
+        "url": "Individual Spells/Third Level/NoblesPresence.html"
+    }    
+    ,{
+        "name": "Roiling Magma",
+        "level": "3",
+        "school": "Magma Sorcery",
+        "castingTime": "1 Action",
+        "range": "60ft",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Cleric", "Druid", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Third Level/RoilingMagma.html"
+    }    
+    ,{
+        "name": "Scouring Black Flame",
+        "level": "3",
+        "school": "Black Flame Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (20ft Cone)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid"],
+        "url": "Individual Spells/Third Level/ScouringBlackFlame.html"
+    }    
+    ,{
+        "name": "Shooting Star",
+        "level": "3",
+        "school": "Evocation",
+        "castingTime": "1 Action",
+        "range": "90ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Cleric", "Druid", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Third Level/ShootingStar.html"
+    }    
+    ,{
+        "name": "Star Shower",
+        "level": "3",
+        "school": "Glintstone Sorcery",
+        "castingTime": "1 Action",
+        "range": "90ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Third Level/StarShower.html"
+    }    
+    ,{
+        "name": "Surge O Flame",
+        "level": "3",
+        "school": "Giant's Flame Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (20ft Line)",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Cleric", "Druid"],
+        "url": "Individual Spells/Third Level/SurgeOFlame.html"
+    }    
+    ,{
+        "name": "The Flame of Frenzy",
+        "level": "3",
+        "school": "Frenzied Flame Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (20ft Cone)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Paladin"],
+        "url": "Individual Spells/Third Level/TheFlameOfFrenzy.html"
+    }    
+    ,{
+        "name": "Zamor Ice Storm",
+        "level": "3",
+        "school": "Cold Sorcery",
+        "castingTime": "1 Action",
+        "range": "Self (20ft Sphere)",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Druid", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Third Level/ZamorIceStorm.html"
     }
 ]
