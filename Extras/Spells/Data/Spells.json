@@ -1,8 +1,8 @@
 [
     {
-        "name": "Catch Flame (REPLACE ME)",
+        "name": "Catch Flame",
         "level": "0",
-        "school": "Evocation",
+        "school": "Giant's Flame Incantation",
         "castingTime": "Bonus Action",
         "range": "Self",
         "duration": "Instantaneous",
@@ -10,5 +10,293 @@
         "concentration": false,
         "classes": ["Artificer", "Cleric", "Druid"],
         "url": "Individual Spells/Cantrips/CatchFlame.html"
+    },
+    {
+        "name": "Crystal Barrage",
+        "level": "0",
+        "school": "Glintstone Sorcery Cantrip",
+        "castingTime": "1 Action",
+        "range": "Self (15ft Line)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Cantrips/CrystalBarrage.html"
+    },
+    {
+        "name": "Glintstone Pebble",
+        "level": "0",
+        "school": "Glintstone Sorcery Cantrip",
+        "castingTime": "1 Action",
+        "range": "90 ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Cantrips/GlintstonePebble.html"
+    },
+    {
+        "name": "Honed Bolt",
+        "level": "0",
+        "school": "Dragon Cult Incantation Cantrip",
+        "castingTime": "1 Action",
+        "range": "120ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Cleric", "Druid"],
+        "url": "Individual Spells/Cantrips/HonedBolt.html"
+    },
+    {
+        "name": "Swift Glintstone Shard",
+        "level": "0",
+        "school": "Glintstone Sorcery Cantrip",
+        "castingTime": "Bonus Action",
+        "range": "60ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Cantrips/SwiftGlintstoneShard.html"
+    },
+    {
+        "name": "Bestial Constitution",
+        "level": "1",
+        "school": "Bestial Incantation",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Paladin", "Ranger"],
+        "url": "Individual Spells/First Level/BestialConstitution.html"
+    },
+    {
+        "name": "Bestial Sling",
+        "level": "1",
+        "school": "Bestial Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (15ft Cone)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Ranger"],
+        "url": "Individual Spells/First Level/BestialSling.html"
+    },
+    {
+        "name": "Black Flame",
+        "level": "1",
+        "school": "Black Flame Incantation",
+        "castingTime": "1 Action",
+        "range": "60ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid"],
+        "url": "Individual Spells/First Level/BlackFlame.html"
+    },
+    {
+        "name": "Carian Slicer",
+        "level": "1",
+        "school": "Carian Sorcery",
+        "castingTime": "1 Action",
+        "range": "Self",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/First Level/CarianSlicer.html"
+    },
+    {
+        "name": "Crystal Burst",
+        "level": "1",
+        "school": "Glintstone Sorcery",
+        "castingTime": "1 Action",
+        "range": "Self (20ft Cone)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/First Level/CrystalBurst.html"
+    },
+    {
+        "name": "Cure Poison",
+        "level": "1",
+        "school": "Two Fingers Incantation",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Bard", "Cleric", "Druid", "Paladin", "Ranger"],
+        "url": "Individual Spells/First Level/CurePoison.html"
+    },
+    {
+        "name": "Electrify Armament",
+        "level": "1",
+        "school": "Dragon Cult Incantation",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Artificer", "Bard", "Cleric", "Druid", "Paladin", "Ranger"],
+        "url": "Individual Spells/First Level/ElectrifyArmament.html"
+    }
+    ,{
+        "name": "Flame Cleanse Me",
+        "level": "1",
+        "school": "Giant's Flame Incantation",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Ranger"],
+        "url": "Individual Spells/First Level/FlameCleanseMe.html"
+    }    
+    ,{
+        "name": "Frozen Armament",
+        "level": "1",
+        "school": "Cold Sorcery",
+        "castingTime": "1 Action",
+        "range": "1 minute (concentration)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Artificer", "Warlock", "Sorcerer", "Wizard"],
+        "url": "Individual Spells/First Level/FrozenArmament.html"
+    }    
+    ,{
+        "name": "Giantblade Phalanx",
+        "level": "1",
+        "school": "Carian Sorcery",
+        "castingTime": "1 Action",
+        "range": "1 minute",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/First Level/GiantbladePhalanx.html"
+    }    
+    ,{
+        "name": "Gravity Well",
+        "level": "1",
+        "school": "Gravity Sorcery",
+        "castingTime": "1 Action",
+        "range": "60ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/First Level/GravityWell.html"
+    }    
+    ,{
+        "name": "Great Glintstone Shard",
+        "level": "1",
+        "school": "Glintstone Sorcery",
+        "castingTime": "1 Action",
+        "range": "90ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/First Level/GreatGlintstoneShard.html"
+    }    
+    ,{
+        "name": "Immutable Shield",
+        "level": "1",
+        "school": "Golden Order Incantation",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "1 hour",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Paladin", "Ranger"],
+        "url": "Individual Spells/First Level/ImmutableShield.html"
+    }    
+    ,{
+        "name": "Lightning Spear",
+        "level": "1",
+        "school": "Dragon Cult Incantation",
+        "castingTime": "1 Action",
+        "range": "120ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Cleric", "Druid", "Sorcerer", "Wizard"],
+        "url": "Individual Spells/First Level/LightningSpear.html"
+    }    
+    ,{
+        "name": "Order's Blade",
+        "level": "1",
+        "school": "Golden Order Incantation",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Bard", "Cleric", "Druid", "Paladin", "Ranger"],
+        "url": "Individual Spells/First Level/OrdersBlade.html"
+    }    
+    ,{
+        "name": "Poison Armament",
+        "level": "1",
+        "school": "Servants of Rot Incantation",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Artificer", "Bard", "Cleric", "Druid", "Paladin", "Ranger"],
+        "url": "Individual Spells/First Level/PoisonArmament.html"
+    }    
+    ,{
+        "name": "Scholar's Armament",
+        "level": "1",
+        "school": "Glintstone Sorcery",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/First Level/ScholarsArmament.html"
+    }    
+    ,{
+        "name": "Scholar's Shield",
+        "level": "1",
+        "school": "Glintstone Sorcery",
+        "castingTime": "1 Action",
+        "range": "Touch",
+        "duration": "1 hour",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/First Level/ScholarsShield.html"
+    }    
+    ,{
+        "name": "Soothing Symphony",
+        "level": "1",
+        "school": "Enchantment",
+        "castingTime": "1 Action",
+        "range": "60ft",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Bard"],
+        "url": "Individual Spells/First Level/SoothingSymphony.html"
+    }    
+    ,{
+        "name": "Sorrowful Song",
+        "level": "1",
+        "school": "Enchantment",
+        "castingTime": "1 Action",
+        "range": "60ft",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Bard"],
+        "url": "Individual Spells/First Level/SorrowfulSong.html"
     }
 ]
