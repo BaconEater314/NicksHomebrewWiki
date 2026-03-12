@@ -922,5 +922,17 @@
         "concentration": true,
         "classes": ["Druid", "Sorcerer", "Warlock", "Wizard"],
         "url": "Individual Spells/Third Level/ZamorIceStorm.html"
+    }    
+    ,{
+        "name": "Adula's Moonblade",
+        "level": "4",
+        "school": "Carian Sorcery",
+        "castingTime": "1 Action",
+        "range": "Self",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Sorcerer", "", "Paladin"],
+        "url": "Individual Spells/Third Level/TheFlameOfFrenzy.html"
     }
 ]
