@@ -168,7 +168,7 @@
         "url": "Individual Spells/First Level/FrozenArmament.html"
     }    
     ,{
-        "name": "Giantblade Phalanx",
+        "name": "Glintblade Phalanx",
         "level": "1",
         "school": "Carian Sorcery",
         "castingTime": "1 Action",
@@ -177,7 +177,7 @@
         "ritual": false,
         "concentration": false,
         "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
-        "url": "Individual Spells/First Level/GiantbladePhalanx.html"
+        "url": "Individual Spells/First Level/GlintbladePhalanx.html"
     }    
     ,{
         "name": "Gravity Well",
