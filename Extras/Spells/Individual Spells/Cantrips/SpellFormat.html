@@ -1,25 +1,43 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Spell Format</title>
-        <meta name="description" content="This is a formater for adding spells. There is no official content on this page. If you're looking at this, congrats on finding it.">
-        <meta name="author" content="Nicholas Beaty">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spell Name</title>
+    <meta name="description" content="Spell Name spell.">
+    <meta name="author" content="Nicholas Beaty">
 
-        <link rel="stylesheet" type="text/css" href="../../../../Atributes.css">
-    </head>
-    <body>
-        <h1>Spell Name</h1>
-        <p><i>(level) Level (school)</i></p>
+    <link rel="stylesheet" type="text/css" href="../../../../Atributes.css">
+</head>
+<body>
+    <main class="spell-page">
+        <article class="spell-entry">
+            <h1>Spell Name</h1>
+            <p class="spell-subtitle"><em>(level) Level (school)</em></p>
 
-        <p><b>Casting Time:</b> </p>
-        <p><b>Range:</b> </p>
-        <p><b>Components:</b> </p>
-        <p><b>Duration:</b> </p>
+            <section class="spell-meta">
+                <p><strong>Casting Time:</strong> </p>
+                <p><strong>Range:</strong> </p>
+                <p><strong>Components:</strong> </p>
+                <p><strong>Duration:</strong> </p>
+            </section>
 
-        <p>Description</p>
+            <hr>
 
-        <p><b>At Higher Levels:</b> When you cast this spell using a spell slot of (level+1) level or higher, the damage increases by (damage die) per spell slot above (level) level.</p>
-        <p><b>Spell Lists:</b> </p>
-    </body>
+            <section class="spell-body">
+                <p>
+                    Description
+                </p>
+
+                <p>
+                    <b>At Higher Levels:</b> When you cast this spell using a spell slot of (level+1) level or higher, the damage increases by (damage die) per spell slot above (level) level.
+                </p>
+
+            </section>
+
+            <section class="spell-footer">
+                <p><strong>Spell Lists:</strong> </p>
+            </section>
+        </article>
+    </main>
+</body>
 </html>
