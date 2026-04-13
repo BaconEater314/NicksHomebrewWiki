@@ -16,6 +16,8 @@ let currentSort = {
   asc: true
 };
 
+let spellNum = 0;
+
 function levelLabel(level) {
   if (level === "Cantrip") return "Cantrip";
   if (level === "1") return "1st";
@@ -150,6 +152,7 @@ async function loadSpells() {
 
     spells = await response.json();
     updateTable();
+    spellNum = spells.length;
   } catch (error) {
     console.error(error);
     resultsCount.textContent = "Failed to load spells.";
