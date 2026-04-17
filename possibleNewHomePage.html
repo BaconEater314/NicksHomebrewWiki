@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nick's Homebrew Wiki</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Atributes.css">
+</head>
+<body class="home-page">
+
+<button class="hp-mob-toggle" onclick="document.querySelector('.hp-sidebar').classList.toggle('open')">☰</button>
+
+<div class="hp-layout">
+
+  <aside class="hp-sidebar">
+    <div class="hp-site-title">Nick's Homebrew Wiki <span>D&amp;D 5e</span></div>
+
+    <div class="hp-nav-group">
+      <div class="hp-nav-label">Lore</div>
+      <a href="Settings/OldLore.html">Old Campaign Lore</a>
+      <a href="Settings/Sapiria.html">Sapiria</a>
+      <a href="Settings/Moonstone.html">Moonstone Eclipse</a>
+      <a href="Settings/Empire.html">Rise of an Empire</a>
+      <a href="Settings/Grimm.html">Grimm Campaign</a>
+      <a href="The Upside/UpsideMainPage.html">The Upside</a>
+      <a href="Anora's Refuge/RefugeMainPage.html">Anora's Refuge</a>
+      <a href="Ardonia/ArdoniaMainPage.html">Ardonia</a>
+    </div>
+
+    <div class="hp-nav-group">
+      <div class="hp-nav-label">Races</div>
+      <a href="Races/Ardoni1.html">Ardoni (Pre 1710)</a>
+      <a href="Races/Ardoni2.html">Ardoni (Post 1710)</a>
+      <a href="Races/Chameleon.html">Chameleon</a>
+      <a href="Races/Magnorite.html">Magnorite</a>
+      <a href="Races/Shroom.html">Shroomanoid</a>
+      <a href="Subraces/Obsidian.html">Obsidian Dragonborn</a>
+      <a href="Subraces/MTabaxi.html">Maztecan Tabaxi</a>
+      <a href="Subraces/STabaxi.html">Sapirian Tabaxi</a>
+    </div>
+
+        <div class="hp-nav-group">
+      <div class="hp-nav-label">Backgrounds</div>
+      <a href="Backgrounds/Airman.html">Airman</a>
+      <a href="Backgrounds/Bartender.html">Bartender</a>
+      <a href="Backgrounds/Bouncer.html">Bouncer</a>
+      <a href="Backgrounds/Doctor.html">Doctor</a>
+      <a href="Backgrounds/Dragon.html">Dragon Cultist</a>
+      <a href="Backgrounds/Driver.html">Driver</a>
+      <a href="Backgrounds/Mafioso.html">Mafioso</a>
+      <a href="Backgrounds/Mechanic.html">Mechanic</a>
+      <a href="Backgrounds/Voidbringer.html">Voidbringer Crewmate</a>
+      <a href="Backgrounds/BlueMoon.html">Warrior of the Blue Moon</a>
+    </div>
+
+    <div class="hp-nav-group">
+      <div class="hp-nav-label">Subclasses</div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Artificer <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="Subclasses/Artificer/Railgunner.html">Lightning Railgunner</a>
+        <a href="Subclasses/Artificer/Grease.html">Grease Monkey</a>
+      </div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Barbarian <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="Subclasses/Barbarian/Doomslayer.html">Path of the Doomslayer</a>
+        <a href="Subclasses/Barbarian/Knuckle.html">Path of the Knuckle Duster</a>
+      </div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Bard <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="Subclasses/Bard/Stories.html">College of Stories</a>
+      </div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Blood Hunter <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="Subclasses/BloodHunter/GrimmHand.html">Order of the Grimm Hand</a>
+      </div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Cleric <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="Subclasses/Cleric/BattleCleric.html">Battle Medic Domain</a>
+        <a href="Subclasses/Cleric/Blackfire.html">Blackfire Domain</a>
+        <a href="Subclasses/Cleric/Starfire.html">Starfire Domain</a>
+        <a href="Subclasses/Cleric/Time.html">Time Domain</a>
+      </div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Druid <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="Subclasses/Druid/Deep.html">Circle of the Deep</a>
+        <a href="Subclasses/Druid/Rats.html">Circle of the Sewer Rats</a>
+        <a href="Subclasses/Druid/Storms.html">Circle of the Storms</a>
+      </div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Fighter <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="Subclasses/Fighter/Duelist.html">Duelist</a>
+        <a href="Subclasses/Fighter/Gunslinger.html">Gunslinger</a>
+      </div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Monk <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="Subclasses/Monk/Gunk.html">Way of the Gung Ho</a>
+        <a href="Subclasses/Monk/GunFu.html">Way of the Gun Fu</a>
+      </div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Paladin <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="Subclasses/Paladin/Family.html">Oath of the Family</a>
+        <a href="Subclasses/Paladin/Radiant.html">Oath of the Radiant</a>
+      </div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Ranger <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="Subclasses/Ranger/Detective.html">Detective</a>
+        <a href="Subclasses/Ranger/Slayer.html">Slayer Conclave</a>
+      </div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Rogue <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="Subclasses/Rogue/Commando.html">Commando</a>
+        <a href="Subclasses/Rogue/Pugilist.html">Pugilist</a>
+      </div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Sorcerer <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="Subclasses/Sorcerer/Creationist.html">Creationist's Soul</a>
+        <a href="Subclasses/Sorcerer/GrimmSoul.html">Grimm Soul</a>
+      </div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Warlock <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="Subclasses/Warlock/Bar.html">The Bar</a>
+        <a href="Subclasses/Warlock/Dark.html">Dark One</a>
+        <a href="Subclasses/Warlock/Giants.html">The Giants</a>
+      </div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Wizard <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="Subclasses/Wizard/Breaching.html">School of Tactical Breaching</a>
+      </div>
+    </div>
+
+    <div class="hp-nav-group">
+      <div class="hp-nav-label">Extras</div>
+      <a href="Extras/Weapons.html">Weapons</a>
+      <a href="Extras/Armor.html">Armor</a>
+      <a href="Extras/Spells/Spells-Json.html">Spells</a>
+      <a href="Extras/FightingSyles.html">Fighting Styles</a>
+      <a href="Extras/Invocations.html">Eldritch Invocations</a>
+      <a href="Extras/Feats.html">Feats</a>
+      <a href="Extras/MagicItems.html">Magic Items</a>
+      <a href="Extras/Tools.html">Tools</a>
+      <a href="Extras/BeastMasterExpansion.html">Beast Master Expansion</a>
+      <a href="Extras/WildshapeExpansion.html">Wildshape Expansion</a>
+      <a href="Subclasses/Barbarian/WildMagicTable.html">Wild Magic Table</a>
+      <a href="Extras/Rules/CriticalInjuries.html">Critical Injuries</a>
+      <a href="Extras/Rules/Facedowns.html">Facedowns</a>
+      <a href="Extras/Rules/Vehicles.html">Vehicles</a>
+      <a href="Extras/Rules/VehiclesList.html">Vehicle Stat Blocks</a>
+      <a href="Extras/Spells/EldenCompendiumExtras.html">Elden Compendium</a>
+    </div>
+
+    <div class="hp-nav-group">
+      <div class="hp-nav-label">Images</div>
+      <a href="Images/Artwork.html">Maps &amp; Concept Art</a>
+      <a href="Images/HeroForge.html">Hero Forge Models</a>
+    </div>
+  </aside>
+
+  <main class="hp-main">
+    <div class="hp-hero">
+      <h1>Nick's Homebrew Wiki</h1>
+      <p>All of Nick's custom D&amp;D 5e content — races, subclasses, spells, lore, and house rules — in one place.</p>
+      <div class="hp-spoiler">⚠ Campaign spoilers ahead</div>
+      <div class="hp-recent">📋 <strong>Recently updated:</strong> Spells page revamp</div>
+    </div>
+
+    <div class="hp-sec-head">Browse</div>
+    <div class="hp-cat-grid">
+      <a class="hp-cat-card" href="Settings/Sapiria.html">
+        <div class="ct">🗺 Settings &amp; Lore</div>
+        <div class="cs">8 articles</div>
+      </a>
+      <a class="hp-cat-card" href="Races/Ardoni1.html">
+        <div class="ct">🧬 Races</div>
+        <div class="cs">5 custom races</div>
+      </a>
+      <a class="hp-cat-card" href="Subraces/Obsidian.html">
+        <div class="ct">🐉 Subraces</div>
+        <div class="cs">3 subraces</div>
+      </a>
+      <a class="hp-cat-card" href="Backgrounds/Airman.html">
+        <div class="ct">📜 Backgrounds</div>
+        <div class="cs">10 backgrounds</div>
+      </a>
+      <a class="hp-cat-card" href="Extras/Spells/Spells-Json.html">
+        <div class="ct">✨ Spells</div>
+        <div class="cs" id="spellNum"></div>
+      </a>
+      <a class="hp-cat-card" href="Extras/MagicItems.html">
+        <div class="ct">💎 Magic Items</div>
+        <div class="cs">Uncommon → Artifact</div>
+      </a>
+      <a class="hp-cat-card" href="Extras/Feats.html">
+        <div class="ct">⚔️ Character Options</div>
+        <div class="cs">Feats, styles, invocations</div>
+      </a>
+      <a class="hp-cat-card" href="Images/Artwork.html">
+        <div class="ct">🖼 Art &amp; Maps</div>
+        <div class="cs">Maps &amp; HeroForge</div>
+      </a>
+    </div>
+
+    <div class="hp-sec-head">Subclasses</div>
+    <div class="hp-sub-grid">
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Artificer <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="Subclasses/Artificer/Railgunner.html">Lightning Railgunner</a>
+          <a href="Subclasses/Artificer/Grease.html">Grease Monkey</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Barbarian <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="Subclasses/Barbarian/Doomslayer.html">Path of the Doomslayer</a>
+          <a href="Subclasses/Barbarian/Knuckle.html">Path of the Knuckle Duster</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Bard <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="Subclasses/Bard/Stories.html">College of Stories</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Blood Hunter <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="Subclasses/BloodHunter/GrimmHand.html">Order of the Grimm Hand</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Cleric <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="Subclasses/Cleric/BattleCleric.html">Battle Medic Domain</a>
+          <a href="Subclasses/Cleric/Blackfire.html">Blackfire Domain</a>
+          <a href="Subclasses/Cleric/Starfire.html">Starfire Domain</a>
+          <a href="Subclasses/Cleric/Time.html">Time Domain</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Druid <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="Subclasses/Druid/Deep.html">Circle of the Deep</a>
+          <a href="Subclasses/Druid/Rats.html">Circle of the Sewer Rats</a>
+          <a href="Subclasses/Druid/Storms.html">Circle of the Storms</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Fighter <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="Subclasses/Fighter/Duelist.html">Duelist</a>
+          <a href="Subclasses/Fighter/Gunslinger.html">Gunslinger</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Monk <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="Subclasses/Monk/Gunk.html">Way of the Gung Ho</a>
+          <a href="Subclasses/Monk/GunFu.html">Way of the Gun Fu</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Paladin <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="Subclasses/Paladin/Family.html">Oath of the Family</a>
+          <a href="Subclasses/Paladin/Radiant.html">Oath of the Radiant</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Ranger <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="Subclasses/Ranger/Detective.html">Detective</a>
+          <a href="Subclasses/Ranger/Slayer.html">Slayer Conclave</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Rogue <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="Subclasses/Rogue/Commando.html">Commando</a>
+          <a href="Subclasses/Rogue/Pugilist.html">Pugilist</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Sorcerer <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="Subclasses/Sorcerer/Creationist.html">Creationist's Soul</a>
+          <a href="Subclasses/Sorcerer/GrimmSoul.html">Grimm Soul</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Warlock <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="Subclasses/Warlock/Bar.html">The Bar</a>
+          <a href="Subclasses/Warlock/Dark.html">Dark One</a>
+          <a href="Subclasses/Warlock/Giants.html">The Giants</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Wizard <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="Subclasses/Wizard/Breaching.html">School of Tactical Breaching</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      &copy; 2026 Nicholas Beaty and Contributors &nbsp;&middot;&nbsp;
+      <a href="https://github.com/BaconEater314/NicksHomebrewWiki">GitHub</a>
+    </footer>
+  </main>
+
+</div>
+
+<script>
+function navAcc(btn) {
+  btn.classList.toggle('open');
+  btn.nextElementSibling.classList.toggle('open');
+}
+function subAcc(btn) {
+  btn.classList.toggle('open');
+  btn.nextElementSibling.classList.toggle('open');
+}
+</script>
+<script src="pnhp.js"></script>
+</body>
+</html>
