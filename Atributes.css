@@ -72,10 +72,24 @@ body {
   background: var(--bg);
   color: var(--ink);
   line-height: 1.55;
+  padding: 2rem 2.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
 }
+
+/* homepage overrides the default body padding/max-width below */
 
 p {
   margin-bottom: 1rem;
+}
+
+ul, ol {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+li {
+  margin-bottom: 0.25rem;
 }
 
 hr {
@@ -93,6 +107,7 @@ img {
 footer {
   font-size: 0.75rem;
   color: var(--muted);
+  margin-top: 2rem;
 }
 
 
@@ -101,11 +116,13 @@ footer {
 h1, h2, h3, h4, h5, h6 {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: var(--accent);
-  margin-top: 0;
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
 }
 
 h1 {
   font-size: 2.2rem;
+  margin-top: 0;
   margin-bottom: 0.5rem;
   border-bottom: 2px solid var(--line);
   padding-bottom: 0.5rem;
@@ -113,12 +130,10 @@ h1 {
 
 h2 {
   font-size: 1.35rem;
-  margin-bottom: 0.35rem;
 }
 
 h3 {
   font-size: 1.1rem;
-  margin-bottom: 0.25rem;
 }
 
 a {
@@ -133,8 +148,9 @@ a:hover {
 }
 
 
-/* ── PAGE LAYOUT ────────────────────────────────────────────*/
+/* ── PAGE LAYOUT HELPERS ────────────────────────────────────*/
 
+/* Optional wrappers pages can use for card-style layout */
 .page-shell {
   max-width: 1250px;
   margin: 0 auto;
@@ -156,17 +172,17 @@ a:hover {
 
 /* ── TABLES ─────────────────────────────────────────────────*/
 
-/* .content-table: used on content pages (no min-width scroll) */
+/* .content-table: used on content pages (no forced min-width) */
 .content-table {
   width: 100%;
   max-width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   border-collapse: collapse;
   background: var(--bg-paper);
   border: 1px solid var(--line);
 }
 
-/* Full-width scrollable table (spell page, etc.) */
+/* Full-width scrollable table (spell page etc.) */
 table {
   width: 100%;
   min-width: 1100px;
@@ -336,12 +352,15 @@ tbody tr:hover {
   }
 }
 
+/* Override the default body padding/max-width for the homepage */
 body.home-page {
   background-color: var(--hp-bg);
   color: var(--hp-text);
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   line-height: 1.6;
+  padding: 0;
+  max-width: none;
 }
 
 .hp-layout {
@@ -390,7 +409,7 @@ body.home-page {
 }
 
 .hp-nav-label {
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 500;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -644,6 +663,7 @@ body.home-page footer {
   color: var(--hp-muted);
   border-top: 1px solid var(--hp-border);
   padding-top: 18px;
+  margin-top: 0;
 }
 
 body.home-page footer a {
