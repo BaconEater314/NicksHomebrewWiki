@@ -73,11 +73,9 @@ body {
   color: var(--ink);
   line-height: 1.55;
   padding: 2rem 2.5rem;
-  max-width: 1100px;
-  margin: 0 auto;
 }
 
-/* homepage overrides the default body padding/max-width below */
+/* homepage overrides the default body padding below */
 
 p {
   margin-bottom: 1rem;
@@ -360,7 +358,6 @@ body.home-page {
   font-size: 15px;
   line-height: 1.6;
   padding: 0;
-  max-width: none;
 }
 
 .hp-layout {
