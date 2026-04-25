@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Magic items list using JSON data.">
+    <meta name="author" content="Cody Owens">
+    <title>Nick's Homebrew Wiki - Magic Items Page</title>
+
+    <link rel="stylesheet" href="../../Atributes.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="page-card">
+        <h1>Magic Items</h1>
+        <p class="intro">
+          Browse all magic items in the wiki. Use the filters below to narrow
+          the list, then click an item name to open its full entry.
+        </p>
+
+        <section class="filters">
+          <div>
+            <label for="searchInput">Search</label>
+            <input type="text" id="searchInput" placeholder="Search items, effects..." />
+          </div>
+
+          <div>
+            <label for="rarityFilter">Rarity</label>
+            <select id="rarityFilter">
+              <option value="">All Rarities</option>
+              <option value="Common">Common</option>
+              <option value="Uncommon">Uncommon</option>
+              <option value="Rare">Rare</option>
+              <option value="Very Rare">Very Rare</option>
+              <option value="Legendary">Legendary</option>
+              <option value="Artifact">Artifact</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="attunementFilter">Attunement</label>
+            <select id="attunementFilter">
+              <option value="">Any</option>
+              <option value="true">Requires Attunement</option>
+              <option value="false">No Attunement</option>
+            </select>
+          </div>
+
+          <div class="filter-actions">
+            <button id="clearFilters" type="button">Clear Filters</button>
+          </div>
+        </section>
+
+        <div class="results-bar">
+          <span id="resultsCount">Loading magic items...</span>
+        </div>
+
+        <div class="table-wrap">
+          <table id="itemsTable">
+            <thead>
+              <tr>
+                <th>Item Name</th>
+                <th>Rarity</th>
+                <th>Description</th>
+                <th>Special Effects</th>
+                <th>Attunement</th>
+              </tr>
+            </thead>
+            <tbody id="itemsTableBody"></tbody>
+          </table>
+        </div>
+
+        <div id="noResults" class="no-results" hidden>
+          No magic items matched the current filters.
+        </div>
+      </section>
+    </main>
+
+    <script src="MagicItems.js"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Dress With Pockets",
+        "rarity": "Uncommon",
+        "description": "This stylish dress has several hidden pockets sewn into the lining.",
+        "url": "Uncommon Items/DressWithPockets.html",
+        "specialEffects": {
+            "It has pockets!": "This dress provides a base AC of 12. It has two pockets on either side that are extra-dimensional spaces that can hold up to 50 lbs each. This dress can change its appearance once per long rest, but cannot be overtly fancy.",
+            "Curse: It has pockets": "If anyone says they like your dress, you are obligated to say some form of “Thanks, it has pockets,” and show them the pockets."
+        },
+        "attunement": false
+    },
+    {
+        "name": "Lifeward Amulet",
+        "rarity": "Uncommon",
+        "description": "null",
+        "url": "Uncommon Items/LifewardAmulet.html",
+        "specialEffects": {
+            "Lifeward": "This magical amulet protects those who stray close to death's door. When you are reduced to 0 hit points (but not killed outright) while wearing this amulet, you instead regain a number of hit points equal to your level. This amulet then shatters and is unusable."
+        },
+        "attunement": false
+    },
+    {
+        "name": "Pugilist Gloves",
+        "rarity": "Uncommon",
+        "description": "null",
+        "url": "Uncommon Items/PugilistGloves.html",
+        "specialEffects": {
+            "Pugilist": "While wearing these gloves, you gain a +1 to melee attack rolls with your fists and deal an extra 1d6 bludgeoning damage. This becomes a d8 at 11th level. These attacks are considered magical."
+        },
+        "attunement": true
+    },
+    {
+        "name": "Rockie Talkie",
+        "rarity": "Uncommon",
+        "description": "null",
+        "url": "Uncommon Items/RockieTalkie.html",
+        "specialEffects": {
+            "What's This, A Rock?": "Yes, this is a rock. It allows you to communicate with others over long distances.",
+            "Can I Have Your Sending Stone?": "You can link a Rockie Talkie to any other Rockie Talkie. You can communicate only with the rocks you have linked with."
+        },
+        "attunement": false
+    },
+    {
+        "name": "Vaulting Boots",
+        "rarity": "Uncommon",
+        "description": "null",
+        "url": "Uncommon Items/VaultingBoots.html",
+        "specialEffects": {
+            "Platform Vault": "These black boots allow the wearer to summon small, round orange platforms underneath one of their feet in the air as an extra step. Three steps are allowed in the air before the boots fail to give more, allowing the user to climb a total of 15 feet. Upon returning to the ground, the user may again use the boots to vault through the air. By using these platforms strategically, the user can negate up to thirty feet of fall damage.",
+            "Platform Push": "Additionally, one can use a bonus action to push another creature within 5ft away by kicking them and activating a platform to push them. The target must succeed on a Strength saving throw against your spell save DC or DC 8 + proficiency bonus + Strength Modifier or be pushed 10 feet away and knocked prone. Creatures larger than you have advantage on this saving throw."
+        },
+        "attunement": false
+    }
+]
