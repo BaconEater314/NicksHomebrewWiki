@@ -51,5 +51,159 @@
             "Platform Push": "Additionally, one can use a bonus action to push another creature within 5ft away by kicking them and activating a platform to push them. The target must succeed on a Strength saving throw against your spell save DC or DC 8 + proficiency bonus + Strength Modifier or be pushed 10 feet away and knocked prone. Creatures larger than you have advantage on this saving throw."
         },
         "attunement": false
+    },
+    {
+        "name": "Dead Sprinters",
+        "rarity": "Rare",
+        "description": "null",
+        "url": "Rare Items/DeadSprinters.html",
+        "specialEffects": {
+            "Dead Sprint": "Your move speed increases by 5 feet. On your turn, when you run out of movement, you can take 1d6 damage (which cannot be reduced in any way) to increase your move speed by 5 feet. You can do this a number of times equal to your level per turn. This also cannot reduce you below zero hit points."
+        },
+        "attunement": true
+    },
+    {
+        "name": "Oppressor Plate",
+        "rarity": "Rare",
+        "description": "Not to be confused with the Oppressor Plate armor from the Upside, this armor is a magical variant of that version.",
+        "url": "Rare Items/OppressorPlate.html",
+        "specialEffects": {
+            "Idomitable": "This set of plate armor gives a flat AC of 20. It requires an 18 Strength to wear.",
+            "Damage Reduction": "Every time you take damage that is not psychic damage while wearing this armor, reduce the damage taken by your Proficiency Bonus. If this reduces the damage to zero, you take no damage.",
+            "Unwieldy": "This armor imposes disadvantage on stealth checks made when wearing it. Due to its weight and unwieldiness, your speed is reduced by 5 feet, you cannot benefit from shields, and you have disadvantage on dexterity saving throws."
+        },
+        "attunement": false
+    },
+    {
+        "name": "Praetorian Mail",
+        "rarity": "Rare",
+        "description": "Not to be confused with the Praetorian Mail armor from the Upside, this armor is a magical variant of that version.",
+        "url": "Rare Items/PraetorianMail.html",
+        "specialEffects": {
+            "Tougher": "This set of breast plate provides 16 AC + dex (maximum of 2). You have disadvantage on stealth checks.",
+            "Acid Protection": "While wearing this armor, you have resistance to acid damage."
+        },
+        "attunement": false
+    },
+    {
+        "name": "Rageblade",
+        "rarity": "Rare",
+        "description": "This weapon can still score critical injuries when rolling a critical hit. Critical hits still count as automatic hits.",
+        "url": "Rare Items/Rageblade.html",
+        "specialEffects": {
+            "Magical Weapon": "This weapon has a +1 to all attack and damage rolls made with it.",
+            "Critical Conversion": "When you score a critical hit with this weapon, you do not deal extra damage. Instead, you can make an additional attack as part of the attack action. You can chain this a number of times equal to your proficiency bonus, however unlikely it is."
+        },
+        "attunement": true
+    },
+    {
+        "name": "Spellbinder",
+        "rarity": "Rare",
+        "description": "null",
+        "url": "Rare Items/Rageblade.html",
+        "specialEffects": {
+            "Magical Weapon": "Spellbinder has a +1 to all damage and attack rolls and deals an extra 1d6 force damage on a hit. It also increases your spell save DC and attack bonus by 1. This weapon can be used as an arcane focus and for somatic components. Additionally, you are considered proficient with this weapon if you can attune with it.",
+            "Spellbinding": "Whenever a creature is hit with a melee attack or a single-target spell that deals damage from this weapon, they must make a DC 16 Charisma save or have their move speed reduced by 10. If the result is 5 or less, the creature’s move speed is reduced to 0."
+        },
+        "attunement": true
+    },
+    {
+        "name": "Dramatic Cape",
+        "rarity": "Very Rare",
+        "description": "This Magical Item has no content on its accompanying page.",
+        "url": "Very Rare Items/DramaticCape.html",
+        "specialEffects": {
+            
+        },
+        "attunement": false
+    },
+    {
+        "name": "Beaureguard",
+        "rarity": "Legendary",
+        "description": "This weapon was named after Christopher’s late friend Beareguard.",
+        "url": "Legendary Items/Beaureguard.html",
+        "specialEffects": {
+            "Beau": "This weapon has a +3 to all attack and damage rolls. It does an additional 1d8 psychic damage on a hit. This weapon scores Critical Hits on 18-20.",
+            "Reguard": "This weapon grants its user a +2 to AC."
+        },
+        "attunement": true
+    },
+    {
+        "name": "Double Trouble",
+        "rarity": "Legendary",
+        "description": "Double Trouble regains all expended charges daily at dawn. Charges (____/10)",
+        "url": "Legendary Items/DoubleTrouble.html",
+        "specialEffects": {
+            "Lightning Power": "While attuned to this weapon, you have resistance to lightning damage and a +2 to spell attack rolls and spell save DC. Additionally, this staff can be used to cast Lightning Bolt (5th Level) three times per day, and double cast for three charges.",
+            "Double Trouble": "This staff has 10 charges. When casting a spell, you may use a number of charges equal to the spell’s level to cast that spell twice. Creatures make separate saves for both spells if they are in both, or you make separate attack rolls against the same or different targets, and you roll separate damage for each cast. If you cast two concentration spells, you are considered concentrating on one spell, making one save if you take damage, both ending when you end concentration."
+        },
+        "attunement": true
+    },
+    {
+        "name": "Shadowfall",
+        "rarity": "Legendary",
+        "description": "Shadowfall was custom-built by Maron Shadowbreaker. He got it upgraded at Scara El Sharahh.",
+        "url": "Legendary Items/Shadowfall.html",
+        "specialEffects": {
+            "Magical Weapon": "All attacks made with Shadowfall are magical. Shadowfall has a +3 to all attack and damage rolls made with it.",
+            "Multi-Functional": "Shadowfall is a custom-built spear with axe blades with the finesse property and three methods of attacking.",
+            "Returning": "Shadowfall returns to the user when thrown. However, a user could choose to pull themselves to Shadowfall instead, provided it is lodged in something."
+        },
+        "attunement": true
+    },
+    {
+        "name": "The Shattered Sword",
+        "rarity": "Legendary",
+        "description": "This weapon is completely made of obsidian pieces that float together, forming any weapon.",
+        "url": "Legendary Items/ShatteredSword.html",
+        "specialEffects": {
+            "Magical Weapon": "The Shattered Sword has a +3 to all attack and damage rolls made with it, does an additional die of damage on a hit, and scores critical hits on a 19 or 20.",
+            "One Weapon, Many Forms..": "While originally appearing as a longsword, as a bonus action, you may mentally rearrange the pieces to form any melee weapon you are proficient with, gaining the properties of that weapon.",
+            "Obsidian Assault": "Once per short rest, you may turn any missed attack into a hit instead, or you can turn an ordinary attack into a critical hit."
+        },
+        "attunement": true
+    },
+    {
+        "name": "Starweaver",
+        "rarity": "Legendary",
+        "description": "Starweaver is a red wooden quarterstaff with golden carvings down the side, resembling the sun and stars. In longbow form, it stretches and bends, creating an ethereal bowstring to nock arrows to. In quarterstaff form, attacks beyond 5 feet cause the quarterstaff to stretch ethereally to hit its targets.",
+        "url": "Legendary Items/Starweaver.html",
+        "specialEffects": {
+            "Magical Weapon": "All attacks made with Starweaver are magical. Starweaver has a +3 to all attack and damage rolls made with it. Additionally, Starweaver can become a quarterstaff with a reach of 10 ft. or a longbow with an ethereal string whenever the user wishes. If no ammunition is provided, Starweaver creates ethereal arrows that disappear upon impact.",
+            "Star Woven Shield": "Starweaver grants the user a +1 to AC and resistance to radiant damage.",
+            "The Power of a Star...": "As an action, you can choose to break Starweaver over your knee or another object, resulting in a massive explosion. All creatures in a 30 ft radius sphere centered on you must make a DC 21 Constitution saving throw, taking 12d12 radiant damage and are blinded or half as much on a success. If the explosion reduces a creature to 0 hit points, they are turned into a pile of fine ash.",
+            "Weaver of Stars": "Starweaver has 5 charges. When you make an attack roll against a creature, you may expend a charge to create star motes that float there. If a creature ends its turn in the space, it must make a DC 18 Dexterity saving throw or take 4d6 radiant damage, with half as much on a success. It regains all charges daily at dawn."
+        },
+        "attunement": true
+    },
+    {
+        "name": "Arkazar",
+        "rarity": "Artifact",
+        "description": "During our final hour of need, atop the hill, he held his ax to the sky, and thus lightning struck it from out of the clear blue, and he felled his enemies with a single mighty stroke. - Tale of Arkazar Waterstriker.",
+        "url": "Artifacts/Arkazar.html",
+        "specialEffects": {
+            "This Item has many effects. Click to know more.": "NULL"
+        },
+        "attunement": true
+    },
+    {
+        "name": "The Lightsaber",
+        "rarity": "Artifact",
+        "description": "The Lightsaber has the stats of a Sunblade. When held by a person, the blade’s color changes to match their alignment. Additionally, it makes lightsaber noises when activated, deactivated, moved, or used in any capacity while active.",
+        "url": "Artifacts/Lightsaber.html",
+        "specialEffects": {
+            "This Item has many effects. Click to know more.": "NULL"
+        },
+        "attunement": true
+    },
+    {
+        "name": "The Staff of Waterdeep",
+        "rarity": "Artifact",
+        "description": "The Staff of Waterdeep was an old creation of the Archmage of Waterdeep, Khelben \"Blackstaff\" Arunsun. This good wizard has produced powerful items in times past, but with the staff, he has surpassed himself.",
+        "url": "Artifacts/StaffWaterdeep.html",
+        "specialEffects": {
+            "This Item has many effects. Click to know more.": "NULL"
+        },
+        "attunement": true
     }
 ]
