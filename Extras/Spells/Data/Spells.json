@@ -489,7 +489,7 @@
         "ritual": false,
         "concentration": false,
         "classes": ["Cleric", "Druid", "Paladin"],
-        "url": "Individual Spells/Second Level/HowlofShibriri.html"
+        "url": "Individual Spells/Second Level/HowlOfShibriri.html"
     }    
     ,{
         "name": "Lightning Fortification",
@@ -549,7 +549,7 @@
         "ritual": false,
         "concentration": true,
         "classes": ["Sorcerer", "Warlock", "Wizard"],
-        "url": "Individual Spells/Second Level/NightMaiden'sMist.html"
+        "url": "Individual Spells/Second Level/NightMaidensMist.html"
     }    
     ,{
         "name": "Poison Mist",
@@ -600,7 +600,7 @@
         "url": "Individual Spells/Second Level/ShardSpiral.html"
     }    
     ,{
-        "name": "Stone of Gurranq",
+        "name": "Stone of Gurannq",
         "level": "2",
         "school": "Beastial Incantation",
         "castingTime": "1 Action",
@@ -609,7 +609,7 @@
         "ritual": false,
         "concentration": false,
         "classes": ["Cleric", "Druid", "Ranger"],
-        "url": "Individual Spells/Second Level/StoneOfGurranq.html"
+        "url": "Individual Spells/Second Level/StoneOfGurannq.html"
     }    
     ,{
         "name": "Swarm of Flies",
