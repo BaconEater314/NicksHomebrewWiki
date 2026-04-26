@@ -405,7 +405,7 @@
         "ritual": false,
         "concentration": false,
         "classes": ["Cleric", "Druid", "Paladin"],
-        "url": "Individual Spells/Second Level/DiscusofLight.html"
+        "url": "Individual Spells/Second Level/DiscusOfLight.html"
     }    
     ,{
         "name": "Divine Fortification",
