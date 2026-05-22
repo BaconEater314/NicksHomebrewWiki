@@ -279,6 +279,39 @@ tbody tr:hover {
 }
 
 
+/* ── BACK BUTTON ────────────────────────────────────────────*/
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 1.25rem;
+  padding: 5px 12px 5px 8px;
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--muted);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.12s, border-color 0.12s, background 0.12s;
+}
+
+.back-btn:hover {
+  color: var(--ink);
+  border-color: var(--accent);
+  background: var(--bg-sunken);
+  text-decoration: none;
+}
+
+.back-btn::before {
+  content: '←';
+  font-size: 1rem;
+  line-height: 1;
+}
+
+
 /* ── SPELL PAGE ─────────────────────────────────────────────*/
 
 .spell-page {
