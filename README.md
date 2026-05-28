@@ -58,7 +58,7 @@ Submit a pull request
 
 Possible future improvements include:
 
-Add more magical items (I have over 150 but I don't my players seeing most of them).
+Add more magical items (I have over 150, but I don't want my players seeing most of them).
 
 More homebrew subclasses, spells, races, and subraces (always innovating!)
 
@@ -84,7 +84,7 @@ https://github.com/BaconEater314
 
 We use AI to format stuff and make it look good (stuff we suck at). 
 
-No AI was used in the creation of **ANY** content. This is all stuff Contributors and I conjured up with our own brain cells. 
+No AI was used in the creation of **ANY** content. This is all stuff that Contributors and I conjured up with our own brain cells. 
 Using AI for creative stuff like this makes me want to throw up (seriously). Use your damn brain instead of AI, way better for you (and leaves brain cells to spare for other stuff too).
 
 ## Project Structure
@@ -121,4 +121,18 @@ Feel free to use it! Just, uh, try to at least credit it if people ask about it,
 
 ## Copyright
 
-Please don't take our stuff and present it as your own. I may borrow ideas from other sources (credit to RWBY for the Grimm and Squared Media for Songs of War btw), but what is here is made by us with inspiration from those things. So seriously, don't steal.
+Please don't take our stuff and present it as your own. I may borrow ideas from other sources (credit to RWBY for the Grimm and Squared Media for Songs of War, btw), but what is here is made by us with inspiration from those things. So seriously, don't steal.
+
+### Inspiration Sources
+
+RWBY (Grimm)
+Elden Ring (spellz)
+Squared Media (Songs of War, Ardoni, Ardonia, Magnorites, Felina)
+Divinity Original Sin 2 (literally one spell)
+DOOM Eternal (Doomslayer Barbarian)
+League of Legends (Chameleon race, Blackfire and Starfire Cleric Domains)
+Deep Rock Galactic (Glyphids)
+Kingdom Hearts
+Cyberpunk RED (Critical Injuries and Facedowns ported over to D&D 5e)
+Expedition 33 (Duelist Fighter)
+And many minor things (Boots of Vaulting, Double Trouble, etc.)
