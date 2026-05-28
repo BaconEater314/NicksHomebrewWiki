@@ -126,13 +126,23 @@ Please don't take our stuff and present it as your own. I may borrow ideas from 
 ### Inspiration Sources
 
 RWBY (Grimm)
+
 Elden Ring (spellz)
+
 Squared Media (Songs of War, Ardoni, Ardonia, Magnorites, Felina)
+
 Divinity Original Sin 2 (literally one spell)
+
 DOOM Eternal (Doomslayer Barbarian)
+
 League of Legends (Chameleon race, Blackfire and Starfire Cleric Domains)
+
 Deep Rock Galactic (Glyphids)
+
 Kingdom Hearts
+
 Cyberpunk RED (Critical Injuries and Facedowns ported over to D&D 5e)
+
 Expedition 33 (Duelist Fighter)
+
 And many minor things (Boots of Vaulting, Double Trouble, etc.)
