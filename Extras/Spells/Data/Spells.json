@@ -36,6 +36,18 @@
         "url": "Individual Spells/Cantrips/GlintstonePebble.html"
     },
     {
+        "name": "Gravitas",
+        "level": "Cantrip",
+        "school": "Gravity Sorcery Cantrip",
+        "castingTime": "1 Action",
+        "range": "Self (10ft Radius)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Cantrips/Gravitas.html"
+    },
+    {
         "name": "Honed Bolt",
         "level": "Cantrip",
         "school": "Dragon Cult Incantation Cantrip",
@@ -135,7 +147,7 @@
         "name": "Electrify Armament",
         "level": "1",
         "school": "Dragon Cult Incantation",
-        "castingTime": "1 Action",
+        "castingTime": "Bonus Action",
         "range": "Touch",
         "duration": "1 minute (concentration)",
         "ritual": false,
@@ -159,7 +171,7 @@
         "name": "Frozen Armament",
         "level": "1",
         "school": "Cold Sorcery",
-        "castingTime": "1 Action",
+        "castingTime": "Bonus Action",
         "range": "Touch",
         "duration": "1 minute (concentration)",
         "ritual": false,
@@ -231,7 +243,7 @@
         "name": "Order's Blade",
         "level": "1",
         "school": "Golden Order Incantation",
-        "castingTime": "1 Action",
+        "castingTime": "Bonus Action",
         "range": "Touch",
         "duration": "1 minute (concentration)",
         "ritual": false,
@@ -243,7 +255,7 @@
         "name": "Poison Armament",
         "level": "1",
         "school": "Servants of Rot Incantation",
-        "castingTime": "1 Action",
+        "castingTime": "Bonus Action",
         "range": "Touch",
         "duration": "1 minute (concentration)",
         "ritual": false,
@@ -255,7 +267,7 @@
         "name": "Scholar's Armament",
         "level": "1",
         "school": "Glintstone Sorcery",
-        "castingTime": "1 Action",
+        "castingTime": "Bonus Action",
         "range": "Touch",
         "duration": "1 minute (concentration)",
         "ritual": false,
@@ -339,14 +351,26 @@
         "name": "Black Flame Blade",
         "level": "2",
         "school": "Black Flame Incantation",
-        "castingTime": "1 Action",
+        "castingTime": "Bonus Action",
         "range": "Touch",
         "duration": "1 minute (concentration)",
         "ritual": false,
         "concentration": true,
         "classes": ["Cleric", "Druid", "Paladin", "Ranger"],
         "url": "Individual Spells/Second Level/BlackFlameBlade.html"
-    }    
+    }
+    ,{
+        "name": "Blood Blade",
+        "level": "2",
+        "school": "Blood Oath Incantation",
+        "castingTime": "1 Action",
+        "range": "Self (15ft Line)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Ranger", "Paladin", "Warlock"],
+        "url": "Individual Spells/Second Level/BloodBlade.html"
+    }     
     ,{
         "name": "Bloodboon",
         "level": "2",
@@ -363,7 +387,7 @@
         "name": "Blood Flame Blade",
         "level": "2",
         "school": "Blood Oath Incantation",
-        "castingTime": "1 Action",
+        "castingTime": "Bonus Action",
         "range": "Touch",
         "duration": "1 minute (concentration)",
         "ritual": false,
@@ -394,8 +418,20 @@
         "concentration": false,
         "classes": ["Sorcerer", "Warlock", "Wizard"],
         "url": "Individual Spells/Second Level/CarianGreatsword.html"
-    }    
-    ,{
+    },
+    {
+        "name": "Cragblade",
+        "level": "2",
+        "school": "Transmutation",
+        "castingTime": "1 Bonus Action",
+        "range": "Self",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Artificer", "Cleric", "Druid", "Ranger", "Paladin"],
+        "url": "Individual Spells/Second Level/Cragblade.html"
+    },    
+    {
         "name": "Discus of Light",
         "level": "2",
         "school": "Golden Order Incantation",
@@ -562,7 +598,19 @@
         "concentration": true,
         "classes": ["Cleric", "Druid", "Ranger"],
         "url": "Individual Spells/Second Level/PoisonMist.html"
-    }    
+    }
+    ,{
+        "name": "Prayerful Strike",
+        "level": "2",
+        "school": "Golden Order Incantation",
+        "castingTime": "1 Action",
+        "range": "Self",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Cleric", "Druid", "Paladin"],
+        "url": "Individual Spells/Second Level/PrayerfulStrike.html"
+    }       
     ,{
         "name": "Rock Blaster",
         "level": "2",
@@ -658,7 +706,19 @@
         "concentration": false,
         "classes": ["Artificer", "Cleric", "Druid", "Sorcerer", "Wizard"],
         "url": "Individual Spells/Second Level/VykesDragonbolt.html"
-    }    
+    }
+    ,{
+        "name": "Waves of Darkness",
+        "level": "2",
+        "school": "Gravity Sorcery",
+        "castingTime": "1 Action",
+        "range": "Self (10ft Radius)",
+        "duration": "3 Turns",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Second Level/WavesOfDarkness.html"
+    }     
     ,{
         "name": "Ancient Dragon's Lightning Strike",
         "level": "3",
@@ -1042,7 +1102,19 @@
         "concentration": true,
         "classes": ["Artificer", "Wizard"],
         "url": "Individual Spells/Fourth Level/TerraMagica.html"
-    }    
+    }
+    ,{
+        "name": "Black Flame Tornado",
+        "level": "5",
+        "school": "Black Flame Incantation",
+        "castingTime": "Action",
+        "range": "Self (20ft Radius)",
+        "duration": "1 minute (concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Artificer", "Cleric", "Druid", "Paladin", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Fifth Level/BlackFlameTornado.html"
+    }     
     ,{
         "name": "Comet",
         "level": "5",
