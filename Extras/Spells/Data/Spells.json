@@ -1078,7 +1078,19 @@
         "concentration": false,
         "classes": ["Cleric", "Druid", "Paladin"],
         "url": "Individual Spells/Fourth Level/InescapableFrenzy.html"
-    }    
+    }
+    ,{
+        "name": "Laser Ray",
+        "level": "4",
+        "school": "Evocation",
+        "castingTime": "1 Action",
+        "range": "Self (120ft Line)",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Fourth Level/LaserRay.html"
+    }     
     ,{
         "name": "Litany of Proper Death",
         "level": "4",
@@ -1174,7 +1186,19 @@
         "concentration": false,
         "classes": ["Druid", "Sorcerer", "Warlock", "Wizard"],
         "url": "Individual Spells/Sixth Level/BladesOfStone.html"
-    }    
+    }
+    ,{
+        "name": "Epidemic of Fire",
+        "level": "6",
+        "school": "Evocation",
+        "castingTime": "1 Action",
+        "range": "120ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Druid", "Sorcerer", "Wizard"],
+        "url": "Individual Spells/Sixth Level/EpidemicOfFire.html"
+    }       
     ,{
         "name": "Founding Rain of Stars",
         "level": "6",
@@ -1294,5 +1318,17 @@
         "concentration": false,
         "classes": ["Sorcerer", "Warlock", "Wizard"],
         "url": "Individual Spells/Eighth Level/RellanasTwinMoons.html"
+    }
+    ,{
+        "name": "Ethereal Storm",
+        "level": "9",
+        "school": "Conjuration",
+        "castingTime": "1 Action",
+        "range": "600ft",
+        "duration": "1 Minute (Concentration)",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Bard", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/Ninth Level/EtherealStorm.html"
     }
 ]

@@ -65,7 +65,7 @@
     {
         "name": "Oppressor Plate",
         "rarity": "Rare",
-        "description": "Not to be confused with the Oppressor Plate armor from the Upside, this armor is a magical variant of that version.",
+        "description": "Magical variant of the Oppressor Plate made from Glyphid Oppressor armor.",
         "url": "Rare Items/OppressorPlate.html",
         "specialEffects": {
             "Idomitable": "This set of plate armor gives a flat AC of 20. It requires an 18 Strength to wear.",
@@ -77,7 +77,7 @@
     {
         "name": "Praetorian Mail",
         "rarity": "Rare",
-        "description": "Not to be confused with the Praetorian Mail armor from the Upside, this armor is a magical variant of that version.",
+        "description": "Magical variant of the Praetorian Mail made from Glyphid Praetorian armor.",
         "url": "Rare Items/PraetorianMail.html",
         "specialEffects": {
             "Tougher": "This set of breast plate provides 16 AC + dex (maximum of 2). You have disadvantage on stealth checks.",
@@ -88,7 +88,7 @@
     {
         "name": "Rageblade",
         "rarity": "Rare",
-        "description": "This weapon can still score critical injuries when rolling a critical hit. Critical hits still count as automatic hits.",
+        "description": "The Rageblade, a weapon that allows you to make more attacks when scoring critical hits.",
         "url": "Rare Items/Rageblade.html",
         "specialEffects": {
             "Magical Weapon": "This weapon has a +1 to all attack and damage rolls made with it.",
@@ -99,8 +99,8 @@
     {
         "name": "Spellbinder",
         "rarity": "Rare",
-        "description": "null",
-        "url": "Rare Items/Rageblade.html",
+        "description": "A rapier for spellcasters that can lock down opponents.",
+        "url": "Rare Items/Spellbinder.html",
         "specialEffects": {
             "Magical Weapon": "Spellbinder has a +1 to all damage and attack rolls and deals an extra 1d6 force damage on a hit. It also increases your spell save DC and attack bonus by 1. This weapon can be used as an arcane focus and for somatic components. Additionally, you are considered proficient with this weapon if you can attune with it.",
             "Spellbinding": "Whenever a creature is hit with a melee attack or a single-target spell that deals damage from this weapon, they must make a DC 16 Charisma save or have their move speed reduced by 10. If the result is 5 or less, the creature’s move speed is reduced to 0."
@@ -110,8 +110,19 @@
     {
         "name": "Dramatic Cape",
         "rarity": "Very Rare",
-        "description": "This Magical Item has no content on its accompanying page.",
+        "description": "The Dramatic Cape of Billowing is a long cape that billows dramatically at the wearer’s command. It increases the user's AC and can heal them by billowing.",
         "url": "Very Rare Items/DramaticCape.html",
+        "specialEffects": {
+            "Soulthorn": "Instantly kills creatures when reducing them to 0 hit points. Grows stronger when doing so.",
+            "Curse: Hunger for Death": "This blade forces the user to kill. Whenever a creature is reduced to 25% health within 60ft, make a DC 17 Wisdom Save or be forced to attack them."
+        },
+        "attunement": false
+    },
+    {
+        "name": "Soulthorn",
+        "rarity": "Very Rare",
+        "description": "Soulthorn, a cursed greatsword that forces the user to kill.",
+        "url": "Very Rare Items/Soulthorn.html",
         "specialEffects": {
             
         },
