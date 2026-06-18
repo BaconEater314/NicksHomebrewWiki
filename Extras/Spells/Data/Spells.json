@@ -1260,6 +1260,18 @@
         "url": "Individual Spells/Sixth Level/TripleRingsOfLight.html"
     }    
     ,{
+        "name": "Avasculate",
+        "level": "7",
+        "school": "Necromancy",
+        "castingTime": "1 Action",
+        "range": "30ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Sorcerer", "Wizard"],
+        "url": "Individual Spells/Seventh Level/Avasculate.html"
+    }  
+    ,{
         "name": "Ranni's Dark Moon/Rennalla's Full Moon",
         "level": "7",
         "school": "Moon Sorcery",
