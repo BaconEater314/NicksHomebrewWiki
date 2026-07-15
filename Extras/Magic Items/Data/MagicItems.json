@@ -113,10 +113,10 @@
         "description": "The Dramatic Cape of Billowing is a long cape that billows dramatically at the wearer’s command. It increases the user's AC and can heal them by billowing.",
         "url": "Very Rare Items/DramaticCape.html",
         "specialEffects": {
-            "Soulthorn": "Instantly kills creatures when reducing them to 0 hit points. Grows stronger when doing so.",
-            "Curse: Hunger for Death": "This blade forces the user to kill. Whenever a creature is reduced to 25% health within 60ft, make a DC 17 Wisdom Save or be forced to attack them."
+            "Dramatic Protection": "While wearing this cape, you gain +1 to your AC.",
+            "Flair for the Dramatic": "As a bonus action, you can billow your cape. While in combat, when you billow your cape, you regain 1 hp."
         },
-        "attunement": false
+        "attunement": true
     },
     {
         "name": "Soulthorn",
@@ -124,9 +124,10 @@
         "description": "Soulthorn, a cursed greatsword that forces the user to kill.",
         "url": "Very Rare Items/Soulthorn.html",
         "specialEffects": {
-            
+            "Soulthorn": "Instantly kills creatures when reducing them to 0 hit points. Grows stronger when doing so.",
+            "Curse: Hunger for Death": "This blade forces the user to kill. Whenever a creature is reduced to 25% health within 60ft, make a DC 17 Wisdom Save or be forced to attack them."
         },
-        "attunement": false
+        "attunement": true
     },
     {
         "name": "Beaureguard",
