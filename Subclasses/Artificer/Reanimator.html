@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="author" content="Wizards of the Coast">
+        <title>Reanimator</title>
+
+        <link rel = "stylesheet" href = "../../Atributes.css" />
+    </head>
+
+    <body>
+        <h1><b>Artificer: Reanimator</b></h1>
+
+        <!--Class flavor text-->
+        <p><i>Reanimators defy the laws of nature in pursuit of gruesome experiments. These grim Artificers stitch together servants from disparate corpses, use foul magic to strengthen the living, and transform the art of necromancy into a terrifying science.</i></p>
+
+        <!--Campaign setting this subclass is designed for-->
+        <p><b>This subclass is from the 5.5e (2024) ruleset. It is ported over to this website for convenience to be usable in 5e.</b></p>
+
+        <!--Spellcasting table with extra spells for half/full casters-->
+        <h2>Reanimator Magic</h2>
+        <p>Starting at 1st level, you learn additional spells when you reach certain levels in this class, as shown in the Reanimator Spells table. The spells count as Artificer spells for you, but don’t count against the number of Artificer spells you know. These spells are always prepared.</p>
+        <table class = "content-table">
+            <tr>
+                <th><h3>Reanimator Spells</h3></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th><b>Artificer Level</b></th>
+                <th><b>Spells</b></th>
+            </tr>
+            <tr>
+                <td>3rd</td>
+                <td>False Life, Spare the Dying, Witch Bolt</td>
+            </tr>
+            <tr>
+                <td>5th</td>
+                <td>Blindness/Deafness, Enhance Ability</td>
+            </tr>
+            <tr>
+                <td>9th</td>
+                <td>Animate Dead, Lightning Bolt</td>
+            </tr>
+            <tr>
+                <td>13th</td>
+                <td>Blight, Deathward</td>
+            </tr>
+            <tr>
+                <td>17th</td>
+                <td>Antilife Shell, Raise Dead</td>
+            </tr>
+        </table>
+
+        <!--Subclass features. Add and remove number of features listed here as needed-->
+        <h2><b>Reanimator’s Skill Set</b></h2>
+        <p>When you choose this subclass, you gain the following benefits:</p>
+        <p><b>Jolt To Life.</b> When you cast Spare the Dying, you can modify the spell so that it sends a jolt of electricity through the target, reviving it. The target regains a number of Hit Points equal to your Artificer level, and each creature of your choice in a 10-foot Emanation originating from the target makes a Dexterity saving throw against your spell save DC, taking 2d4 Lightning damage on a failed save or half as much damage on a successful one.</p>
+        <p>You can modify the spell this way a number of times equal to your Intelligence modifier, and you regain all expended uses when you finish a Long Rest. The Lightning damage of this feature increases by 1d4 when you reach Artificer levels 11 (3d4) and 17 (4d4).</p>
+        <p><b>Reanimator’s Tools.</b> You gain proficiency with Alchemist’s Supplies. If you already have this proficiency, you gain proficiency with one other type of Artisan’s Tools of your choice.</p>
+
+        <h2><b>Reanimated Companion</b></h2>
+        <p>Additionally, when you choose this subclass, Tinker’s Tools or another type of Artisan’s Tools with which you have proficiency, you can take an Action to create a Reanimated Companion (see the stat block below) through the power of necromancy and science. The companion manifests in an unoccupied space within 5 feet of you. You determine the companion’s appearance; your choices don’t affect the companion’s game statistics.</p>
+        <p>The companion is Friendly to you and your allies and obeys you. It lasts until you finish a Long Rest or until you take a Magic action to dismiss it early, at which point it harmlessly collapses into a pile of viscera. It immediately drops to 0 Hit Points and dies (triggering its Death Burst trait) if you die.</p>
+        <p>Once you create a companion, you can’t do so again until you finish a Long Rest or expend a spell slot to create one. You can have only one companion at a time and can’t create one while your companion is present.</p>
+        <p><b>The Companion in Combat.</b> In combat, the companion acts during your turn. It can move and take its Reaction on its own, but the only action it takes is the Dodge action unless you take a Bonus Action to command it to take an action. If you have the Incapacitated condition, the companion acts on its own and isn’t limited to the Dodge action.</p>
+
+        <h2><b>Strange Modifications</b></h2>
+        <p>Whenever you create a Reanimated Companion, it gains one of the following options of your choice; choose when you create the companion.</p>
+
+        <p><b>Arcane Conduit.</b> You can cast spells as though you were in the companion’s space, but you must use your own senses. Once per turn, when you cast an Artificer spell from the Evocation or Necromancy school and deal damage while your companion is within 120 feet of you, you can add your Intelligence modifier to one damage roll of that spell.</p>
+        <p><b>Ferocity.</b> The damage die of the companion’s Dreadful Swipe increases to 1d6.</p>
+
+        <h2><b>Improved Reanimation</b></h2>
+        <p>Starting at 9th level, the damage of your Reanimated Companion’s Death Burst increases to 4d4. Necrotic damage dealt by your companion ignores Resistance.</p>
+
+        <h2><b>Macabre Modifications</b></h2>
+        <p>Additionally, at 9th level you experiment and alter your companion further. Whenever you create a Reanimated Companion, the companion now gains two options for Strange Modifications, instead of one. Additionally, when picking options for Strange Modifications, you can also choose from the following options.</p>
+        <p><b>Bloated.</b> The companion becomes Large. Whenever it hits a Large or smaller creature with its Dreadful Swipe action, that creature is pushed up to 10 feet away from the companion. Additionally, you can add your Intelligence modifier to the damage dealt by the companion’s Death Burst.</p>
+        <p><b>Gaunt.</b> The companion’s Speed increases to 45 feet, and it gains a Climb Speed equal to its Speed. It can climb difficult surfaces, including along ceilings, without needing to make an ability check. In addition, whenever a creature of your choice starts its turn within a 10-foot Emanation originating from your companion, the creature must succeed on a Wisdom saving throw against your spell save DC or have the Frightened condition until the start of its next turn.</p>
+        <p><b>Moist.</b> The companion gains a Swim Speed equal to its Speed, and it can move through a space as narrow as 1 inch without expending extra movement to do so. In addition, whenever the companion is hit by an attack roll from a creature within 10 feet of itself, the attacker takes Acid damage equal to your Intelligence modifier.</p>
+
+
+        <h2><b>Refined Reanimation</b></h2>
+        <p>Starting at level 15, you have mastered the science of revivification, granting you the following benefits.</p>
+        <p><b>Facilitated Revival.</b> You can cast Raise Dead once without expending a spell slot and without Material components, provided you use Tinker’s Tools or another type of Artisan’s Tools with which you have proficiency as the Spellcasting Focus. Once you use this feature, you can’t use it again until you finish a Long Rest.</p>
+        <p><b>Life Transfer.</b> You can siphon the animating magic of your Reanimated Companion to bolster yourself. When you or your companion takes damage, you can take a Reaction to gain a number of Hit Points equal to your companion’s current Hit Points. The companion then immediately drops to 0 Hit Points and dies (triggering its Death Burst trait).</p>
+        <p><b>Superior Modifications.</b> Whenever you create a Reanimated Companion, the companion now gains three options for Strange Modifications.</p>
+
+        <h1>Reanimated Companion</h1>
+        <p><i>Medium Undead, Neutral</i></p>
+        <div>
+            <p><b>Armor Class</b> 10 + your Intelligence modifier</p>
+            <p><b>Hit Points</b> 5 + 5 times your Artificer level (Your Reanimated Companion has a number of hit dice [d8s] equal to your Artificer level)</p>
+            <p><b>Speed</b> 30ft</p>
+        </div>
+        <div>
+            <p><b>STR</b> 11(+0) <b>DEX</b> 10(+0) <b>CON</b> 16(+3) <b>INT</b> 4(-3) <b>WIS</b> 10(+0) <b>CHA</b> 6(-2)</p>
+            <p><b>Damage Resistances</b> Necrotic, Poison</p>
+            <p><b>Damage Immunities</b> Lightning</p>
+            <p><b>Condition Immunities</b> Charmed, Exhaustion, Poisoned</p>
+            <p><b>Senses</b> Passive Perception 10, Blindsight 60 ft.</p>
+            <p><b>Languages</b> Understands the languages you know but cannot speak</p>
+            <p><b>Proficiency Bonus</b> equals your proficiency bonus</p>
+        </div>
+        <hr color="black">
+        <div>
+            <p><b>Death Burst.</b> The companion explodes when it dies. All creatures within 10 feet of the companion must make a Dexterity Saving Throw against your Spell Save DC, taking 2d4 Necrotic damage or a fail or half as much on a success.</p>
+            <p><b>Lightning Absorbtion.</b> Whenever the companion is subjected to Lightning damage, it regains a number of Hit Points equal to the Lightning damage dealt.</p>
+        </div>
+        <h3>Actions</h3>
+        <hr color="black">
+        <div>
+            <p><b>Dreadful Swipe.</b> Melee Attack Roll: Your spell attack modifier to hit, reach 5ft., one target. Hit: 1d4 + your Intelligence modifier Necrotic damage. Target hit cannot take reactions until the start of their next turn.</p>
+        </div>
+    </body>
+</html>
