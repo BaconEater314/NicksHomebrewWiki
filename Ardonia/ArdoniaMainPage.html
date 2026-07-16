@@ -1,103 +1,230 @@
+
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="This is the main page for all Ardonia content.">
-        <meta name="author" content="Nicholas Beaty">
-        <title>NHW - Ardonia</title>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NHW - Ardonia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../Atributes.css">
+</head>
+<body class="home-page">
 
-        <link rel = "stylesheet" href = "../Atributes.css" />
-    </head>
-    
-    <body>
-        <!-- General description of the website -->
-        <h1> <b> Ardonia </b> </h1>
-        <p> Ardonia, a vast land of little magic and great mystery. </p>
-        <!-- Lore document links-->
-        <h2> Lore </h2>
-        <div>
-            <ul>
+<button class="hp-mob-toggle" onclick="document.querySelector('.hp-sidebar').classList.toggle('open')">☰</button>
 
-            </ul>
-        </div>
+<div class="hp-layout">
 
-        <!-- Race document links -->
-        <h2> Races </h2>
-        <div>
-            <ul>
-                <p> <a href="Races/Ardoni.html" > Ardoni </a> </p>
-                <p> <a href="Races/Felina.html" > Felina </a> </p>
-                <p> <a href="Races/Human.html" > Human </a> </p>
-                <p> <a href="Races/Magnorite.html" > Magnorite </a></p>
-            </ul>
-        
-        <!-- Background document links-->
-        <h2> Backgrounds </h2>
-        <div>
-            <ul>
-                
-            </ul>
-        </div>    
+  <aside class="hp-sidebar">
+    <div class="hp-site-title">NHW - Ardonia<span>D&amp;D 5e</span></div>
 
-        <!-- All class subclasses -->
-        <h2> Barbarian </h2>
-        <div>
-            <ul>
-                <p> <a href="../Subclasses/Barbarian/Doomslayer.html" > Path of the Doom Slayer </a> </p>
-                <p> <a href="../Subclasses/Barbarian/Knuckle.html" > Path of the Knuckle Duster </a> </p>
-            </ul>    
-        </div>
-        <h2> Fighter </h2>
-        <div>
-            <ul>
-                <p> <a href="../Subclasses/Fighter/Duelist.html" > Duelist </a> </p>
-            </ul>    
-        </div>
-        <h2> Rogue </h2>
-        <div>
-            <ul>
-                <p> <a href="../Subclasses/Rogue/Pugilist.html" > Pugilist </a> </p>
-            </ul>
-        </div>
+    <div class="hp-nav-group">
+      <div class="hp-nav-label">Races</div>
+        <a href="Races/Ardoni.html" >Ardoni</a>
+        <a href="Races/Felina.html" >Felina</a>
+        <a href="Races/Human.html" >Human</a>
+        <a href="Races/Magnorite.html" >Magnorite</a>
+    </div>
 
-        <!-- Extras document links -->
-        <h2> Extras </h2>
-        <div>
-            <h3>Character Customization</h3>
-            <ul>
-                <p> <a href="../Extras/Weapons.html" > Weapons Page </a> </p>
-                <p> <a href="../Extras/Armor.html" > Armor Page </a> </p>
-                <p> <a href="../Extras/Spells/Spells.html" > Spells Page </a> </p>
-                <p> <a href="../Extras/FightingSyles.html" > Additional Fighting Styles </a> </p>
-                <p> <a href="../Extras/Invocations.html" > Eldritch Invocations </a> </p>
-                <p> <a href="../Extras/Feats.html" > Feats Page </a> </p>
-                <p> <a href="../Extras/MagicItems.html"> Magic Items </a></p>
-                <p> Benefits and Detriments </p>
-            </ul>
-            <h3>Optional Class Features</h3>
-            <ul>
-                <p> <a href="../Extras/BeastMasterExpansion.html" > Ranger Beast Master Expasion (Glyphid Buddy) </a> </p>
-                <p> <a href="../Extras/WildshapeExpansion.html" > Druid Wildshape Expasion (Glyphids) </a></p>
-                <p> Monk: Deflect Bolts</p>
-                <p> <a href="../Subclasses/Barbarian/WildMagicTable.html"> Custom Wild Magic Barbarian Table </a></p>
-            </ul>
-            <h3>Rules</h3>
-            <ul>
-                <p> <a href="../Extras/CriticalInjuries.html" > Critical Injuries </a></p>
-                <p> <a href="../Extras/Facedowns.html"> Facedowns </a></p>
-                <p> Vehicles Page </p>
-                <p> <a href="../Extras/Spells/EldenCompendiumExtras.html"> Elden Compendium Conditions and Damages </a></p>
-            </ul>
-        </div>
-        <h2> Images </h2>
-        <div>
-            <!--<p> <a href="Images/Artwork.html" > Maps and Concept Art </a> </p>
-            <p> <a href="Images/HeroForge.html" >Hero Forge Models </a> </p> -->
-        </div>
-    </body>
+        <div class="hp-nav-group">
+      <div class="hp-nav-label">Subraces</div>
+    </div>
 
-    <!-- Copyright footer -->
-     <footer>
-        <p><b>A NON-OFFICIAL 5e changes and additions Copyright @2025 by Nicholas Beaty and Contributors.</b></p>
+        <div class="hp-nav-group">
+      <div class="hp-nav-label">Backgrounds</div>
+      <a href="../Backgrounds/Bartender.html">Bartender</a>
+      <a href="../Backgrounds/Bouncer.html">Bouncer</a>
+      <a href="../Backgrounds/Doctor.html">Doctor</a>
+    </div>
+
+    <div class="hp-nav-group">
+      <div class="hp-nav-label">Subclasses</div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Artificer <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="../Subclasses/Artificer/Cartographer.html">Cartographer</a>
+      </div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Barbarian <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="../Subclasses/Barbarian/Doomslayer.html">Path of the Doomslayer</a>
+        <a href="../Subclasses/Barbarian/Knuckle.html">Path of the Knuckle Duster</a>
+      </div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Bard <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="../Subclasses/Bard/Stories.html">College of Stories</a>
+      </div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Fighter <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="../Subclasses/Fighter/Duelist.html">Duelist</a>
+      </div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Ranger <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="../Subclasses/Ranger/Slayer.html">Slayer Conclave</a>
+      </div>
+      <button class="hp-nav-acc-btn" onclick="navAcc(this)">Rogue <span class="arr">▶</span></button>
+      <div class="hp-nav-acc-panel">
+        <a href="../Subclasses/Rogue/Pugilist.html">Pugilist</a>
+      </div>
+    </div>
+
+    <div class="hp-nav-group">
+      <div class="hp-nav-label">Extras</div>
+      <a href="../Extras/Weapons.html">Weapons</a>
+      <a href="../Extras/Armor.html">Armor</a>
+      <a href="../Extras/FightingSyles.html">Fighting Styles and Maneuvers</a>
+      <a href="../Extras/Feats.html">Feats</a>
+      <a href="../Extras/Tools.html">Tools</a>
+      <a href="../Extras/Rules/CriticalInjuries.html">Critical Injuries</a>
+      <a href="../Extras/Rules/Facedowns.html">Facedowns</a>
+    </div>
+
+    <div class="hp-nav-group">
+      <div class="hp-nav-label">Images</div>
+      
+    </div>
+  </aside>
+
+  <main class="hp-main">
+    <div class="hp-hero">
+      <h1>NHW - Ardonia</h1>
+      <p>Ardonia, the mystical land full of danger. Ardonia has little in the way of magic except for the elusive Songs of War wielded by the Ardoni</p>
+    </div>
+
+    <div class="hp-sec-head">Quick Links</div>
+    <div class="hp-cat-grid">
+      <a class="hp-cat-card" href="Extras/Weapons.html">
+        <div class="ct">⚔️ Weapons</div>
+        <div class="cs">Simple Melee Weapons -> Lightning Armaments</div>
+      </a>
+      <a class="hp-cat-card" href="Extras/Rules/CriticalInjuries.html">
+        <div class="ct">🩸 Critical Injuries</div>
+        <div class="cs">Physical &amp; Magical Injuries</div>
+      </a>
+    </div>
+
+    <div class="hp-sec-head">Main Pages for Other Settings</div>
+    <div class="hp-cat-grid">
+      <a class="hp-cat-card" href="../The Upside/UpsideMainPage.html">
+        <div class="ct">🎩 The Upside</div>
+        <div class="cs">A 1920s era setting for Dungeons and Dragons 5th Edition.</div>
+      </a>
+      <a class="hp-cat-card" href="../Anora's Refuge/RefugeMainPage.html">
+        <div class="ct">🏰 Anora's Refuge</div>
+        <div class="cs">Anora's Refuge, a setting where, after the world was ended, it was born anew under the last god, Anora.</div>
+      </a>
+      <a class="hp-cat-card" href="../homePage.html">
+        <div class="ct">Main Page</div>
+        <div class="cs">Main Page with all the content</div>
+      </a>
+    </div>
+
+    <div class="hp-sec-head">Subclasses</div>
+    <div class="hp-sub-grid">
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Artificer <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="Subclasses/Artificer/Cartographer.html">Cartographer</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Barbarian <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="Subclasses/Barbarian/Doomslayer.html">Path of the Doomslayer</a>
+          <a href="Subclasses/Barbarian/Knuckle.html">Path of the Knuckle Duster</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Bard <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="Subclasses/Bard/Stories.html">College of Stories</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Fighter <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="Subclasses/Fighter/Duelist.html">Duelist</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Ranger <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="../Subclasses/Ranger/Slayer.html">Slayer Conclave</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Rogue <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="../Subclasses/Rogue/Pugilist.html">Pugilist</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hp-sec-head">Extras</div>
+    <div class="hp-sub-grid">
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Races <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+            <a href="Races/Ardoni.html" >Ardoni</a>
+            <a href="Races/Felina.html" >Felina</a>
+            <a href="Races/Human.html" >Human</a>
+            <a href="Races/Magnorite.html" >Magnorite</a>
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Subraces <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          
+        </div>
+      </div>
+      <div class="hp-sub-acc">
+        <button class="hp-sub-acc-btn" onclick="subAcc(this)">Backgrounds <span class="arr">▶</span></button>
+        <div class="hp-sub-acc-panel">
+          <a href="../Backgrounds/Doctor.html">Doctor</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hp-sec-head">Other Resources</div>
+    <div class="hp-cat-grid">
+      <a class="hp-cat-card" href="../Extras/Feats.html">
+        <div class="ct"> 🎯 Feats</div>
+        <div class="cs">Extra Feats for your choosing</div>
+      </a>
+      <a class="hp-cat-card" href="../Extras/FightingStyles.html">
+        <div class="ct"> ⚔️ Fighting Styles</div>
+        <div class="cs">Fight Fighting Styles and Martial Manuevers</div>
+      </a>
+      <a class="hp-cat-card" href="../Extras/Armor.html">
+        <div class="ct"> 🛡️ Armor</div>
+        <div class="cs">Extra Armors and shields, mostly designed for the Upside setting.</div>
+      </a>
+      <a class="hp-cat-card" href="../Extras/Tools.html">
+        <div class="ct">🛠️ Tools</div>
+        <div class="cs">Tools</div>
+      </a>
+      <a class="hp-cat-card" href="../Extras/Rules/Facedowns.html">
+        <div class="ct"> 🤜 Facedowns</div>
+        <div class="cs">Rules for Facedowns</div>
+      </a>
+    </div>
+
+    <footer>
+      &copy; 2026 Nicholas Beaty and Contributors &nbsp;&middot;&nbsp;
+      <a href="https://github.com/BaconEater314/NicksHomebrewWiki">GitHub</a>
     </footer>
+  </main>
+
+</div>
+
+<script>
+function navAcc(btn) {
+  btn.classList.toggle('open');
+  btn.nextElementSibling.classList.toggle('open');
+}
+function subAcc(btn) {
+  btn.classList.toggle('open');
+  btn.nextElementSibling.classList.toggle('open');
+}
+</script>
+<script src="../pnhp.js"></script>
+</body>
 </html>
