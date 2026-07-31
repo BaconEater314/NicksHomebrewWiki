@@ -64,3 +64,5 @@ function RollCharacterStats() {
 const button = document.getElementById("RollStats");
 const text = document.getElementById("result");
 button.addEventListener("click", RollCharacterStats);
+
+// Note for later: There are 58 races (that Nick would allow)
