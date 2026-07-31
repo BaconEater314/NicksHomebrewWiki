@@ -406,6 +406,18 @@
         "concentration": false,
         "classes": ["Cleric", "Druid", "Sorcerer", "Warlock", "Wizard"],
         "url": "Individual Spells/Second Level/BloodFlameTalons.html"
+    }
+    ,{
+        "name": "Blood Mending",
+        "level": "2",
+        "school": "Necromancy",
+        "castingTime": "1 Action",
+        "range": "60ft",
+        "duration": "Instantaneous",
+        "ritual": false,
+        "concentration": false,
+        "classes": ["Cleric", "Druid", "Paladin"],
+        "url": "Individual Spells/Second Level/BloodMending.html"
     }    
     ,{
         "name": "Carian Greatsword",
