@@ -62,7 +62,7 @@ Add more magical items (I have over 150, but I don't want my players seeing most
 
 More homebrew subclasses, spells, races, and subraces (always innovating!)
 
-Add the Stat Roller.
+~~Add the Stat Roller.~~ Completed by Cody Owens, 7.30.2026
 
 Maybe some Cyberpunk Red stuff? (By GodIsDead)
 
