@@ -43,6 +43,7 @@ function RollCharacterStats() {
     ];
 
     let logLines = [];
+    let total = 0;
 
     abilities.forEach(({ key, label }) => {
         const { stat, totalRerolls } = RollStat();
@@ -52,7 +53,10 @@ function RollCharacterStats() {
             ? ` (${totalRerolls} reroll${totalRerolls > 1 ? "s" : ""})`
             : "";
         logLines.push(`${label}: ${stat}${rerollNote}`);
+        total += stat;
     });
+
+    if (total <= 72) RollCharacterStats();
 
     text.textContent = logLines.join("   ·   ");
 }
