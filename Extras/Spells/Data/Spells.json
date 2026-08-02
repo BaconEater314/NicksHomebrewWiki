@@ -2,19 +2,19 @@
     {
         "name": "Catch Flame",
         "level": "Cantrip",
-        "school": "Giant's Flame Incantation",
+        "school": ["Giant's Flame Incantation", "Evocation"],
         "castingTime": "Bonus Action",
         "range": "Self",
         "duration": "Instantaneous",
         "ritual": false,
         "concentration": false,
-        "classes": ["Artificer", "Cleric", "Druid"],
+        "classes": ["Artificer", "Cleric", "Druid", "Keyblade Master"],
         "url": "Individual Spells/Cantrips/CatchFlame.html"
     },
     {
         "name": "Crystal Barrage",
         "level": "Cantrip",
-        "school": "Glintstone Sorcery Cantrip",
+        "school": ["Glintstone Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "Self (15ft Line)",
         "duration": "Instantaneous",
@@ -26,7 +26,7 @@
     {
         "name": "Glintstone Pebble",
         "level": "Cantrip",
-        "school": "Glintstone Sorcery Cantrip",
+        "school": "Glintstone Sorcery",
         "castingTime": "1 Action",
         "range": "90 ft",
         "duration": "Instantaneous",
@@ -38,7 +38,7 @@
     {
         "name": "Gravitas",
         "level": "Cantrip",
-        "school": "Gravity Sorcery Cantrip",
+        "school": "Gravity Sorcery",
         "castingTime": "1 Action",
         "range": "Self (10ft Radius)",
         "duration": "Instantaneous",
@@ -56,7 +56,7 @@
         "duration": "Instantaneous",
         "ritual": false,
         "concentration": false,
-        "classes": ["Artificer", "Cleric", "Druid"],
+        "classes": ["Artificer", "Cleric", "Druid", "Keyblade Master"],
         "url": "Individual Spells/Cantrips/HonedBolt.html"
     },
     {
@@ -140,7 +140,7 @@
         "duration": "Instantaneous",
         "ritual": false,
         "concentration": false,
-        "classes": ["Artificer", "Bard", "Cleric", "Druid", "Paladin", "Ranger"],
+        "classes": ["Artificer", "Bard", "Cleric", "Druid", "Keyblade Master", "Paladin", "Ranger"],
         "url": "Individual Spells/First Level/CurePoison.html"
     },
     {
@@ -152,7 +152,7 @@
         "duration": "1 minute (concentration)",
         "ritual": false,
         "concentration": true,
-        "classes": ["Artificer", "Bard", "Cleric", "Druid", "Paladin", "Ranger"],
+        "classes": ["Artificer", "Bard", "Cleric", "Druid", "Keyblade Master", "Paladin", "Ranger"],
         "url": "Individual Spells/First Level/ElectrifyArmament.html"
     }
     ,{
@@ -176,7 +176,7 @@
         "duration": "1 minute (concentration)",
         "ritual": false,
         "concentration": true,
-        "classes": ["Artificer", "Warlock", "Sorcerer", "Wizard"],
+        "classes": ["Artificer", "Warlock", "Sorcerer", "Keyblade Master", "Wizard"],
         "url": "Individual Spells/First Level/FrozenArmament.html"
     }    
     ,{
@@ -260,9 +260,21 @@
         "duration": "1 minute (concentration)",
         "ritual": false,
         "concentration": true,
-        "classes": ["Artificer", "Bard", "Cleric", "Druid", "Paladin", "Ranger"],
+        "classes": ["Artificer", "Bard", "Cleric", "Druid", "Keyblade Master", "Paladin", "Ranger"],
         "url": "Individual Spells/First Level/PoisonArmament.html"
-    }    
+    }
+    ,{
+        "name": "Scan",
+        "level": "1",
+        "school": "Divination",
+        "castingTime": "Bonus Action",
+        "range": "60ft",
+        "duration": "1 minute",
+        "ritual": false,
+        "concentration": true,
+        "classes": ["Artificer", "Bard", "Cleric", "Keyblade Master", "Sorcerer", "Warlock", "Wizard"],
+        "url": "Individual Spells/First Level/Scan.html"
+    }       
     ,{
         "name": "Scholar's Armament",
         "level": "1",
@@ -416,7 +428,7 @@
         "duration": "Instantaneous",
         "ritual": false,
         "concentration": false,
-        "classes": ["Cleric", "Druid", "Paladin"],
+        "classes": ["Cleric", "Druid", "Keyblade Master", "Paladin"],
         "url": "Individual Spells/Second Level/BloodMending.html"
     }    
     ,{
@@ -440,7 +452,7 @@
         "duration": "1 minute (concentration)",
         "ritual": false,
         "concentration": true,
-        "classes": ["Artificer", "Cleric", "Druid", "Ranger", "Paladin"],
+        "classes": ["Artificer", "Cleric", "Druid", "Keyblade Master", "Ranger", "Paladin"],
         "url": "Individual Spells/Second Level/Cragblade.html"
     },    
     {
@@ -476,7 +488,7 @@
         "duration": "Instantaneous",
         "ritual": false,
         "concentration": false,
-        "classes": ["Druid", "Sorcerer", "Warlock", "Wizard"],
+        "classes": ["Druid", "Keyblade Master", "Sorcerer", "Warlock", "Wizard"],
         "url": "Individual Spells/Second Level/EarthenSpike.html"
     }    
     ,{
@@ -488,7 +500,7 @@
         "duration": "Instantaneous",
         "ritual": false,
         "concentration": false,
-        "classes": ["Cleric", "Druid"],
+        "classes": ["Cleric", "Druid", "Keyblade Master"],
         "url": "Individual Spells/Second Level/FiresDeadlySin.html"
     }    
     ,{
@@ -500,7 +512,7 @@
         "duration": "1 minute",
         "ritual": false,
         "concentration": false,
-        "classes": ["Cleric", "Druid", "Ranger"],
+        "classes": ["Cleric", "Druid", "Keyblade Master", "Ranger"],
         "url": "Individual Spells/Second Level/FlameFortification.html"
     }    
     ,{
@@ -512,7 +524,7 @@
         "duration": "1 minute (concentration)",
         "ritual": false,
         "concentration": true,
-        "classes": ["Sorcerer", "Warlock", "Wizard"],
+        "classes": ["Keyblade Master", "Sorcerer", "Warlock", "Wizard"],
         "url": "Individual Spells/Second Level/FreezingMist.html"
     }    
     ,{
@@ -608,7 +620,7 @@
         "duration": "1 minute (concentration)",
         "ritual": false,
         "concentration": true,
-        "classes": ["Cleric", "Druid", "Ranger"],
+        "classes": ["Cleric", "Druid", "Keyblade Master", "Ranger"],
         "url": "Individual Spells/Second Level/PoisonMist.html"
     }
     ,{
@@ -800,7 +812,7 @@
         "duration": "Instantaneous",
         "ritual": false,
         "concentration": false,
-        "classes": ["Druid", "Sorcerer", "Wizard"],
+        "classes": ["Druid", "Keyblade Master", "Sorcerer", "Wizard"],
         "url": "Individual Spells/Third Level/FlameWhip.html"
     }    
     ,{
@@ -812,7 +824,7 @@
         "duration": "Instantaneous",
         "ritual": false,
         "concentration": false,
-        "classes": ["Cleric", "Druid"],
+        "classes": ["Cleric", "Druid", "Keyblade Master"],
         "url": "Individual Spells/Third Level/FrozenLightningSpear.html"
     }    
     ,{
@@ -992,7 +1004,7 @@
         "duration": "1 minute (concentration)",
         "ritual": false,
         "concentration": true,
-        "classes": ["Druid", "Sorcerer", "Warlock", "Wizard"],
+        "classes": ["Druid", "Keyblade Master", "Sorcerer", "Warlock", "Wizard"],
         "url": "Individual Spells/Third Level/ZamorIceStorm.html"
     }    
     ,{
@@ -1064,7 +1076,7 @@
         "duration": "1 minute (concentration)",
         "ritual": false,
         "concentration": true,
-        "classes": ["Bard", "Cleric", "Druid", "Sorcerer"],
+        "classes": ["Bard", "Cleric", "Druid", "Keyblade Master", "Sorcerer"],
         "url": "Individual Spells/Fourth Level/FlameGrantMeStrength.html"
     }    
     ,{
@@ -1100,7 +1112,7 @@
         "duration": "Instantaneous",
         "ritual": false,
         "concentration": false,
-        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "classes": ["Artificer", "Keyblade Master", "Sorcerer", "Warlock", "Wizard"],
         "url": "Individual Spells/Fourth Level/LaserRay.html"
     }     
     ,{
@@ -1124,7 +1136,7 @@
         "duration": "1 minute (concentration)",
         "ritual": false,
         "concentration": true,
-        "classes": ["Artificer", "Wizard"],
+        "classes": ["Artificer", "Keyblade Master", "Wizard"],
         "url": "Individual Spells/Fourth Level/TerraMagica.html"
     }
     ,{
@@ -1148,7 +1160,7 @@
         "duration": "Instantaneous",
         "ritual": false,
         "concentration": false,
-        "classes": ["Artificer", "Sorcerer", "Warlock", "Wizard"],
+        "classes": ["Artificer", "Keyblade Master", "Sorcerer", "Warlock", "Wizard"],
         "url": "Individual Spells/Fifth Level/Comet.html"
     }    
     ,{
