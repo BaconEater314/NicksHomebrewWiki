@@ -26,7 +26,7 @@
     {
         "name": "Glintstone Pebble",
         "level": "Cantrip",
-        "school": "Glintstone Sorcery",
+        "school": ["Glintstone Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "90 ft",
         "duration": "Instantaneous",
@@ -38,7 +38,7 @@
     {
         "name": "Gravitas",
         "level": "Cantrip",
-        "school": "Gravity Sorcery",
+        "school": ["Gravity Sorcery", "Dunamancy"],
         "castingTime": "1 Action",
         "range": "Self (10ft Radius)",
         "duration": "Instantaneous",
@@ -50,7 +50,7 @@
     {
         "name": "Honed Bolt",
         "level": "Cantrip",
-        "school": "Dragon Cult Incantation Cantrip",
+        "school": ["Dragon Cult Incantation Cantrip", "Evocation"],
         "castingTime": "1 Action",
         "range": "120ft",
         "duration": "Instantaneous",
@@ -62,7 +62,7 @@
     {
         "name": "Swift Glintstone Shard",
         "level": "Cantrip",
-        "school": "Glintstone Sorcery Cantrip",
+        "school": ["Glintstone Sorcery Cantrip", "Conjuration"],
         "castingTime": "Bonus Action",
         "range": "60ft",
         "duration": "Instantaneous",
@@ -74,7 +74,7 @@
     {
         "name": "Beastial Constitution",
         "level": "1",
-        "school": "Beastial Incantation",
+        "school": ["Beastial Incantation", "Transmutation"],
         "castingTime": "1 Action",
         "range": "Touch",
         "duration": "Instantaneous",
@@ -86,7 +86,7 @@
     {
         "name": "Beastial Sling",
         "level": "1",
-        "school": "Beastial Incantation",
+        "school": ["Beastial Incantation", "Transmutation"],
         "castingTime": "1 Action",
         "range": "Self (15ft Cone)",
         "duration": "Instantaneous",
@@ -98,7 +98,7 @@
     {
         "name": "Black Flame",
         "level": "1",
-        "school": "Black Flame Incantation",
+        "school": ["Black Flame Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "60ft",
         "duration": "Instantaneous",
@@ -110,7 +110,7 @@
     {
         "name": "Carian Slicer",
         "level": "1",
-        "school": "Carian Sorcery",
+        "school": ["Carian Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "Self",
         "duration": "Instantaneous",
@@ -122,7 +122,7 @@
     {
         "name": "Crystal Burst",
         "level": "1",
-        "school": "Glintstone Sorcery",
+        "school": ["Glintstone Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "Self (20ft Cone)",
         "duration": "Instantaneous",
@@ -134,7 +134,7 @@
     {
         "name": "Cure Poison",
         "level": "1",
-        "school": "Two Fingers Incantation",
+        "school": ["Two Fingers Incantation", "Abjuration"],
         "castingTime": "1 Action",
         "range": "Touch",
         "duration": "Instantaneous",
@@ -146,7 +146,7 @@
     {
         "name": "Electrify Armament",
         "level": "1",
-        "school": "Dragon Cult Incantation",
+        "school": ["Dragon Cult Incantation", "Transmutation"],
         "castingTime": "Bonus Action",
         "range": "Touch",
         "duration": "1 minute (concentration)",
@@ -158,7 +158,7 @@
     ,{
         "name": "Flame Cleanse Me",
         "level": "1",
-        "school": "Giant's Flame Incantation",
+        "school": ["Giant's Flame Incantation", "Abjuration"],
         "castingTime": "1 Action",
         "range": "Touch",
         "duration": "Instantaneous",
@@ -170,7 +170,7 @@
     ,{
         "name": "Frozen Armament",
         "level": "1",
-        "school": "Cold Sorcery",
+        "school": ["Cold Sorcery", "Transmutation"],
         "castingTime": "Bonus Action",
         "range": "Touch",
         "duration": "1 minute (concentration)",
@@ -182,7 +182,7 @@
     ,{
         "name": "Glintblade Phalanx",
         "level": "1",
-        "school": "Carian Sorcery",
+        "school": ["Carian Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "1 minute",
         "duration": "Instantaneous",
@@ -194,7 +194,7 @@
     ,{
         "name": "Gravity Well",
         "level": "1",
-        "school": "Gravity Sorcery",
+        "school": ["Gravity Sorcery", "Dunamancy"],
         "castingTime": "1 Action",
         "range": "60ft",
         "duration": "Instantaneous",
@@ -206,7 +206,7 @@
     ,{
         "name": "Great Glintstone Shard",
         "level": "1",
-        "school": "Glintstone Sorcery",
+        "school": ["Glintstone Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "90ft",
         "duration": "Instantaneous",
@@ -218,7 +218,7 @@
     ,{
         "name": "Immutable Shield",
         "level": "1",
-        "school": "Golden Order Incantation",
+        "school": ["Golden Order Incantation", "Abjuration"],
         "castingTime": "1 Action",
         "range": "Touch",
         "duration": "1 hour",
@@ -230,7 +230,7 @@
     ,{
         "name": "Lightning Spear",
         "level": "1",
-        "school": "Dragon Cult Incantation",
+        "school": ["Dragon Cult Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "120ft",
         "duration": "Instantaneous",
@@ -242,7 +242,7 @@
     ,{
         "name": "Order's Blade",
         "level": "1",
-        "school": "Golden Order Incantation",
+        "school": ["Golden Order Incantation", "Transmutation"],
         "castingTime": "Bonus Action",
         "range": "Touch",
         "duration": "1 minute (concentration)",
@@ -254,7 +254,7 @@
     ,{
         "name": "Poison Armament",
         "level": "1",
-        "school": "Servants of Rot Incantation",
+        "school": ["Servants of Rot Incantation", "Transmutation"],
         "castingTime": "Bonus Action",
         "range": "Touch",
         "duration": "1 minute (concentration)",
@@ -271,14 +271,14 @@
         "range": "60ft",
         "duration": "1 minute",
         "ritual": false,
-        "concentration": true,
-        "classes": ["Artificer", "Bard", "Cleric", "Keyblade Master", "Sorcerer", "Warlock", "Wizard"],
+        "concentration": false,
+        "classes": ["Artificer", "Bard", "Cleric", "Keyblade Master", "Paladin", "Ranger", "Sorcerer", "Warlock", "Wizard"],
         "url": "Individual Spells/First Level/Scan.html"
     }       
     ,{
         "name": "Scholar's Armament",
         "level": "1",
-        "school": "Glintstone Sorcery",
+        "school": ["Glintstone Sorcery", "Transmutation"],
         "castingTime": "Bonus Action",
         "range": "Touch",
         "duration": "1 minute (concentration)",
@@ -290,7 +290,7 @@
     ,{
         "name": "Scholar's Shield",
         "level": "1",
-        "school": "Glintstone Sorcery",
+        "school": ["Glintstone Sorcery", "Abjuration"],
         "castingTime": "1 Action",
         "range": "Touch",
         "duration": "1 hour",
@@ -326,7 +326,7 @@
     ,{
         "name": "Ambush Shard",
         "level": "2",
-        "school": "Sellian Sorcery",
+        "school": ["Sellian Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "60ft",
         "duration": "Instantaneous",
@@ -338,7 +338,7 @@
     ,{
         "name": "Assassin's Approach",
         "level": "2",
-        "school": "Two Fingers Incantation",
+        "school": ["Two Fingers Incantation", "Illusion"],
         "castingTime": "1 Action",
         "range": "Touch",
         "duration": "1 hour",
@@ -350,7 +350,7 @@
     ,{
         "name": "Beastial Claw",
         "level": "2",
-        "school": "Beastial Incantation",
+        "school": ["Beastial Incantation", "Transmutation"],
         "castingTime": "1 Action",
         "range": "Self (15ft Cone)",
         "duration": "Instantaneous",
@@ -362,7 +362,7 @@
     ,{
         "name": "Black Flame Blade",
         "level": "2",
-        "school": "Black Flame Incantation",
+        "school": ["Black Flame Incantation", "Transmutation"],
         "castingTime": "Bonus Action",
         "range": "Touch",
         "duration": "1 minute (concentration)",
@@ -374,7 +374,7 @@
     ,{
         "name": "Blood Blade",
         "level": "2",
-        "school": "Blood Oath Incantation",
+        "school": ["Blood Oath Incantation", "Transmutation"],
         "castingTime": "1 Action",
         "range": "Self (15ft Line)",
         "duration": "Instantaneous",
@@ -386,7 +386,7 @@
     ,{
         "name": "Bloodboon",
         "level": "2",
-        "school": "Blood Oath Incantation",
+        "school": ["Blood Oath Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "30ft",
         "duration": "1 minute (concentration)",
@@ -398,7 +398,7 @@
     ,{
         "name": "Blood Flame Blade",
         "level": "2",
-        "school": "Blood Oath Incantation",
+        "school": ["Blood Oath Incantation", "Transmutation"],
         "castingTime": "Bonus Action",
         "range": "Touch",
         "duration": "1 minute (concentration)",
@@ -410,7 +410,7 @@
     ,{
         "name": "Blood Flame Talons",
         "level": "2",
-        "school": "Blood Flame Incantation",
+        "school": ["Blood Flame Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (15ft Cube)",
         "duration": "Instantaneous",
@@ -434,7 +434,7 @@
     ,{
         "name": "Carian Greatsword",
         "level": "2",
-        "school": "Carian Sorcery",
+        "school": ["Carian Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "Self",
         "duration": "Instantaneous",
@@ -458,7 +458,7 @@
     {
         "name": "Discus of Light",
         "level": "2",
-        "school": "Golden Order Incantation",
+        "school": ["Golden Order Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (30ft Line)",
         "duration": "Instantaneous",
@@ -470,7 +470,7 @@
     ,{
         "name": "Divine Fortification",
         "level": "2",
-        "school": "Two Fingers Incantation",
+        "school": ["Two Fingers Incantation", "Abjuration"],
         "castingTime": "1 Action",
         "range": "Touch",
         "duration": "1 minute",
@@ -494,7 +494,7 @@
     ,{
         "name": "Fire's Deadly Sin",
         "level": "2",
-        "school": "Giant's Flame Incantation",
+        "school": ["Giant's Flame Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (10ft Radius)",
         "duration": "Instantaneous",
@@ -506,7 +506,7 @@
     ,{
         "name": "Flame Fortification",
         "level": "2",
-        "school": "Two Fingers Incantation",
+        "school": ["Two Fingers Incantation", "Abjuration"],
         "castingTime": "1 Action",
         "range": "Touch",
         "duration": "1 minute",
@@ -518,7 +518,7 @@
     ,{
         "name": "Freezing Mist",
         "level": "2",
-        "school": "Cold Sorcery",
+        "school": ["Cold Sorcery", "Evocation"],
         "castingTime": "1 Action",
         "range": "60ft",
         "duration": "1 minute (concentration)",
@@ -530,7 +530,7 @@
     ,{
         "name": "Frenzied Burst",
         "level": "2",
-        "school": "Frenzied Flame Incantation",
+        "school": ["Frenzied Flame Incantation", "Dunamancy"],
         "castingTime": "1 Action",
         "range": "120ft",
         "duration": "Instantaneous",
@@ -542,7 +542,7 @@
     ,{
         "name": "Howl of Shibriri",
         "level": "2",
-        "school": "Frenzied Flame Incantation",
+        "school": ["Frenzied Flame Incantation", "Dunamancy"],
         "castingTime": "1 Action",
         "range": "Self (20ft Sphere)",
         "duration": "Instantaneous",
@@ -554,7 +554,7 @@
     ,{
         "name": "Lightning Fortification",
         "level": "2",
-        "school": "Two Fingers Incantation",
+        "school": ["Two Fingers Incantation", "Abjuration"],
         "castingTime": "1 Action",
         "range": "Touch",
         "duration": "1 minute",
@@ -566,7 +566,7 @@
     ,{
         "name": "Lucidity",
         "level": "2",
-        "school": "Carian Sorcery",
+        "school": ["Carian Sorcery", "Abjuration"],
         "castingTime": "1 Action",
         "range": "Touch",
         "duration": "Instantaneous",
@@ -578,7 +578,7 @@
     ,{
         "name": "Magic Fortification",
         "level": "2",
-        "school": "Two Fingers Incantation",
+        "school": ["Two Fingers Incantation", "Abjuration"],
         "castingTime": "1 Action",
         "range": "Touch",
         "duration": "1 minute",
@@ -590,7 +590,7 @@
     ,{
         "name": "Magma Shot",
         "level": "2",
-        "school": "Magma Sorcery",
+        "school": ["Magma Sorcery", "Abjuration"],
         "castingTime": "1 Action",
         "range": "60ft",
         "duration": "Instantaneous",
@@ -602,7 +602,7 @@
     ,{
         "name": "Night Maiden's Mist",
         "level": "2",
-        "school": "Sellian Sorcery",
+        "school": ["Sellian Sorcery", "Evocation"],
         "castingTime": "1 Action",
         "range": "60ft",
         "duration": "1 minute (concentration)",
@@ -614,7 +614,7 @@
     ,{
         "name": "Poison Mist",
         "level": "2",
-        "school": "Servants of Rot Incantation",
+        "school": ["Servants of Rot Incantation", "Necromancy"],
         "castingTime": "1 Action",
         "range": "60ft",
         "duration": "1 minute (concentration)",
@@ -626,7 +626,7 @@
     ,{
         "name": "Prayerful Strike",
         "level": "2",
-        "school": "Golden Order Incantation",
+        "school": ["Golden Order Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self",
         "duration": "Instantaneous",
@@ -638,7 +638,7 @@
     ,{
         "name": "Rock Blaster",
         "level": "2",
-        "school": "Glintstone Sorcery",
+        "school": ["Glintstone Sorcery", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (10ft Radius)",
         "duration": "Instantaneous",
@@ -650,7 +650,7 @@
     ,{
         "name": "Rock Sling",
         "level": "2",
-        "school": "Gravity Sorcery",
+        "school": ["Gravity Sorcery", "Dunamancy"],
         "castingTime": "1 Action",
         "range": "45ft",
         "duration": "Instantaneous",
@@ -662,7 +662,7 @@
     ,{
         "name": "Shard Spiral",
         "level": "2",
-        "school": "Glintstone Sorcery",
+        "school": ["Glintstone Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "60ft",
         "duration": "Instantaneous",
@@ -674,7 +674,7 @@
     ,{
         "name": "Stone of Gurannq",
         "level": "2",
-        "school": "Beastial Incantation",
+        "school": ["Beastial Incantation", "Transmutation"],
         "castingTime": "1 Action",
         "range": "60ft",
         "duration": "Instantaneous",
@@ -686,7 +686,7 @@
     ,{
         "name": "Swarm of Flies",
         "level": "2",
-        "school": "Blood Oath Incantation",
+        "school": ["Blood Oath Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "60ft",
         "duration": "1 minute (concentration)",
@@ -698,7 +698,7 @@
     ,{
         "name": "Thop's Barrier",
         "level": "2",
-        "school": "Glintstone Sorcery",
+        "school": ["Glintstone Sorcery", "Abjuration"],
         "castingTime": "Reaction",
         "range": "Self",
         "duration": "Instantaneous",
@@ -710,7 +710,7 @@
     ,{
         "name": "Unseen Blade",
         "level": "2",
-        "school": "Sellian Sorcery",
+        "school": ["Sellian Sorcery", "Illusion"],
         "castingTime": "1 Action",
         "range": "Touch",
         "duration": "1 hour (concentration)",
@@ -722,7 +722,7 @@
     ,{
         "name": "Vyke's Dragonbolt",
         "level": "2",
-        "school": "Dragon Cult Incantation",
+        "school": ["Dragon Cult Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "120ft",
         "duration": "Instantaneous",
@@ -734,7 +734,7 @@
     ,{
         "name": "Waves of Darkness",
         "level": "2",
-        "school": "Gravity Sorcery",
+        "school": ["Gravity Sorcery", "Dunamancy"],
         "castingTime": "1 Action",
         "range": "Self (10ft Radius)",
         "duration": "3 Turns",
@@ -746,7 +746,7 @@
     ,{
         "name": "Ancient Dragon's Lightning Strike",
         "level": "3",
-        "school": "Dragon Cult Incantation",
+        "school": ["Dragon Cult Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (20ft Radius)",
         "duration": "Instantaneous",
@@ -770,7 +770,7 @@
     ,{
         "name": "Black Flame Ritual",
         "level": "3",
-        "school": "Black Flame Incantation",
+        "school": ["Black Flame Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (10ft Radius)",
         "duration": "Instantaneous",
@@ -794,7 +794,7 @@
     ,{
         "name": "Eternal Darkness",
         "level": "3",
-        "school": "Sellian Sorcery",
+        "school": ["Sellian Sorcery", "Illusion"],
         "castingTime": "1 Action",
         "range": "30ft",
         "duration": "1 minute (concentration)",
@@ -818,7 +818,7 @@
     ,{
         "name": "Frozen Lightning Spear",
         "level": "3",
-        "school": "Dragon Cult Incantation",
+        "school": ["Dragon Cult Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (60ft Line)",
         "duration": "Instantaneous",
@@ -830,7 +830,7 @@
     ,{
         "name": "Gavel of Hamia",
         "level": "3",
-        "school": "Glintstone Sorcery",
+        "school": ["Glintstone Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "Self (10ft Radius)",
         "duration": "Instantaneous",
@@ -842,7 +842,7 @@
     ,{
         "name": "Gelmir's Fury",
         "level": "3",
-        "school": "Magma Sorcery",
+        "school": ["Magma Sorcery", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (15ft Radius)",
         "duration": "1 minute (concentration)",
@@ -854,7 +854,7 @@
     ,{
         "name": "Greatblade Phalanx",
         "level": "3",
-        "school": "Carian Sorcery",
+        "school": ["Carian Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "Self",
         "duration": "1 minute",
@@ -866,7 +866,7 @@
     ,{
         "name": "Gurranq's Beast Claw",
         "level": "3",
-        "school": "Beastial Incantation",
+        "school": ["Beastial Incantation", "Transmutation"],
         "castingTime": "1 Action",
         "range": "Self (20ft Radius)",
         "duration": "Instantaneous",
@@ -878,7 +878,7 @@
     ,{
         "name": "Law of Causality",
         "level": "3",
-        "school": "Golden Order Incantation",
+        "school": ["Golden Order Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Touch",
         "duration": "1 minute (concentration)",
@@ -890,7 +890,7 @@
     ,{
         "name": "Lord's Aid",
         "level": "3",
-        "school": "Two Fingers Incantation",
+        "school": ["Two Fingers Incantation", "Abjuration"],
         "castingTime": "1 Action",
         "range": "Self (20ft Radius)",
         "duration": "Instantaneous",
@@ -902,7 +902,7 @@
     ,{
         "name": "Loretta's Greatbow",
         "level": "3",
-        "school": "Carian Sorcery",
+        "school": ["Carian Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "150ft",
         "duration": "Instantaneous",
@@ -914,7 +914,7 @@
     ,{
         "name": "Noble's Presence",
         "level": "3",
-        "school": "Black Flame Incantation",
+        "school": ["Black Flame Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (20ft Radius)",
         "duration": "Instantaneous",
@@ -926,7 +926,7 @@
     ,{
         "name": "Roiling Magma",
         "level": "3",
-        "school": "Magma Sorcery",
+        "school": ["Magma Sorcery", "Evocation"],
         "castingTime": "1 Action",
         "range": "60ft",
         "duration": "1 minute (concentration)",
@@ -938,7 +938,7 @@
     ,{
         "name": "Scouring Black Flame",
         "level": "3",
-        "school": "Black Flame Incantation",
+        "school": ["Black Flame Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (20ft Cone)",
         "duration": "Instantaneous",
@@ -962,7 +962,7 @@
     ,{
         "name": "Star Shower",
         "level": "3",
-        "school": "Glintstone Sorcery",
+        "school": ["Glintstone Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "90ft",
         "duration": "Instantaneous",
@@ -974,7 +974,7 @@
     ,{
         "name": "Surge O Flame",
         "level": "3",
-        "school": "Giant's Flame Incantation",
+        "school": ["Giant's Flame Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (20ft Line)",
         "duration": "1 minute (concentration)",
@@ -986,7 +986,7 @@
     ,{
         "name": "The Flame of Frenzy",
         "level": "3",
-        "school": "Frenzied Flame Incantation",
+        "school": ["Frenzied Flame Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (20ft Cone)",
         "duration": "Instantaneous",
@@ -998,7 +998,7 @@
     ,{
         "name": "Zamor Ice Storm",
         "level": "3",
-        "school": "Cold Sorcery",
+        "school": ["Cold Sorcery", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (20ft Sphere)",
         "duration": "1 minute (concentration)",
@@ -1010,7 +1010,7 @@
     ,{
         "name": "Adula's Moonblade",
         "level": "4",
-        "school": "Carian Sorcery",
+        "school": ["Carian Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "Self",
         "duration": "Instantaneous",
@@ -1022,7 +1022,7 @@
     ,{
         "name": "Ancient Dragon's Lightning Spear",
         "level": "4",
-        "school": "Dragon Cult Incantation",
+        "school": ["Dragon Cult Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self",
         "duration": "Instantaneous",
@@ -1034,7 +1034,7 @@
     ,{
         "name": "Black Blade",
         "level": "4",
-        "school": "Erdtree Incantation",
+        "school": ["Erdtree Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self",
         "duration": "Instantaneous",
@@ -1046,7 +1046,7 @@
     ,{
         "name": "Cannon of Hamia",
         "level": "4",
-        "school": "Glintstone Sorcery",
+        "school": ["Glintstone Sorcery", "Evocation"],
         "castingTime": "1 Action",
         "range": "90ft",
         "duration": "Instantaneous",
@@ -1058,7 +1058,7 @@
     ,{
         "name": "Collapsing Stars",
         "level": "4",
-        "school": "Gravity Sorcery",
+        "school": ["Gravity Sorcery", "Dunamancy"],
         "castingTime": "1 Action",
         "range": "90ft",
         "duration": "Instantaneous",
@@ -1070,7 +1070,7 @@
     ,{
         "name": "Flame Grant Me Strength",
         "level": "4",
-        "school": "Giant's Flame Incantation",
+        "school": ["Giant's Flame Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Touch",
         "duration": "1 minute (concentration)",
@@ -1082,7 +1082,7 @@
     ,{
         "name": "Gravitational Missile",
         "level": "4",
-        "school": "Gravity Sorcery",
+        "school": ["Gravity Sorcery", "Dunamancy"],
         "castingTime": "1 Action",
         "range": "30ft",
         "duration": "1 minute (concentration)",
@@ -1094,7 +1094,7 @@
     ,{
         "name": "Inescapable Frenzy",
         "level": "4",
-        "school": "Frenzied Flame Incantation",
+        "school": ["Frenzied Flame Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Touch",
         "duration": "Instantaneous",
@@ -1118,7 +1118,7 @@
     ,{
         "name": "Litany of Proper Death",
         "level": "4",
-        "school": "Golden Order Incantation",
+        "school": ["Golden Order Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "60ft",
         "duration": "Instantaneous",
@@ -1130,7 +1130,7 @@
     ,{
         "name": "Terra Magica",
         "level": "4",
-        "school": "Glintstone Sorcery",
+        "school": ["Glintstone Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "Self (10ft Radius)",
         "duration": "1 minute (concentration)",
@@ -1142,7 +1142,7 @@
     ,{
         "name": "Black Flame Tornado",
         "level": "5",
-        "school": "Black Flame Incantation",
+        "school": ["Black Flame Incantation", "Evocation"],
         "castingTime": "Action",
         "range": "Self (20ft Radius)",
         "duration": "1 minute (concentration)",
@@ -1154,7 +1154,7 @@
     ,{
         "name": "Comet",
         "level": "5",
-        "school": "Glintstone Sorcery",
+        "school": ["Glintstone Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "90ft",
         "duration": "Instantaneous",
@@ -1178,7 +1178,7 @@
     ,{
         "name": "Radagon's Rings of Light",
         "level": "5",
-        "school": "Golden Order Incantation",
+        "school": ["Golden Order Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (20ft Radius)",
         "duration": "Instantaneous",
@@ -1190,7 +1190,7 @@
     {
         "name": "Staccato/Legato",
         "level": "5",
-        "school": "Evocation",
+        "school": "Conjuration",
         "castingTime": "1 Action",
         "range": "Self (30ft Radius)",
         "duration": "1 Minute (Concentration)",
@@ -1202,7 +1202,7 @@
     ,{
         "name": "Unendurable Frenzy",
         "level": "5",
-        "school": "Frenzied Flame Incantation",
+        "school": ["Frenzied Flame Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (15ft Cone, 20ft Radius)",
         "duration": "1 minute (concentration)",
@@ -1214,7 +1214,7 @@
     ,{
         "name": "Blades of Stone",
         "level": "6",
-        "school": "Gravity Sorcery",
+        "school": ["Gravity Sorcery", "Transmutation"],
         "castingTime": "1 Action",
         "range": "90ft",
         "duration": "Instantaneous",
@@ -1250,7 +1250,7 @@
     ,{
         "name": "Founding Rain of Stars",
         "level": "6",
-        "school": "Glintstone Sorcery",
+        "school": ["Glintstone Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "60ft",
         "duration": "1 minute (concentration)",
@@ -1262,7 +1262,7 @@
     ,{
         "name": "Lansseax's Glaive",
         "level": "6",
-        "school": "Dragon Cult Incantation",
+        "school": ["Dragon Cult Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (60ft Cone)",
         "duration": "Instantaneous",
@@ -1274,7 +1274,7 @@
     ,{
         "name": "Rykard's Rancor",
         "level": "6",
-        "school": "Magma Sorcery",
+        "school": ["Magma Sorcery", "Evocation"],
         "castingTime": "1 Action",
         "range": "60ft",
         "duration": "Instantaneous",
@@ -1286,7 +1286,7 @@
     ,{
         "name": "Stars of Ruin",
         "level": "6",
-        "school": "Glintstone Sorcery",
+        "school": ["Glintstone Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "90ft",
         "duration": "Instantaneous",
@@ -1298,7 +1298,7 @@
     ,{
         "name": "Triple Rings of Light",
         "level": "6",
-        "school": "Golden Order Incantation",
+        "school": ["Golden Order Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (30ft Cone)",
         "duration": "Instantaneous",
@@ -1322,7 +1322,7 @@
     ,{
         "name": "Ranni's Dark Moon/Rennalla's Full Moon",
         "level": "7",
-        "school": "Moon Sorcery",
+        "school": ["Moon Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "90ft",
         "duration": "Instantaneous",
@@ -1334,7 +1334,7 @@
     ,{
         "name": "Scarlet Aeonia",
         "level": "7",
-        "school": "Servants of Rot Incantation",
+        "school": ["Servants of Rot Incantation", "Necromancy"],
         "castingTime": "1 Action",
         "range": "Self (30ft Radius)",
         "duration": "Instantaneous",
@@ -1346,7 +1346,7 @@
     ,{
         "name": "Comet Azur",
         "level": "8",
-        "school": "Glintstone Sorcery",
+        "school": ["Glintstone Sorcery", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (120ft Line)",
         "duration": "1 minute (concentration)",
@@ -1358,7 +1358,7 @@
     ,{
         "name": "Fortissax's Lightning Spear",
         "level": "8",
-        "school": "Dragon Cult Incantation",
+        "school": ["Dragon Cult Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (25ft Radius)",
         "duration": "Instantaneous",
@@ -1370,7 +1370,7 @@
     ,{
         "name": "Rellana's Twin Moons",
         "level": "8",
-        "school": "Moon Sorcery",
+        "school": ["Moon Sorcery", "Conjuration"],
         "castingTime": "1 Action",
         "range": "Self (20ft Radius)",
         "duration": "Instantaneous",
