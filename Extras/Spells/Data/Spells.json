@@ -530,7 +530,7 @@
     ,{
         "name": "Frenzied Burst",
         "level": "2",
-        "school": ["Frenzied Flame Incantation", "Dunamancy"],
+        "school": ["Frenzied Flame Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "120ft",
         "duration": "Instantaneous",
@@ -542,7 +542,7 @@
     ,{
         "name": "Howl of Shibriri",
         "level": "2",
-        "school": ["Frenzied Flame Incantation", "Dunamancy"],
+        "school": ["Frenzied Flame Incantation", "Evocation"],
         "castingTime": "1 Action",
         "range": "Self (20ft Sphere)",
         "duration": "Instantaneous",
