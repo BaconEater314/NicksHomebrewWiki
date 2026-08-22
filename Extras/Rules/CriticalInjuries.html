@@ -43,7 +43,7 @@
                 <td>DC 15</td>
                 <td>
                     <p>DC 15</p>
-                    <p>DC 20 (Medicine)</p>
+                    <p>DC 15 (Surgery) DC 20 (Medicine)</p>
                 </td>
             </tr>
             <tr>
@@ -53,7 +53,7 @@
                 <td>DC 15</td>
                 <td>
                     <p>DC 15</p>
-                    <p>DC 20 (Medicine)</p>
+                    <p>DC 15 (Surgery) DC 20 (Medicine)</p>
                 </td>
             </tr>
             <tr>
@@ -70,7 +70,7 @@
                 <td>DC 15</td>
                 <td>
                     <p>DC 15</p>
-                    <p>DC 20 (Medicine)</p>
+                    <p>DC 15 (Surgery) DC 20 (Medicine)</p>
                 </td>
             </tr>
             <tr>
@@ -85,14 +85,14 @@
                 <td>Spinal Injury</td>
                 <td>Target gains the Incapacitated condition until the end of their next turn. -2 to Death Saving Throws.</td>
                 <td>DC 17</td>
-                <td>DC 15</td>
+                <td>DC 15 (Surgery) DC 17 Medicine</td>
             </tr>
             <tr>
                 <td>8</td>
                 <td>Crushed Fingers</td>
                 <td>-4 to all checks involving that hand.</td>
                 <td>DC 15</td>
-                <td>DC 15</td>
+                <td>DC 15 (Surgery) DC 17 (Medicine)</td>
             </tr>
         </table>
 
@@ -138,7 +138,7 @@
                     <p>This effect does not cause a penalty to Death Saving Throws.</p>
                 </td>
                 <td>
-                    <p>Permanent on non-magical armor (DC 15 Smith's Tools check over 1 minute to clear or Mending Cantrip)</p>
+                    <p>Permanent on non-magical armor (DC 15 Smith's Tools check over 1 minute to clear or the Mending Cantrip)</p>
                     <p>This effect otherwise clears after 2 of the affected creature's turns.</p>
                 </td>
             </tr>
@@ -177,7 +177,10 @@
         <h2>Death Saving Throws</h2>
         <ul>
             <li>Penalties to Death Saving Throws subtract from what you roll. This does not count Nat 20s, which restore you to 1 hp.</li>
-            <li>A creature suffering from a critical injury has a -1 to Death Saving Throws for each critical injury they are suffering (added to any penalties from Collapsed Lung or Spinal Injury).</li>
+            <li>A creature suffering from a critical injury has a -1 to Death Saving Throws for each critical injury they are suffering.</li>
+            <ul>
+                <li>Critical injuries with explicit penalties (such as Spinal Injury) override this penalty with their penalty.</li>
+            </ul>
             <li>If a creature rolls a natural 1 or rolls less than 1 on a Death Saving Throw, they recieve 2 failed Death Saving Throws.</li>
             <li>Critical injuries that stack (Foriegn Object, Necrosis, Tinnitus) only provide 1 penalty to death saves, regardless of how many stacks you have.</li>
             <li><b>Death Saves are now considered Constitution Saving Throws.</b></li>
@@ -245,5 +248,348 @@
             <li>The “Shield Master” feat now increases your critical injury threshold by 2 while using a shield.</li>
             <li>The "Healer" feat allows you to quick fix an injury as an action once per short or long rest.</li>
         </ul>
+
+        <h1>Ruthless Critical Injuries Ruleset</h1>
+        <p>
+            The Ruthless Critical Injuries Rules are for more dangerous settings, where injuries matter.
+        </p>
+
+        <p>All creatures have a Critical Injury Threshold equal to half their Constitution Score (rounded down) plus their Level.</p>
+        <p>A creature recieves a critical injury when:</p>
+        <ul>
+            <li>It takes damage equal to or greater than its Critical Injury Threshold from a Critical Hit (after resistances).</li>
+            <li>It rolls a 5 or lower on a Saving Throw against an effect that deals damage.</li>
+            <li>It takes fall damage equal to or greater than its Critical Injury Threshold (after resistances).</li>
+            <li>It takes double its Critical Injury Threshold in damage from a single source (after resistances).</li>
+        </ul>
+
+        <h2>Physical Critical Injuries</h2>
+        <p>When a creature recieves a Critical Injury from physical damage (Bludgeoning, Piercing, or Slashing), roll on the table to determine the injury they receive.</p>
+        <p>Fall damage typically prioritizes breaking legs first, but the critical injury recieved from falling can vary depending on how the creature lands.</p>
+        <table class="content-table">
+            <tr>
+                <th>Roll (2d6)</th>
+                <th>Injury</th>
+                <th>Injury Effect</th>
+                <th>Quick Fix (Medicine Check)</th>
+                <th>Treatment (Surgeon's Tools)</th>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Dismembered Arm</td>
+                <td>
+                    Roll 1d2 to determine limb (1 = left, 2 = right).
+                    The Dismembered Arm is gone. You drop any items in that dismembered arm's hand immediately.
+                    -2 to Death Saving Throws.
+                </td>
+                <td>N/A</td>
+                <td>DC 25 (Surgery)</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Dismembered Hand</td>
+                <td>
+                    Roll 1d2 to determine limb (1 = left, 2 = right).
+                    The Dismembered Arm is gone. You drop any items in that dismembered hand immediately.
+                    -2 to Death Saving Throws.
+                </td>
+                <td>N/A</td>
+                <td>DC 25 (Surgery)</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Collapsed Lung</td>
+                <td>-10 to move speed (minumum 5 feet). -2 to Death Saving Throws.</td>
+                <td>DC 17</td>
+                <td>DC 15 (Surgery) DC 17 (Medicine)</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Broken Ribs</td>
+                <td>Suffer 1d8 damage every time you move more than 5 feet on your turn.</td>
+                <td>DC 15</td>
+                <td>
+                    <p>DC 15</p>
+                    <p>DC 15 (Surgery) DC 20 (Medicine)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Broken Arm</td>
+                <td>Roll 1d2 to determine limb (1 = left, 2 = right). The arm cannot be used and all items held in the hand are dropped.</td>
+                <td>DC 15</td>
+                <td>
+                    <p>DC 15</p>
+                    <p>DC 15 (Surgery) DC 20 (Medicine)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Foreign Object</td>
+                <td>Suffer 1d8 (per foriegn object) damage every time you move more than 5 feet on your turn.</td>
+                <td>DC 15</td>
+                <td> Quick Fix Removes Injury</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Broken Leg</td>
+                <td>Roll 1d2 to determine limb (1 = left, 2 = right). -20 move speed (minimum 5 feet), DC 16 Athletics or Acrobatics check to stay standing.</td>
+                <td>DC 15</td>
+                <td>
+                    <p>DC 15</p>
+                    <p>DC 15 (Surgery) DC 20 (Medicine)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Torn Muscle</td>
+                <td>Roll 1d4 to determine limb (1 = left leg, 2 = right leg, 3 = left arm, 4 = right arm). -5 move speed per torn leg muscle, disadvantage on Dexterity Saving Throws. -2 to d20 rolls made using a arm with a torn muscle.</td>
+                <td>DC 15</td>
+                <td>Quick Fix Removes Injury</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Spinal Injury</td>
+                <td>Target gains the Incapacitated condition until the end of their next turn. -2 to Death Saving Throws.</td>
+                <td>DC 17</td>
+                <td>DC 15 (Surgery) DC 20 (Medicine)</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Crushed Fingers</td>
+                <td>-4 to all checks involving that hand.</td>
+                <td>DC 15</td>
+                <td>DC 15 (Surgery) DC 20 (Medicine)</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Dismembered Leg</td>
+                <td>
+                    Roll 1d2 to determine limb (1 = left, 2 = right)
+                    Dismembered Leg is gone.
+                    -30 to Move Speed (minimum of 5)
+                    -2 to Death Saving Throws.
+                    Creatures have advantage on attack rolls made against you.
+                </td>
+                <td>N/A</td>
+                <td>DC 25 (Surgery)</td>
+            </tr>
+        </table>
+
+        <h2>Head Critical Injuries</h2>
+        <p>
+            Creatures can now take Head Critical Injuries. 
+            A creature recieves a Head Critical Injury when it takes twice its Critical Injury Threshold from a single crit or other effect that would cause a Critical Injury.
+        </p>
+
+        <table class="content-table">
+            <tr>
+                <th>Roll (2d6)</th>
+                <th>Injury</th>
+                <th>Injury Effect</th>
+                <th>Quick Fix (Medicine Check)</th>
+                <th>Treatment (Surgeon's Tools)</th>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Lost Eye</td>
+                <td>
+                    Roll 1d2 (1 = left, 2 = right).
+                    The Lost Eye is gone.
+                    Disadvantage on Perception checks involving Sight and Ranged attacks.
+                    -2 to Death Saving Throws.
+                </td>
+                <td>N/A</td>
+                <td>DC 20 (Surgery) DC 30 (Medicine)</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Brain Injury</td>
+                <td>
+                    -5 to all actions.
+                    -2 to Death Saving Throws.
+                </td>
+                <td>N/A</td>
+                <td>DC 20 (Surgery) DC 30 (Medicine)</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Damaged Eye</td>
+                <td>
+                    Roll 1d2 (1 = left, 2 = right).
+                    -2 to Perception checks involving Sight and Ranged attacks.
+                </td>
+                <td>DC 17</td>
+                <td>DC 15 (Surgery) DC 20 (Medicine)</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Concussion</td>
+                <td>Suffer 1d8 damage every time you move more than 5 feet on your turn.</td>
+                <td>DC 15</td>
+                <td>
+                    <p>DC 15</p>
+                    <p>Quick Fix Removes Injury</p>
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Broken Jaw</td>
+                <td>-4 to all checks involving speech.</td>
+                <td>DC 15</td>
+                <td>
+                    <p>DC 15</p>
+                    <p>DC 17 (Surgery) DC 25 (Medicine)</p>
+                </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Foreign Object (Head)</td>
+                <td>Suffer 1d8 damage every time you move more than 5 feet on your turn.</td>
+                <td>DC 17</td>
+                <td>Quick Fix Removes Injury</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Wiplash</td>
+                <td>-2 to Death Saves</td>
+                <td>DC 15</td>
+                <td>
+                    Quick Fix Removes Injury
+                </td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Cracked Skull</td>
+                <td>
+                    Creature takes double damage from Critical Hits
+                    -2 to Death Saving Throws.
+                </td>
+                <td>DC 20</td>
+                <td>DC 20 (Surgery) DC 30 (Medicine)</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Damaged Ear</td>
+                <td>
+                    If the Creature moves more than 15ft on its turn it cannot move on its next turn.
+                    -2 to all checks related to hearing.
+                </td>
+                <td>DC 15</td>
+                <td>DC 15 (Surgery) DC 20 (Medicine)</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Crushed Windpipe</td>
+                <td>
+                    Creature cannot speak.
+                    -2 to Death Saving Throws.
+                </td>
+                <td>N/A</td>
+                <td>DC 17 (Surgery) DC 25 (Medicine)</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Dismembered Ear</td>
+                <td>
+                    Roll 1d2 to determine limb (1 = left, 2 = right)
+                    Dismembered Ear is gone.
+                    If the Creature moves more than 15ft on its turn it cannot move on its next turn.
+                    Disadvantage on all checks related to hearing.
+                    -2 to Death Saving Throws.
+                </td>
+                <td>N/A</td>
+                <td>DC 25 (Surgery) DC 30 (Medicine)</td>
+            </tr>
+        </table>
+
+        <h2>Magical Critical Injuries</h2>
+        <p>Magic damage can also cause critical injuries; however, their injuries are mostly set.</p>
+
+        <table class="content-table">
+            <tr>
+                <th>Damage Type(s)</th>
+                <th>Injury</th>
+                <th>Injury Effect</th>
+                <th>Removal</th>
+            </tr>
+            <tr>
+                <td>Fire, Radiant, Black Fire</td>
+                <td>Singed</td>
+                <td>-4 to all d20 rolls.</td>
+                <td>Quick Fix (DC 17 Medicine)</td>
+            </tr>
+            <tr>
+                <td>Cold</td>
+                <td>Frostbite</td>
+                <td>Halved move speed.</td>
+                <td>Quick Fix (DC 17 Medicine)</td>
+            </tr>
+            <tr>
+                <td>Lightning/Ancient Dragon Lightning</td>
+                <td>Shocked</td>
+                <td>Cannot take reactions for Four turns. Creatures that recieve this critical injury again before it clears gain the Stunned condition until the end of their next turn (removing Shocked)</td>
+                <td>Clears after 4 of the affected creature's turns</td>
+            </tr>
+            <tr>
+                <td>Poison</td>
+                <td>Poisoned</td>
+                <td>
+                    Creature gains the Poisoned condition (unless it is immune).
+                    Creature takes an extra die of poison damage whenever it receives it.
+                </td>
+                <td>Quick Fix (DC 17 Medicine)</td>
+            </tr>
+            <tr>
+                <td>Acid</td>
+                <td>Melted</td>
+                <td>
+                    <p>AC is reduced by 2</p>
+                    <p>This effect does not cause a penalty to Death Saving Throws.</p>
+                </td>
+                <td>
+                    <p>Permanent on non-magical armor (DC 17 Smith's Tools check over 1 minute to clear or the Mending Cantrip)</p>
+                    <p>This effect otherwise clears after 4 of the affected creature's turns.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Thunder</td>
+                <td>Tinnitus</td>
+                <td>Whenever you move more than 10 feet in a turn, you cannot move on your next turn. Additionally, you have a -2 to Perception Checks involving hearing.</td>
+                <td>Quick Fix (DC 17 Medicine)</td>
+            </tr>
+            <tr>
+                <td>Scarlet Rot</td>
+                <td>Scarlet Rot</td>
+                <td>
+                    Creature gains the Scarlet Rot condition (unless it is immune)
+                    Creature takes an extra die of Scarlet Rot damage whenever it receives it.
+                </td>
+                <td>Clears after 1 minute</td>
+            </tr>
+            <tr>
+                <td>Necrotic</td>
+                <td>Necrosis</td>
+                <td>
+                    Creatures takes two additional die of Necrotic damage when struck with Necrotic damage.
+                </td>
+                <td>Quick Fix (DC 17 Medicine)</td>
+            </tr>
+            <tr>
+                <td>Force</td>
+                <td>Impacted</td>
+                <td>
+                    Large or smaller creatures are pushed back 10 feet and knocked prone. 
+                    Creature has disadvantage on all d20 rolls until the start of its next turn.
+                </td>
+                <td>Clears after 1 of the affected creature's turns</td>
+            </tr>
+            <tr>
+                <td>Psychic</td>
+                <td>Befuddled</td>
+                <td>-4 to all d20 rolls. Must move 10 feet in a random direction at the start of turn.</td>
+                <td>Clears after 4 of the affected creature's turns</td>
+            </tr>
+        </table>
     </body>
 </html>
