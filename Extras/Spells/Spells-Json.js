@@ -48,11 +48,12 @@ function renderTableRows(spellList) {
 
   for (const spell of spellList) {
     const row = document.createElement("tr");
+    const schools = [spell.school].flat().join(", ");
 
     row.innerHTML = `
       <td><a href="${spell.url}">${spell.name}</a></td>
       <td>${levelLabel(spell.level)}</td>
-      <td>${spell.school}</td>
+      <td>${schools}</td>
       <td>${spell.castingTime}</td>
       <td>${spell.range}</td>
       <td>${spell.duration}</td>
@@ -82,9 +83,10 @@ function getFilteredSpells() {
       !selectedLevel ||
       spell.level === selectedLevel;
 
-    const matchesSchool =
-      !selectedSchool ||
-      spell.school === selectedSchool;
+    // Changing the system to allow for multiple schools in the spell entry in
+    // the JSON file.
+    const schools = [spell.school].flat();
+    const matchesSchool = !selectedSchool || schools.includes(selectedSchool);
 
     const matchesRitual =
       !selectedRitual ||
