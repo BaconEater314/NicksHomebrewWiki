@@ -21,23 +21,35 @@
         <h2>Physical Critical Injuries</h2>
         <p>When a creature recieves a Critical Injury from physical damage (Bludgeoning, Piercing, or Slashing), roll on the table to determine the injury they receive.</p>
         <p>Fall damage typically prioritizes breaking legs first, but the critical injury recieved from falling can vary depending on how the creature lands.</p>
+        <p>
+            Creatures that take fall damage that exeeds half their Critical Injury Threshold (but does not exceed it the full Threshold) 
+            must make a DC 15 Athletics or Acrobatics check, prioritizing the Sprained Ankle injury on a failure, 
+            however the critical injury recieved can vary depending on how the creature lands.
+        </p>
         <table class="content-table">
             <tr>
-                <th>Roll (1d8)</th>
+                <th>Roll (2d6)</th>
                 <th>Injury</th>
                 <th>Injury Effect</th>
                 <th>Quick Fix (Medicine Check)</th>
                 <th>Treatment (Surgeon's Tools)</th>
             </tr>
             <tr>
-                <td>1</td>
+                <td>2</td>
                 <td>Collapsed Lung</td>
                 <td>-10 to move speed (minumum 5 feet). -2 to Death Saving Throws.</td>
                 <td>DC 17</td>
                 <td>DC 15</td>
             </tr>
             <tr>
-                <td>2</td>
+                <td>3</td>
+                <td>Sprained Ankle</td>
+                <td>-5 to move speed (minumum 5 feet).</td>
+                <td>DC 13</td>
+                <td>Quick Fix Removes Injury</td>
+            </tr>
+            <tr>
+                <td>4</td>
                 <td>Broken Ribs</td>
                 <td>Suffer 1d8 damage every time you move more than 5 feet on your turn.</td>
                 <td>DC 15</td>
@@ -47,7 +59,14 @@
                 </td>
             </tr>
             <tr>
-                <td>3</td>
+                <td>5</td>
+                <td>Sprained Wrist</td>
+                <td>Roll 1d2 to determine limb (1 = left, 2 = right). -2 to all actions with that hand. Disadvantage on Dexterity (Sleight of Hand) checks.</td>
+                <td>DC 17</td>
+                <td>Quick Fix Removes Injury</td>
+            </tr>
+            <tr>
+                <td>6</td>
                 <td>Broken Arm</td>
                 <td>Roll 1d2 to determine limb (1 = left, 2 = right). The arm cannot be used and all items held in the hand are dropped.</td>
                 <td>DC 15</td>
@@ -57,14 +76,14 @@
                 </td>
             </tr>
             <tr>
-                <td>4</td>
+                <td>7</td>
                 <td>Foreign Object</td>
                 <td>Suffer 1d8 (per foriegn object) damage every time you move more than 5 feet on your turn.</td>
                 <td>DC 15</td>
-                <td> Quick Fix Removes Injury</td>
+                <td>Quick Fix Removes Injury</td>
             </tr>
             <tr>
-                <td>5</td>
+                <td>8</td>
                 <td>Broken Leg</td>
                 <td>Roll 1d2 to determine limb (1 = left, 2 = right). -20 move speed (minimum 5 feet), DC 16 Athletics or Acrobatics check to stay standing.</td>
                 <td>DC 15</td>
@@ -74,23 +93,30 @@
                 </td>
             </tr>
             <tr>
-                <td>6</td>
+                <td>9</td>
                 <td>Torn Muscle</td>
                 <td>Roll 1d4 to determine limb (1 = left leg, 2 = right leg, 3 = left arm, 4 = right arm). -5 move speed per torn leg muscle, disadvantage on Dexterity Saving Throws. -2 to d20 rolls made using a arm with a torn muscle.</td>
                 <td>DC 15</td>
                 <td>Quick Fix Removes Injury</td>
             </tr>
             <tr>
-                <td>7</td>
+                <td>10</td>
                 <td>Spinal Injury</td>
                 <td>Target gains the Incapacitated condition until the end of their next turn. -2 to Death Saving Throws.</td>
                 <td>DC 17</td>
                 <td>DC 15 (Surgery) DC 17 Medicine</td>
             </tr>
             <tr>
-                <td>8</td>
+                <td>11</td>
+                <td>Heavily Winded</td>
+                <td>Target's move speed is halved and cannot speak until the end of its next turn.</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>12</td>
                 <td>Crushed Fingers</td>
-                <td>-4 to all checks involving that hand.</td>
+                <td>Roll 1d2 to determine limb (1 = left, 2 = right). -4 to all checks involving that hand.</td>
                 <td>DC 15</td>
                 <td>DC 15 (Surgery) DC 17 (Medicine)</td>
             </tr>
@@ -138,7 +164,7 @@
                     <p>This effect does not cause a penalty to Death Saving Throws.</p>
                 </td>
                 <td>
-                    <p>Permanent on non-magical armor (DC 15 Smith's Tools check over 1 minute to clear or the Mending Cantrip)</p>
+                    <p>Permanent on non-magical armor (Repaired with a DC 15 Smith's Tools check over 1 minute to clear or the Mending Cantrip)</p>
                     <p>This effect otherwise clears after 2 of the affected creature's turns.</p>
                 </td>
             </tr>
@@ -199,7 +225,7 @@
             <li>A huge or larger-sized creature suffer critical injuries differently because of their size. For those creatures, do not roll the injury. When that creature is critically hit a second time, it is then critically injured. Roll the table or apply the effect as normal. This then resets.</li>
             <li>For multiple types of damage:</li>
             <ul>
-                <li>Weapons that deal extra damage add the appropriate damage type critical injury to the rolled table (ex: extra fire damage, roll 1d9, on a 9, inflict the Singed condition).</li>
+                <li>Weapons that deal extra damage add the appropriate damage type critical injury to the rolled table (ex: extra fire damage, roll 1d6+1d7, on a 13, inflict the Singed condition).</li>
                 <ul>
                     <li>Weapons that only deal one type of damage (ex: Flametongue, Sunblade) only deal critical injuries relative to their damage type.</li>
                 </ul>
@@ -266,6 +292,11 @@
         <h2>Physical Critical Injuries</h2>
         <p>When a creature recieves a Critical Injury from physical damage (Bludgeoning, Piercing, or Slashing), roll on the table to determine the injury they receive.</p>
         <p>Fall damage typically prioritizes breaking legs first, but the critical injury recieved from falling can vary depending on how the creature lands.</p>
+        <p>
+            Creatures that take fall damage that exeeds half their Critical Injury Threshold (but does not exceed it the full Threshold) 
+            must make a DC 15 Athletics or Acrobatics check, prioritizing the Sprained Ankle injury on a failure, 
+            however the critical injury recieved can vary depending on how the creature lands.
+        </p>
         <table class="content-table">
             <tr>
                 <th>Roll (2d6)</th>
@@ -549,24 +580,26 @@
                     <p>This effect does not cause a penalty to Death Saving Throws.</p>
                 </td>
                 <td>
-                    <p>Permanent on non-magical armor (DC 17 Smith's Tools check over 1 minute to clear or the Mending Cantrip)</p>
+                    <p>Permanent on non-magical armor (Repaired with a DC 17 Smith's Tools check over 1 minute to clear or the Mending Cantrip)</p>
                     <p>This effect otherwise clears after 4 of the affected creature's turns.</p>
                 </td>
             </tr>
             <tr>
                 <td>Thunder</td>
                 <td>Tinnitus</td>
-                <td>Whenever you move more than 10 feet in a turn, you cannot move on your next turn. Additionally, you have a -2 to Perception Checks involving hearing.</td>
+                <td>Whenever you move more than 10 feet in a turn, you cannot move on your next turn. Additionally, you have a -4 to Perception Checks involving hearing.</td>
                 <td>Quick Fix (DC 17 Medicine)</td>
             </tr>
             <tr>
                 <td>Scarlet Rot</td>
                 <td>Scarlet Rot</td>
                 <td>
-                    Creature gains the Scarlet Rot condition (unless it is immune)
+                    Creature gains the Scarlet Rot condition for one minute (unless it is immune). 
                     Creature takes an extra die of Scarlet Rot damage whenever it receives it.
                 </td>
-                <td>Clears after 1 minute</td>
+                <td>
+                    Quick Fix (DC 21 Medicine) (Ends extra die damage, not effect)
+                </td>
             </tr>
             <tr>
                 <td>Necrotic</td>
