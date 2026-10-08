@@ -12,7 +12,9 @@ Homebrew rules and mechanics
 
 Magic items, monsters, and lore
 
-Personal projects and creative ideas
+Hopes and Dreams
+
+Randoms Stuff
 
 The goal of this project is to keep all of my homebrew content organized, searchable, and easy to share.
 
@@ -62,15 +64,15 @@ Add more magical items (I have over 150, but I don't want my players seeing most
 
 More homebrew subclasses, spells, races, and subraces (always innovating!)
 
-~~Add the Stat Roller.~~ Completed by Cody Owens, 7.30.2026
+Initiative Tracker
 
-Maybe some Cyberpunk Red stuff? (By GodIsDead)
+Maybe some Cyberpunk Red stuff?
 
 ### License
 
 This project is released under the MIT License unless otherwise specified.
 
-Homebrew content is original unless credited otherwise.
+Homebrew content is original, developed using a great number of influential media. It may be based on certain things, but the in-game design is my own.
 
 ### Authors
 
@@ -92,6 +94,9 @@ Using AI for creative stuff like this makes me want to throw up (seriously). Use
 NicksHomebrewWiki/
 ├── index.html                  # Redirect to homePage.html
 ├── homePage.html               # Main navigation hub
+├── Anora's Refuge              # Rules and stuff for playing in the Anora's Refuge setting
+├── Ardonia                     # Rules and stuff for playing in the Ardonia setting
+├── The Upside                  # Rules and stuff for playing in the Upside setting
 ├── Global.css                  # Primary stylesheet
 ├── Atributes.css               # Legacy table styles
 ├── Settings/                   # Campaign lore documents
@@ -99,20 +104,17 @@ NicksHomebrewWiki/
 │   ├── Moonstone.html
 │   ├── Empire.html
 │   ├── Grimm.html
-│   ├── Upside.html
-│   ├── Refuge.html
-│   └── Ardonia.html
 ├── Races/                      # Custom playable races
 ├── Subraces/                   # Custom subraces
 ├── Backgrounds/                # Custom backgrounds
 ├── Subclasses/                 # Custom subclasses (all 14 D&D classes covered)
 ├── Extras/
-│   ├── Spells/                 # 108 spells with interactive JSON-driven filter
+│   ├── Spells/                 # 116 spells with interactive JSON-driven filter
 │   ├── Magic Items/            # Organized by rarity (Uncommon → Artifact)
 │   ├── Rules/                  # Custom rules (Vehicles, Critical Injuries, Facedowns)
 │   ├── Feats.html
 │   ├── Armor.html
-│   └── StatRoller.html         # Interactive stat roller tool (not implemented)
+│   └── StatRoller.html         # Interactive stat roller tool
 └── Images/                     # Character artwork and HeroForge links
 ```
 ## If you like our stuff
@@ -127,11 +129,11 @@ Please don't take our stuff and present it as your own. I may borrow ideas from 
 
 RWBY (Grimm)
 
-Elden Ring (spellz)
+Elden Ring (Spells)
 
 Squared Media (Songs of War, Ardoni, Ardonia, Magnorites, Felina)
 
-Divinity Original Sin 2 (literally one spell)
+Divinity Original Sin 2
 
 DOOM Eternal (Doomslayer Barbarian)
 
