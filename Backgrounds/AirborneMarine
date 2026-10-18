@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="The Airborne Marine background represents a character who revels in comraderie and thrives in the skies.">
+        <meta name="author" content="Cody Owens">
+        <title>Nick's Homebrew Wiki - Airborne Marine</title>
+
+        <link rel = "stylesheet" href = "../Atributes.css" />
+    </head>
+    <body>
+        <h1><b>Airborne Marine</b></h1>
+        <p><i>You trained to hit hostile airships and fortified docks from the sky, launching from the decks of Sapiria’s skyships. The clouds were your cover, the storms your shelter, and the thunder your war cry.</i></p>
+        <p><b>This background is designed for the Sapirian settings.</b></p>
+
+        <div>
+            <p><b>Skills:</b> Athletics, Survival</p>
+            <p><b>Weapons:</b> Lightning Firearms</p>
+            <p><b>Tools:</b> Vehicles (Air and Land)</p>
+            <p><b>Languages:</b> None.</p>
+            <p><b>Equipment:</b> A dagger that belonged to a fallen comrade, a folded flag bearing the symbol of your ship or company, a set of traveler’s clothes, a scorched strip of hull plating as a keepsake, and a pouch containing 10 gp.</p>
+        </div>
+
+        <h2>Steady Landing</h2>
+        <p>You can travel twice as long each day (up to 16 hours) before a forced march affects you. You can also automatically find a safe route to dock or land an airship or boat, provided one exists. In addition, you can pick out the best approach for boarding a ship or docking tower.</p>
+
+        <h3>Personality:</h3></h4>
+        <h4>Hardship Endured</h4>
+        <p>Hardship in your past has forged you into an unstoppable living weapon. This hardship is at the heart of a personal philosophy or ethos that often guides your actions. Roll on the table below or choose one that fits your character.</p>
+        <table>
+            <thead>
+                <tr>d6</tr>
+                <tr>Hardship</tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><b>Rode the Wreck Down.</b> Your airship’s engines died at 2,000 feet. You grabbed the rudder and steered the burning hull into a cliffside meadow, and walked away while the rest of the crew dragged themselves out behind you.</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><b>Held the Ramp.</b> A dozen sky pirates came over the rail. You held the boarding ramp alone so the crew could cut loose, and by every account, no reasonable explanation exists for how you survived. Some of your old crew think you didn’t make it.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><b>Caught the Bolt.</b> You grabbed a live lightning rod in a thunderstorm to ground the ship’s capacitors and saved everyone aboard. You were thrown across the deck, and your scales still crackle in dry weather.</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><b>Came Back from the Dark.</b> You went through the wall into the Realm of Darkness to pull out a stranded patrol. The Grimm cut down most of your companions, but you brought three of them home.</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><b>Took the Flagship.</b> For days you hid in the cargo hold of an enemy flagship, surviving on stale rations and rainwater leaking through the hull. At the right moment you crept to the bridge and took the ship by yourself.</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><b>Walked the Plank, Took Off.</b> Sky pirates held you for months, and you never broke. Then they made you walk the plank at 3,000 feet. Mid-fall, your spectral wings flared out for the first time (or you found another way to survive). You made it to the pirates’ own dock and made them regret it.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4>Suggested Characteristics:</h4>
+        <p>Airborne Marines are respected by other soldiers and trusted by their commanders. They are veterans who rarely lose composure when a ship is burning, and many go on to work as mercenaries or skyship security when they leave the service. They are self-reliant, but they operate best in a crew and value camaraderie above almost everything.</p>
+
+        <h5>Personality Traits:</h5>
+        <table>
+            <thead>
+                <tr>d8</tr>
+                <tr>Personality Trait</tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>I speak rarely, but I mean every word.</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>I laugh loudly in stressful situations, and the worse the odds, the louder I get.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>I'd rather solve problems without violence, but I finish fights decisively.</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Storms never sour my mood. I'm the happiest with thunder overhead.</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>I'm always tinkering with some piece of gear, and I talk to my revolver.</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>I get cantankerous and quiet when my boots stay on the ground too long.</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>I never walk into a room without noting the exits and load-bearing walls.</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>When the clouds are below me, I'm jovial and optimistic.</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h5>Ideals:</h5>
+        <table>
+            <thead>
+                <tr>d6</tr>
+                <tr>Ideal</tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><b>Teamwork.</b> Success depends on cooperation and communication. (Good)</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><b>Code.</b> The marine's code has an answer for every problem, and I follow it. (Lawful)</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><b>Embracing.</b> Every plan breaks on contact. Throw yourself into the mess and make it work. (Chaotic)</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><b>Dominance.</b> The sky belongs to those strong enough to hold it. (Evil)</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><b>Bravery.</b> To act when others freeze in fear is the essence of a warrior. (Any)</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><b>Resolve.</b> Anything built can be unbuilt, and no wall will stop my mission. (Any)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h5>Bonds:</h5>
+        <table>
+            <thead>
+                <tr>d6</tr>
+                <tr>Bond</tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>I face danger and evil to make up for something terrible I did in the past.</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>I. Will. Finish. The. Job.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>I carry a fallen comrade's dagger, and I'll return it to their family.</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>I'm searching for a fellow marine captured by an elusive enemy.</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>My commander sold out my unit, and I want answers (and revenge).</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>I owe my life to the captain who pulled me from the wreck.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h5>Flaws:</h5>
+        <table>
+            <thead>
+                <tr>d6</tr>
+                <tr>Flaw</tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>I get combative and unpredictable when I drink.</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>I find civilian life hard, and I struggle to say the right thing in social situations.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>My intensity drives other people away.</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>I hold grudges and trouble forgiving.</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>I become irrational when innocents are hurt.</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>I sometimes stay up all night, listening to the creak of a dying ship.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+        <p>The content of this background was inspired by the 'Marine' background from <i>Ghosts of Saltmarsh</i></p>
+    </body>
+</html>
