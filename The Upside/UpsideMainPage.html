@@ -115,7 +115,7 @@
       <button class="hp-nav-acc-btn" onclick="navAcc(this)">Rogue <span class="arr">▶</span></button>
       <div class="hp-nav-acc-panel">
         <a href="../Subclasses/Rogue/Commando.html">Commando</a>
-        <a href="Subclasses/Rogue/Ninja.html">Ninja</a>
+        <a href="../Subclasses/Rogue/Ninja.html">Ninja</a>
         <a href="../Subclasses/Rogue/Pugilist.html">Pugilist</a>
       </div>
       <button class="hp-nav-acc-btn" onclick="navAcc(this)">Sorcerer <span class="arr">▶</span></button>
@@ -141,7 +141,7 @@
       <a href="../Extras/Weapons.html">Weapons</a>
       <a href="../Extras/Armor.html">Armor</a>
       <a href="../Extras/Spells/Spells-Json.html">Spells</a>
-      <a href="../Extras/FightingSyles.html">Fighting Styles and Maneuvers</a>
+      <a href="../Extras/FightingStyles.html">Fighting Styles and Maneuvers</a>
       <a href="../Extras/Invocations.html">Eldritch Invocations</a>
       <a href="../Extras/Feats.html">Feats</a>
       <a href="../Extras/MagicItems.html">Magic Items</a>
@@ -154,6 +154,13 @@
       <a href="../Extras/Rules/Vehicles.html">Vehicles</a>
       <a href="../Extras/Rules/VehiclesList.html">Vehicle Stat Blocks</a>
       <a href="../Extras/Spells/EldenCompendiumExtras.html">Elden Compendium</a>
+    </div>
+
+    <div class="hp-nav-group">
+      <div class="hp-nav-label">Tools</div>
+      <a href="../Tools/StatsRoller.html">Stats Roller</a>
+      <a href="../Tools/DnDInitiative.html">Combat Tracker</a>
+      <a href="../Tools/CyberpunkInitiative.html">Cyberpunk Combat Tracker</a>
     </div>
   </aside>
 
@@ -275,7 +282,7 @@
         <button class="hp-sub-acc-btn" onclick="subAcc(this)">Rogue <span class="arr">▶</span></button>
         <div class="hp-sub-acc-panel">
           <a href="../Subclasses/Rogue/Commando.html">Commando</a>
-          <a href="Subclasses/Rogue/Ninja.html">Ninja</a>
+          <a href="../Subclasses/Rogue/Ninja.html">Ninja</a>
           <a href="../Subclasses/Rogue/Pugilist.html">Pugilist</a>
         </div>
       </div>
@@ -374,7 +381,7 @@
         <div class="ct">🚗 Vehicles</div>
         <div class="cs">Rules for Vehicles</div>
       </a>
-      <a class="hp-cat-card" href="../Extras/rules/VehiclesList.html">
+      <a class="hp-cat-card" href="../Extras/Rules/VehiclesList.html">
         <div class="ct">🚗 Vehicles Stat Blocks</div>
         <div class="cs">List of Vehicles</div>
       </a>
@@ -385,6 +392,22 @@
       <a class="hp-cat-card" href="../Extras/Spells/EldenCompendiumExtras.html">
         <div class="ct"> Elden Compendium Rules</div>
         <div class="cs">Rules from the Elden Compendium</div>
+      </a>
+    </div>
+
+    <div class="hp-sec-head">Tools</div>
+    <div class="hp-cat-grid">
+      <a class="hp-cat-card" href="../Tools/StatsRoller.html">
+        <div class="ct"> 🎲 Stats Roller</div>
+        <div class="cs">D&D 5e Stats Roller, 4d6 (drop the lowest), reroll 1s</div>
+      </a>
+      <a class="hp-cat-card" href="../Tools/DnDInitiative.html">
+        <div class="ct"> ⚔️ Combat Tracker</div>
+        <div class="cs">D&D initiative, HP, legendary &amp; lair action tracker</div>
+      </a>
+      <a class="hp-cat-card" href="../Tools/CyberpunkInitiative.html">
+        <div class="ct"> 🤖 Cyberpunk Combat Tracker</div>
+        <div class="cs">Cyberpunk initiative tracker with SP and armor ablation</div>
       </a>
     </div>
 
@@ -406,6 +429,6 @@ function subAcc(btn) {
   btn.nextElementSibling.classList.toggle('open');
 }
 </script>
-<script src="pnhp.js"></script>
+<script src="../pnhp.js"></script>
 </body>
 </html>
