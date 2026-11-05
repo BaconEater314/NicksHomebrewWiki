@@ -1,30 +1,42 @@
-let spells = [];
-let spellNum = 0;
-
 const spellNumElement = document.getElementById("spellNum");
-// Resolve the data path from this script's location so pages in subfolders work too
-const spellsUrl = new URL("Extras/Spells/Data/Spells.json", document.currentScript.src);
+const scriptUrl = document.currentScript?.src;
+const spellDataUrl = scriptUrl
+  ? new URL("Extras/Spells/Data/", scriptUrl)
+  : new URL("Extras/Spells/Data/", document.baseURI);
 
-async function loadSpells() {
-  try {
-    const response = await fetch(spellsUrl);
-
-    if (!response.ok) {
-      throw new Error(`Failed to load spells.json (${response.status})`);
-    }
-
-    spells = await response.json();
-    spellNum = spells.length;
-  } catch (error) {
-    console.error(error);
-    resultsCount.textContent = "Failed to load spells.";
-    noResults.hidden = false;
-    noResults.textContent = "There was a problem loading the spell list.";
+async function loadJson(location) {
+  const response = await fetch(new URL(location, spellDataUrl));
+  if (!response.ok) {
+    throw new Error(`Failed to load ${location} (${response.status})`);
   }
+
+  return response.json();
 }
 
-loadSpells().then(() => {
-  if (spellNumElement) {
-    spellNumElement.textContent = `${spellNum} spells`;
-  }
-});
+async function loadSpellCount() {
+  const sourceFiles = await loadJson("index.json");
+  const spellLists = await Promise.all([
+    ...Object.values(sourceFiles).map(loadJson),
+    loadJson("Spells.json")
+  ]);
+
+  return spellLists.reduce((count, data) => {
+    const spellList = Array.isArray(data) ? data : data.spell;
+    if (!Array.isArray(spellList)) {
+      throw new Error("Invalid spell data");
+    }
+
+    return count + spellList.length;
+  }, 0);
+}
+
+if (spellNumElement) {
+  loadSpellCount()
+    .then(spellCount => {
+      spellNumElement.textContent = `${spellCount} spells`;
+    })
+    .catch(error => {
+      console.error("Unable to load spell count:", error);
+      spellNumElement.textContent = "Unable to load spell count";
+    });
+}
