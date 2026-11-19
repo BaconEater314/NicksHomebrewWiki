@@ -123,7 +123,7 @@ function renderTableRows(spellList) {
       <td>${spell.duration}</td>
       <td>${yesNo(spell.ritual)}</td>
       <td>${yesNo(spell.concentration)}</td>
-      <td>${spell.classes.join(", ")}</td>
+      <td>${spell.classesDisplay.join(", ")}</td>
     `;
 
     tableBody.appendChild(row);
@@ -237,6 +237,11 @@ function formatDuration(duration) {
   return length ? `${length.amount} ${length.type}` : value.type;
 }
 
+function formatClassName(entry) {
+  if (typeof entry === "string") return entry;
+  return entry.source === "TCoE" ? `${entry.name} (Optional)` : entry.name;
+}
+
 function normalizeSpell(spell) {
   const duration = spell.duration || [];
   const classes = Array.isArray(spell.classes)
@@ -257,6 +262,7 @@ function normalizeSpell(spell) {
       : duration.some(entry => entry.concentration === true),
     ritual: spell.ritual === true || spell.meta?.ritual === true,
     classes: classes.map(entry => typeof entry === "string" ? entry : entry.name),
+    classesDisplay: classes.map(formatClassName),
     url: spell.url || `Spell-Display.html?name=${encodeURIComponent(spell.name)}`,
   };
 }
@@ -282,7 +288,8 @@ async function loadSpells() {
       loadData("Data/spells-phb.json"),
       loadData("Data/spells-scag.json"),
       loadData("Data/spells-xge.json"),
-      loadData("Data/Spells.json")
+      loadData("Data/Spells.json"),
+      loadData("Data/tashas-extras.json")
     ]);
 
     spells = spellLists.flat();

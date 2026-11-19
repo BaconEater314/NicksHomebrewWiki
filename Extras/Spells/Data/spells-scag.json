@@ -44,6 +44,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -100,6 +104,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -151,6 +159,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -205,6 +217,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCoE"
 					}
 				]
 			},

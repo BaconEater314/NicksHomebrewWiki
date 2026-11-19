@@ -216,6 +216,26 @@ tbody tr:hover {
   overflow-x: auto;
 }
 
+.spell-table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  margin: 0.75rem 0;
+}
+
+.spell-table th,
+.spell-table td {
+  border: 1px solid #444;
+  padding: 4px 6px;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.spell-table caption {
+  text-align: left;
+  font-weight: bold;
+  padding-bottom: 4px;
+}
 
 /* ── FILTERS ────────────────────────────────────────────────*/
 
@@ -1737,3 +1757,26 @@ body.home-page footer a:hover {
   }
 }
 
+.spell-subentry h3 {
+  margin: 1rem 0 0.25rem;
+  border-bottom: 1px solid #444;
+}
+
+.spell-entry,
+.spell-body,
+#spellDescription {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.spell-table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.spell-table {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  table-layout: fixed;
+}

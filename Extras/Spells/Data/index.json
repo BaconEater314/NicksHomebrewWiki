@@ -1,5 +1,6 @@
 {
 	"PHB": "spells-phb.json",
 	"SCAG": "spells-scag.json",
-	"XGE": "spells-xge.json"
+	"XGE": "spells-xge.json",
+	"TCoE": "tashas-extras.json"
 }
