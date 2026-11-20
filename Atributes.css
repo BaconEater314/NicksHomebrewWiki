@@ -1627,51 +1627,6 @@ body.home-page footer a:hover {
   margin: 0 0 0.6rem;
 }
 
-.quick-info {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 0.75rem;
-  padding-left: 3.65rem;
-}
-
-.quick-info-stat {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  padding: 0.3rem 0.65rem;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--bg-sunken);
-  color: var(--ink);
-  font-size: 0.9rem;
-}
-
-.quick-info-label {
-  color: var(--muted);
-  font-size: 0.7rem;
-  font-weight: bold;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.quick-info-input {
-  width: 3.5rem;
-  padding: 0.1rem 0.35rem;
-  border: 1px solid var(--line);
-  border-radius: 3px;
-  background: var(--bg-paper);
-  color: var(--ink);
-  font: inherit;
-  font-weight: bold;
-}
-
-.quick-info-input:focus {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent);
-  outline: none;
-}
-
 .dodge-toggle {
   width: 100%;
   padding: 0.25rem 0.45rem;
@@ -1719,6 +1674,315 @@ body.home-page footer a:hover {
   color: var(--ink);
 }
 
+/* Boxes hold more now (EVA/COM/MOVE + status), so give them a bit more room */
+.cyberpunk-page .hp-list {
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+}
+
+/* Per-individual EVA / COM / MOVE: input plus the penalized value when wounded */
+.cyberpunk-page .stat-field.stat-quick {
+  grid-template-columns: 2.4rem minmax(0, 1fr) auto;
+}
+
+.stat-quick input {
+  font-size: 0.9rem;
+}
+
+.stat-effective {
+  color: #b04a3a;
+  font-size: 0.9rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.stat-effective[hidden] {
+  display: none;
+}
+
+.stat-quick.penalized input {
+  border-color: #b04a3a;
+  text-decoration: line-through;
+  color: var(--muted);
+}
+
+/* ── Status effects dropdown ── */
+.status-panel {
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  background: var(--bg-paper);
+  color: var(--ink);
+  font-size: 0.78rem;
+}
+
+.player-group-member .status-panel {
+  flex-basis: 100%;
+}
+
+.status-summary {
+  padding: 0.25rem 0.45rem;
+  color: var(--muted);
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+.status-summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.status-panel.has-status {
+  border-color: #c07a2a;
+}
+
+.status-panel.has-status .status-summary {
+  color: #c07a2a;
+}
+
+.status-panel.mortal {
+  border-color: #b04a3a;
+}
+
+.status-panel.mortal .status-summary {
+  color: #b04a3a;
+}
+
+.status-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.35rem 0.45rem 0.45rem;
+  border-top: 1px solid var(--line);
+}
+
+.status-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.15rem 0.5rem;
+  padding: 0.25rem 0.35rem;
+  border-radius: 3px;
+}
+
+.status-row.active {
+  background: color-mix(in srgb, #c07a2a 14%, transparent);
+}
+
+.status-row.ignored {
+  background: var(--bg-sunken);
+  opacity: 0.75;
+}
+
+.status-row.ignored .status-name span {
+  text-decoration: line-through;
+}
+
+.status-name {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: bold;
+}
+
+.status-name input,
+.status-ignore input {
+  width: 0.9rem;
+  height: 0.9rem;
+  margin: 0;
+  accent-color: var(--accent);
+}
+
+.status-detail {
+  flex-basis: 100%;
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
+.status-ignore {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.status-select {
+  padding: 0.15rem 0.3rem;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  background: var(--bg-paper);
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
+}
+
+.status-select:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
+.status-fire.active {
+  background: color-mix(in srgb, #d9541e 18%, transparent);
+}
+
+.death-saves {
+  padding: 0.3rem 0.35rem;
+  border: 1px dashed #b04a3a;
+  border-radius: 3px;
+  color: #b04a3a;
+}
+
+.death-saves[hidden] {
+  display: none;
+}
+
+.death-saves-title {
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.death-saves:not([hidden]) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0.5rem;
+}
+
+.death-saves-penalty {
+  font-weight: bold;
+}
+
+.death-saves-btn {
+  margin-left: auto;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid #b04a3a;
+  border-radius: 3px;
+  background: #b04a3a;
+  color: #fff;
+  font: inherit;
+  font-size: 0.75rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.death-saves-btn:hover {
+  background: #8f3a2d;
+}
+
+.death-saves-btn:focus-visible {
+  outline: 3px solid color-mix(in srgb, #b04a3a 35%, transparent);
+  outline-offset: 2px;
+}
+
+/* ── Body Crits ── */
+.cyberpunk-page .stat-field.stat-death-save {
+  grid-template-columns: auto minmax(0, 1fr) auto;
+}
+
+.stat-death-save input {
+  min-width: 2.5rem;
+}
+
+.cyberpunk-page .player-group-member .stat-field.stat-death-save {
+  width: auto;
+}
+
+.crit-row.active {
+  background: color-mix(in srgb, #b04a3a 14%, transparent);
+}
+
+.player-group-member .crit-notices,
+.player-group-member .crit-warnings {
+  flex-basis: 100%;
+}
+
+.crit-notices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.crit-notice {
+  padding: 0.15rem 0.45rem;
+  border: 1px solid #b04a3a;
+  border-radius: 999px;
+  background: color-mix(in srgb, #b04a3a 12%, var(--bg-paper));
+  color: #b04a3a;
+  font-size: 0.72rem;
+  font-weight: bold;
+}
+
+/* Crit reminders for attacks (e.g. Lost Eye), shown under Combat base */
+.crit-combat-note {
+  padding: 0.1rem 0.4rem;
+  border-left: 3px solid #b04a3a;
+  background: color-mix(in srgb, #b04a3a 10%, var(--bg-paper));
+  color: #b04a3a;
+  font-size: 0.72rem;
+  font-weight: bold;
+}
+
+.crit-notices .crit-combat-note {
+  border-radius: 0 3px 3px 0;
+}
+
+.crit-warnings {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.crit-warning {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem;
+  padding: 0.2rem 0.4rem;
+  border: 1px solid #c07a2a;
+  border-radius: 3px;
+  background: color-mix(in srgb, #c07a2a 14%, var(--bg-paper));
+  color: #c07a2a;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.crit-hurt-btn {
+  padding: 0.1rem 0.45rem;
+  border: 1px solid #b04a3a;
+  border-radius: 3px;
+  background: #b04a3a;
+  color: #fff;
+  font: inherit;
+  font-size: 0.72rem;
+  cursor: pointer;
+}
+
+.crit-hurt-btn:hover {
+  background: #8f3a2d;
+}
+
+.crit-hurt-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.dodge-toggle:disabled {
+  cursor: not-allowed;
+  opacity: 0.75;
+}
+
+/* End-of-turn effects (burning, etc.) next to the round counter */
+.turn-note {
+  color: #d9541e;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.turn-note[hidden] {
+  display: none;
+}
+
 @media (max-width: 650px) {
   .cyberpunk-page .initiative-form {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1730,10 +1994,6 @@ body.home-page footer a:hover {
 
   .quick-info-dodge {
     grid-column: 1 / -1;
-  }
-
-  .quick-info {
-    padding-left: 0;
   }
 }
 
