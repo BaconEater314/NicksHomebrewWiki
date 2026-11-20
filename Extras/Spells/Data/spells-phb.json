@@ -95,6 +95,14 @@
 					{
 						"name": "Artificer",
 						"source": "UAArtificer"
+					},
+					{
+						"name": "Bard",
+						"source": "TCoE"
+					},
+					{
+						"name": "Ranger",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -945,6 +953,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -1416,6 +1428,14 @@
 					{
 						"name": "Cleric",
 						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "TCoE"
+					},
+					{
+						"name": "Wizard",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -1506,6 +1526,10 @@
 					{
 						"name": "Paladin",
 						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -1578,6 +1602,10 @@
 					{
 						"name": "Paladin",
 						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -1628,6 +1656,14 @@
 					{
 						"name": "Paladin",
 						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "TCoE"
+					},
+					{
+						"name": "Druid",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -2416,6 +2452,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -4255,6 +4295,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -4312,6 +4356,10 @@
 					{
 						"name": "Paladin",
 						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -4883,6 +4931,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -5891,6 +5943,10 @@
 					{
 						"name": "Artificer",
 						"source": "UAArtificer"
+					},
+					{
+						"name": "Druid",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -7413,6 +7469,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -8325,6 +8385,14 @@
 					{
 						"name": "Cleric",
 						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "TCoE"
+					},
+					{
+						"name": "Wizard",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -8524,6 +8592,10 @@
 					{
 						"name": "Sorcerer",
 						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -9182,6 +9254,14 @@
 					{
 						"name": "Paladin",
 						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "TCoE"
+					},
+					{
+						"name": "Ranger",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -9321,6 +9401,14 @@
 					{
 						"name": "Artificer",
 						"source": "UAArtificer"
+					},
+					{
+						"name": "Ranger",
+						"source": "TCoE"
+					},
+					{
+						"name": "Wizard",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -9468,6 +9556,14 @@
 					{
 						"name": "Artificer",
 						"source": "UAArtificer"
+					},
+					{
+						"name": "Bard",
+						"source": "TCoE"
+					},
+					{
+						"name": "Druid",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -9594,6 +9690,10 @@
 					{
 						"name": "Druid",
 						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -9887,6 +9987,10 @@
 					{
 						"name": "Artificer",
 						"source": "UAArtificer"
+					},
+					{
+						"name": "Bard",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -10911,6 +11015,14 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "TCoE"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -11349,6 +11461,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -11458,6 +11574,14 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "TCoE"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -12132,6 +12256,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -12271,6 +12399,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -12750,6 +12882,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -12931,6 +13067,10 @@
 					{
 						"name": "Druid",
 						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -13366,6 +13506,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -14185,6 +14329,10 @@
 					{
 						"name": "Druid",
 						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -15256,6 +15404,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -17102,6 +17254,14 @@
 					{
 						"name": "Artificer",
 						"source": "UAArtificer"
+					},
+					{
+						"name": "Ranger",
+						"source": "TCoE"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -17416,6 +17576,10 @@
 					{
 						"name": "Cleric",
 						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -17602,6 +17766,10 @@
 					{
 						"name": "Druid",
 						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -18072,6 +18240,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -18166,6 +18338,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -18913,6 +19089,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -19374,6 +19554,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -19565,6 +19749,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -19968,6 +20156,10 @@
 					{
 						"name": "Bard",
 						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -20113,6 +20305,10 @@
 					{
 						"name": "Cleric",
 						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -20347,6 +20543,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -20801,6 +21001,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -21185,6 +21389,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -21942,6 +22150,14 @@
 					{
 						"name": "Artificer",
 						"source": "UAArtificer"
+					},
+					{
+						"name": "Druid",
+						"source": "TCoE"
+					},
+					{
+						"name": "Ranger",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -22527,6 +22743,10 @@
 					{
 						"name": "Paladin",
 						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -23711,6 +23931,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -23915,6 +24139,10 @@
 					{
 						"name": "Cleric",
 						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -25027,6 +25255,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -25084,6 +25316,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -25194,6 +25430,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "TCoE"
 					}
 				]
 			},
@@ -25664,6 +25904,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -26676,6 +26920,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -27253,6 +27501,10 @@
 					{
 						"name": "Cleric",
 						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "TCoE"
 					}
 				],
 				"fromSubclass": [
@@ -27573,6 +27825,10 @@
 					{
 						"name": "Wizard",
 						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "TCoE"
 					}
 				]
 			},
